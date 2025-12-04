@@ -1,0 +1,442 @@
+<databaseChangeLog
+	xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+	xmlns:pro="http://www.liquibase.org/xml/ns/pro"
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd
+						http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd"
+	logicalFilePath="db.changelog.xml">
+
+	<changeSet id="initial-0001" author="r">
+		<createTable tableName="team">
+			<column name="id" type="UUID">
+				<constraints primaryKey="true" nullable="false"
+					primaryKeyName="team-pk" />
+			</column>
+			<column name="color" type="VARCHAR(7)">
+				<constraints nullable="true" />
+			</column>
+			<column name="name" type="VARCHAR(255)">
+				<constraints nullable="false" />
+			</column>
+			<column name="api_key" type="UUID">
+				<constraints nullable="false" />
+			</column>
+			<column name="internal_use" type="BOOLEAN">
+				<constraints nullable="false" />
+			</column>
+		</createTable>
+	</changeSet>
+
+
+
+	<changeSet id="initial-0003" author="r">
+		<createTable tableName="eval_session">
+			<column name="id" type="UUID">
+				<constraints primaryKey="true" nullable="false"
+					primaryKeyName="eval_session-pk" />
+			</column>
+			<column name="team_id" type="UUID">
+				<constraints nullable="false" referencedTableName="team"
+					referencedColumnNames="id" foreignKeyName="eval_session_team_fk" />
+			</column>
+			<column name="current_day" type="integer" />
+			<column name="current_hour" type="INTEGER">
+				<constraints nullable="false" />
+			</column>
+			<column name="start_time" type="TIMESTAMP">
+				<constraints nullable="false" />
+			</column>
+			<column name="end_time" type="TIMESTAMP">
+			</column>
+			<column name="cost_value" type="DOUBLE">
+				<constraints nullable="false" />
+			</column>
+			<column name="last_updated" type="TIMESTAMP">
+				<constraints nullable="false" />
+			</column>
+
+		</createTable>
+	</changeSet>
+
+	<changeSet id="initial-0004" author="r">
+		<createTable tableName="airport">
+			<column name="id" type="UUID">
+				<constraints primaryKey="true" nullable="false"
+					primaryKeyName="airports-pk" />
+			</column>
+			<column name="code" type="VARCHAR(10)">
+				<constraints nullable="false" unique="true" />
+			</column>
+			<column name="name" type="VARCHAR(255)">
+				<constraints nullable="false" />
+			</column>
+			<column name="first_processing_time" type="INTEGER" />
+			<column name="business_processing_time" type="INTEGER" />
+			<column name="premium_economy_processing_time" type="INTEGER" />
+			<column name="economy_processing_time" type="INTEGER" />
+			<column name="first_processing_cost" type="DOUBLE" />
+			<column name="business_processing_cost" type="DOUBLE" />
+			<column name="premium_economy_processing_cost" type="DOUBLE" />
+			<column name="economy_processing_cost" type="DOUBLE" />
+			<column name="first_loading_cost" type="DOUBLE" />
+			<column name="business_loading_cost" type="DOUBLE" />
+			<column name="premium_economy_loading_cost" type="DOUBLE" />
+			<column name="economy_loading_cost" type="DOUBLE" />
+			<column name="initial_fc_stock" type="INTEGER" />
+			<column name="initial_bc_stock" type="INTEGER" />
+			<column name="initial_pe_stock" type="INTEGER" />
+			<column name="initial_ec_stock" type="INTEGER" />
+			<column name="capacity_fc" type="INTEGER" />
+			<column name="capacity_bc" type="INTEGER" />
+			<column name="capacity_pe" type="INTEGER" />
+			<column name="capacity_ec" type="INTEGER" />
+		</createTable>
+	</changeSet>
+
+
+	<changeSet id="initial-0005" author="r">
+		<createTable tableName="aircraft_type">
+			<column name="id" type="UUID">
+				<constraints primaryKey="true" nullable="false"
+					primaryKeyName="aircraft_type-pk" />
+			</column>
+			<column name="type_code" type="VARCHAR(50)">
+				<constraints nullable="false" unique="true" />
+			</column>
+			<column name="first_class_seats" type="INTEGER">
+				<constraints nullable="false" />
+			</column>
+			<column name="business_seats" type="INTEGER">
+				<constraints nullable="false" />
+			</column>
+			<column name="premium_economy_seats" type="INTEGER">
+				<constraints nullable="false" />
+			</column>
+			<column name="economy_seats" type="INTEGER">
+				<constraints nullable="false" />
+			</column>
+			<column name="cost_per_kg_per_km" type="DOUBLE">
+				<constraints nullable="false" />
+			</column>
+			<column name="first_class_kits_capacity" type="INTEGER">
+				<constraints nullable="false" />
+			</column>
+			<column name="business_kits_capacity" type="INTEGER">
+				<constraints nullable="false" />
+			</column>
+			<column name="premium_economy_kits_capacity" type="INTEGER">
+				<constraints nullable="false" />
+			</column>
+			<column name="economy_kits_capacity" type="INTEGER">
+				<constraints nullable="false" />
+			</column>
+		</createTable>
+	</changeSet>
+
+	<changeSet id="initial-0006" author="r">
+		<createTable tableName="flight">
+			<column name="id" type="UUID">
+				<constraints primaryKey="true" nullable="false"
+					primaryKeyName="flight-pk" />
+			</column>
+			<column name="flight_number" type="VARCHAR(20)">
+				<constraints nullable="false" />
+			</column>
+			<column name="origin_airport_id" type="UUID">
+				<constraints nullable="false"
+					referencedTableName="airport" referencedColumnNames="id"
+					foreignKeyName="flight_origin_airport_fk" />
+			</column>
+			<column name="destination_airport_id" type="UUID">
+				<constraints nullable="false"
+					referencedTableName="airport" referencedColumnNames="id"
+					foreignKeyName="flight_destination_airport_fk" />
+			</column>
+			<column name="sched_aircraft_type_id" type="UUID">
+				<constraints nullable="false"
+					referencedTableName="aircraft_type" referencedColumnNames="id"
+					foreignKeyName="flight_sched_aircraft_type_fk" />
+			</column>
+			<column name="act_aircraft_type_id" type="UUID">
+				<constraints nullable="false"
+					referencedTableName="aircraft_type" referencedColumnNames="id"
+					foreignKeyName="flight_act_aircraft_type_fk" />
+			</column>
+			<column name="scheduled_depart_day" type="INTEGER" />
+			<column name="scheduled_depart_hour" type="INTEGER" />
+			<column name="scheduled_arrival_day" type="INTEGER" />
+			<column name="scheduled_arrival_hour" type="INTEGER" />
+			<column name="distance" type="DOUBLE" />
+			<column name="actual_distance" type="DOUBLE" />
+			<column name="actual_arival_day" type="INTEGER" />
+			<column name="actual_arrival_hour" type="INTEGER" />
+			<column name="planned_first_passengers" type="INTEGER" />
+			<column name="planned_business_passengers" type="INTEGER" />
+			<column name="planned_premium_economy_passengers"
+				type="INTEGER" />
+			<column name="planned_economy_passengers" type="INTEGER" />
+			<column name="actual_first_passengers" type="INTEGER" />
+			<column name="actual_business_passengers" type="INTEGER" />
+			<column name="actual_premium_economy_passengers"
+				type="INTEGER" />
+			<column name="actual_economy_passengers" type="INTEGER" />
+		</createTable>
+	</changeSet>
+
+
+
+
+
+
+	<changeSet id="initial-0008" author="r">
+		<createTable tableName="penalty">
+			<column name="id" type="UUID">
+				<constraints primaryKey="true" nullable="false"
+					primaryKeyName="penalty-pk" />
+			</column>
+			<column name="session_id" type="UUID">
+				<constraints nullable="false"
+					referencedTableName="eval_session" referencedColumnNames="id"
+					foreignKeyName="penalty_session_fk" />
+			</column>
+			<column name="penalty_type" type="VARCHAR(255)">
+			</column>
+			<column name="flight_id" type="UUID">
+				<constraints nullable="true"
+					referencedTableName="flight" referencedColumnNames="id"
+					foreignKeyName="penalty_flight_fk" />
+			</column>
+			<column name="airport_id" type="UUID">
+				<constraints nullable="true"
+					referencedTableName="airport" referencedColumnNames="id"
+					foreignKeyName="penalty_airport_fk" />
+			</column>
+
+			<column name="cost" type="DOUBLE">
+			</column>
+			<column name="issued_day" type="INTEGER">
+				<constraints nullable="false" />
+			</column>
+			<column name="issued_hour" type="INTEGER">
+				<constraints nullable="false" />
+			</column>
+			<column name="message" type="VARCHAR(2000)">
+			</column>
+			<column name="processed" type="BOOLEAN">
+				<constraints nullable="false" />
+			</column>
+			<column name="created_at" type="TIMESTAMP">
+			</column>
+		</createTable>
+	</changeSet>
+
+
+	<changeSet id="initial-0009" author="r">
+		<createTable tableName="kit_inventory">
+			<column name="id" type="UUID">
+				<constraints primaryKey="true" nullable="false"
+					primaryKeyName="kit_inventory-pk" />
+			</column>
+			<column name="airport_id" type="UUID">
+				<constraints nullable="false"
+					referencedTableName="airport" referencedColumnNames="id"
+					foreignKeyName="kit_inventory_airport_fk" />
+			</column>
+			<column name="kit_type" type="VARCHAR(50)">
+				<constraints nullable="false" />
+			</column>
+			<column name="available_kits" type="INTEGER">
+				<constraints nullable="false" />
+			</column>
+			<column name="capacity" type="INTEGER">
+				<constraints nullable="false" />
+			</column>
+			<column name="eval_session_id" type="UUID">
+				<constraints nullable="false"
+					referencedTableName="eval_session" referencedColumnNames="id"
+					foreignKeyName="kit_inventory_eval_session_fk" />
+			</column>
+
+		</createTable>
+	</changeSet>
+
+
+
+	<changeSet id="initial-0011" author="r">
+		<createTable tableName="eval_track">
+			<column name="id" type="UUID">
+				<constraints primaryKey="true" nullable="false"
+					primaryKeyName="eval_track-pk" />
+			</column>
+			<column name="team_id" type="UUID">
+				<constraints nullable="false" referencedTableName="team"
+					referencedColumnNames="id" foreignKeyName="eval_track_team_fk" />
+			</column>
+			<column name="prod_Day" type="INTEGER" />
+			<column name="prod_Hour" type="INTEGER" />
+			<column name="ops_Cost" type="DOUBLE" />
+			<column name="penalty_Cost" type="DOUBLE" />
+			<column name="total_Cost" type="DOUBLE" />
+			<column name="session_id" type="UUID" />
+			<column name="latest" type="boolean"
+				defaultValueBoolean="false" />
+			<column name="time_received" type="timestamp" />
+		</createTable>
+	</changeSet>
+
+
+
+
+
+
+	<changeSet id="initial-0012" author="r">
+		<createTable tableName="kit_movement">
+			<column name="id" type="UUID">
+				<constraints nullable="false" primaryKey="true"
+					primaryKeyName="kit_movement_pk" />
+			</column>
+			<column name="evaluation_session_id" type="UUID">
+				<constraints nullable="false"
+					referencedTableName="eval_session" referencedColumnNames="id"
+					foreignKeyName="kit_movement_eval_session_fk" />
+			</column>
+			<column name="movement_day" type="INTEGER">
+				<constraints nullable="false" />
+			</column>
+			<column name="movement_hour" type="INTEGER">
+				<constraints nullable="false" />
+			</column>
+			<column name="first_kits" type="INTEGER">
+				<constraints nullable="false" />
+			</column>
+			<column name="business_kits" type="INTEGER">
+				<constraints nullable="false" />
+			</column>
+			<column name="premium_economy_kits" type="INTEGER">
+				<constraints nullable="false" />
+			</column>
+			<column name="economy_kits" type="INTEGER">
+				<constraints nullable="false" />
+			</column>
+			<column name="flight_id" type="UUID">
+				<constraints nullable="true"
+					referencedTableName="flight" referencedColumnNames="id"
+					foreignKeyName="kit_movement_flight_fk" />
+			</column>
+
+			<column name="airport_id" type="UUID">
+				<constraints nullable="false"
+					referencedTableName="airport" referencedColumnNames="id"
+					foreignKeyName="kit_movement_airport_fk" />
+			</column>
+			<column name="cost_value" type="DOUBLE">
+				<constraints nullable="false" />
+			</column>
+
+
+		</createTable>
+	</changeSet>
+
+	<changeSet author="r" id="initial-00013">
+		<createTable tableName="kit_processing">
+			<column name="id" type="UUID">
+				<constraints nullable="false" primaryKey="true"
+					primaryKeyName="kit_processing_pk" />
+			</column>
+			<column name="evaluation_session_id" type="UUID">
+				<constraints nullable="false"
+					referencedTableName="eval_session" referencedColumnNames="id"
+					foreignKeyName="kit_processing_eval_session_fk" />
+			</column>
+			<column name="processed" type="BOOLEAN">
+				<constraints nullable="false" />
+			</column>
+			<column name="available_day" type="INTEGER">
+				<constraints nullable="false" />
+			</column>
+			<column name="available_hour" type="INTEGER">
+				<constraints nullable="false" />
+			</column>
+			<column name="quantity" type="INTEGER">
+				<constraints nullable="false" />
+			</column>
+			<column name="remaining_quantity" type="INTEGER">
+				<constraints nullable="false" />
+			</column>
+			<column name="kit_type" type="VARCHAR(50)">
+				<constraints nullable="false" />
+			</column>
+			<column name="airport_id" type="UUID">
+				<constraints nullable="false"
+					referencedTableName="airport" referencedColumnNames="id"
+					foreignKeyName="kit_processing_airport_fk" />
+			</column>
+		</createTable>
+	</changeSet>
+
+	<changeSet author="r" id="initial-00014">
+		<createTable tableName="flight_load">
+			<column name="id" type="UUID">
+				<constraints nullable="false" primaryKey="true"
+					primaryKeyName="flight_load_pk" />
+			</column>
+			<column name="evaluation_session_id" type="UUID">
+				<constraints nullable="false"
+					referencedTableName="eval_session" referencedColumnNames="id"
+					foreignKeyName="flight_load_eval_session_fk" />
+			</column>
+			<column name="flight_id" type="UUID">
+				<constraints nullable="true"
+					referencedTableName="flight" referencedColumnNames="id"
+					foreignKeyName="flight_load_flight_fk" />
+			</column>
+
+			<column name="first_kits" type="INTEGER">
+				<constraints nullable="false" />
+			</column>
+
+			<column name="business_kits" type="INTEGER">
+				<constraints nullable="false" />
+			</column>
+
+			<column name="premium_economy_kits" type="INTEGER">
+				<constraints nullable="false" />
+			</column>
+
+			<column name="economy_kits" type="INTEGER">
+				<constraints nullable="false" />
+			</column>
+
+		</createTable>
+
+	</changeSet>
+
+
+	<changeSet id="load-0001" author="r" context="local">
+		<loadData tableName="team"
+			file="classpath:/liquibase/data/teams.csv" separator=";" />
+	</changeSet>
+
+
+	<changeSet id="load-0002" author="r" context="local">
+		<loadData tableName="airport" separator=";"
+			file="classpath:/liquibase/data/airports_with_stocks.csv">
+		</loadData>
+	</changeSet>
+
+	<changeSet id="load-0003" author="r" context="local">
+		<loadData tableName="aircraft_type" separator=";"
+			file="classpath:/liquibase/data/aircraft_types.csv">
+		</loadData>
+	</changeSet>
+
+	<changeSet id="load-0004" author="r" context="local">
+		<loadData tableName="flight" separator=";"
+			file="classpath:/liquibase/data/flights.csv">
+		</loadData>
+	</changeSet>
+	
+
+
+</databaseChangeLog>
