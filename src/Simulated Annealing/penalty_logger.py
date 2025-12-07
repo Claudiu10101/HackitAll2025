@@ -33,15 +33,23 @@ class PenaltyLogger:
     def record(self, response: Dict[str, Any]) -> None:
         """Record penalties from one /play/round or /session/end response."""
         penalties = response.get("penalties") or []
+        resp_day = response.get("day", 0)
+        resp_hour = response.get("hour", 0)
+
+        print(
+            f"[penalty_logger] Recording {len(penalties)} penalties for day={resp_day}, hour={resp_hour}"
+        )
+
         for p in penalties:
             code = p.get("code", "UNKNOWN")
             if code in self.excluded_codes:
                 self.excluded_totals[code] += float(p.get("penalty", 0.0))
                 continue
-            day = p.get("issuedDay", response.get("day", 0))
+            day = p.get("issuedDay", resp_day)
             amount = float(p.get("penalty", 0.0))
             self.by_day[day][code] += amount
             self.totals[code] += amount
+
         if "totalCost" in response:
             self.total_cost = response["totalCost"]
 
@@ -62,7 +70,9 @@ class PenaltyLogger:
 
     def write_reports(self) -> None:
         """Write CSV, JSON, and plot (if matplotlib available) to reports_dir."""
+
         if not self.by_day:
+            print("[penalty_logger] WARNING: by_day is empty, no reports written")
             return
 
         # CSV per day
@@ -81,46 +91,10 @@ class PenaltyLogger:
         ]
         self._write_csv(total_rows, self.reports_dir / "penalties_totals.csv")
 
-        # Try to load operational costs from cost logger
-        operational_by_day = {}
-        operational_total = None
-        try:
-            costs_path = self.reports_dir.parent / "costs" / "costs_by_day.csv"
-            if costs_path.exists():
-                with open(costs_path, "r") as f:
-                    lines = f.readlines()
-                    for line in lines[1:]:  # Skip header
-                        parts = line.strip().split(",")
-                        if len(parts) == 2:
-                            day = int(parts[0])
-                            cost = float(parts[1])
-                            operational_by_day[day] = cost
-                operational_total = sum(operational_by_day.values())
-        except Exception:
-            pass  # Operational costs not available
-
-        # Calculate total penalties and operational costs
-        total_penalties = sum(self.totals.values())
-
-        # Merge operational costs into byDay data
-        by_day_with_ops = {}
-        for day in sorted(self.by_day.keys()):
-            by_day_with_ops[day] = dict(self.by_day[day])
-            if day in operational_by_day:
-                by_day_with_ops[day]["OPERATIONAL_COST"] = operational_by_day[day]
-
-        # Also include days that only have operational costs
-        for day in operational_by_day:
-            if day not in by_day_with_ops:
-                by_day_with_ops[day] = {"OPERATIONAL_COST": operational_by_day[day]}
-
         # JSON summary
         summary = {
             "totals": {code: self.totals[code] for code in all_codes},
-            "byDay": {
-                str(day): dict(values)
-                for day, values in sorted(by_day_with_ops.items())
-            },
+            "byDay": {day: dict(values) for day, values in sorted(self.by_day.items())},
             "totalCost": self.total_cost,
             "excludedTotals": dict(self.excluded_totals),
             "adjustedTotalCost": (
@@ -128,8 +102,6 @@ class PenaltyLogger:
                 if self.total_cost is None
                 else self.total_cost - sum(self.excluded_totals.values())
             ),
-            "totalPenalties": total_penalties,
-            "operationalCost": operational_total,
         }
         self._write_json(summary, self.reports_dir / "penalties_summary.json")
 

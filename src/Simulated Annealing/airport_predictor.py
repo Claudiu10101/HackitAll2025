@@ -17,22 +17,22 @@ class AirportPredictor:
         self.plane_tracker = plane_tracker
         self._last_response = None
         self._last_request = None
-        self._cache_version = 0
-        self._forecast_cache = {}
 
     def update(self, request_json: Dict, response_json: Dict) -> None:
         """Store latest request/response for on-demand forecasting."""
         self._last_request = request_json
         self._last_response = response_json
-        self._cache_version += 1
-        self._forecast_cache.clear()
 
     def _abs_hour(self, day: int, hour: int) -> int:
         return day * 24 + hour
 
-    def _extract_flight_infos(self, now_abs: int, horizon_abs: int) -> List[Dict[str, object]]:
+    def _extract_flight_infos(
+        self, now_abs: int, horizon_abs: int
+    ) -> List[Dict[str, object]]:
         """Extract and normalize flight data from the last response for use in forecasts."""
-        flights_iter = self._last_response.get("flightUpdates", []) if self._last_response else []
+        flights_iter = (
+            self._last_response.get("flightUpdates", []) if self._last_response else []
+        )
         flights_by_id = {item["flightId"]: item for item in flights_iter}  # dedupe
 
         infos: List[Dict[str, object]] = []
@@ -52,13 +52,17 @@ class AirportPredictor:
                 "passengers": {
                     "first": int(fli.get("passengers", {}).get("first", 0)),
                     "business": int(fli.get("passengers", {}).get("business", 0)),
-                    "premiumEconomy": int(fli.get("passengers", {}).get("premiumEconomy", 0)),
+                    "premiumEconomy": int(
+                        fli.get("passengers", {}).get("premiumEconomy", 0)
+                    ),
                     "economy": int(fli.get("passengers", {}).get("economy", 0)),
                 },
                 "passenger_loaded": {
                     "first": int(fli.get("passengers", {}).get("first", 0)),
                     "business": int(fli.get("passengers", {}).get("business", 0)),
-                    "premiumEconomy": int(fli.get("passengers", {}).get("premiumEconomy", 0)),
+                    "premiumEconomy": int(
+                        fli.get("passengers", {}).get("premiumEconomy", 0)
+                    ),
                     "economy": int(fli.get("passengers", {}).get("economy", 0)),
                 },
                 "payload_loaded": {},
@@ -71,7 +75,9 @@ class AirportPredictor:
                         info["payload_loaded"] = {
                             "first": int(item["loadedKits"].get("first", 0)),
                             "business": int(item["loadedKits"].get("business", 0)),
-                            "premiumEconomy": int(item["loadedKits"].get("premiumEconomy", 0)),
+                            "premiumEconomy": int(
+                                item["loadedKits"].get("premiumEconomy", 0)
+                            ),
                             "economy": int(item["loadedKits"].get("economy", 0)),
                         }
                         break
@@ -83,7 +89,10 @@ class AirportPredictor:
 
     def _load_for(self, f) -> Dict[str, int]:
         """Prefer committed loaded_packs; fallback to passenger counts."""
-        loaded = {cls: int(f.loaded_packs.get(cls, 0)) for cls in ("first", "business", "premiumEconomy", "economy")}
+        loaded = {
+            cls: int(f.loaded_packs.get(cls, 0))
+            for cls in ("first", "business", "premiumEconomy", "economy")
+        }
         if any(loaded.values()):
             return loaded
         return {
@@ -110,10 +119,14 @@ class AirportPredictor:
         total_events: Dict[int, Dict[str, int]] = {}
         usable_events: Dict[int, Dict[str, int]] = {}
 
-        def add_event(bucket: Dict[int, Dict[str, int]], when: int, delta: Dict[str, int]) -> None:
+        def add_event(
+            bucket: Dict[int, Dict[str, int]], when: int, delta: Dict[str, int]
+        ) -> None:
             if when <= now_abs or when > horizon_abs:
                 return
-            cur = bucket.setdefault(when, {"first": 0, "business": 0, "premiumEconomy": 0, "economy": 0})
+            cur = bucket.setdefault(
+                when, {"first": 0, "business": 0, "premiumEconomy": 0, "economy": 0}
+            )
             for cls, val in delta.items():
                 cur[cls] = cur.get(cls, 0) + int(val)
 
@@ -134,15 +147,32 @@ class AirportPredictor:
             loaded = info["passenger_loaded"]
 
             # Departure: subtract load at origin if in future horizon and flight not yet departed
-            if origin == airport_code and dep_abs > now_abs and info["evt"] in ("SCHEDULED", "CHECKED_IN"):
-                add_event(total_events, dep_abs, {cls: -val for cls, val in loaded.items()})
-                add_event(usable_events, dep_abs, {cls: -val for cls, val in loaded.items()})
+            if (
+                origin == airport_code
+                and dep_abs > now_abs
+                and info["evt"] in ("SCHEDULED", "CHECKED_IN")
+            ):
+                add_event(
+                    total_events, dep_abs, {cls: -val for cls, val in loaded.items()}
+                )
+                add_event(
+                    usable_events, dep_abs, {cls: -val for cls, val in loaded.items()}
+                )
             # Arrival: add load at destination if in future horizon and flight not yet landed
-            if dest == airport_code and arr_abs > now_abs and info["evt"] in ("SCHEDULED", "CHECKED_IN"):
-                # print(f"[Predictor] Incoming flight {info['id']} to {airport_code} at abs {arr_abs} economy load (pax-based): {loaded.get('economy',0)}")
+            if (
+                dest == airport_code
+                and arr_abs > now_abs
+                and info["evt"] in ("SCHEDULED", "CHECKED_IN")
+            ):
                 add_event(total_events, arr_abs, loaded)
-                unused = {cls: max(0, loaded.get(cls, 0) - passengers.get(cls, 0)) for cls in loaded}
-                used = {cls: min(loaded.get(cls, 0), passengers.get(cls, 0)) for cls in loaded}
+                unused = {
+                    cls: max(0, loaded.get(cls, 0) - passengers.get(cls, 0))
+                    for cls in loaded
+                }
+                used = {
+                    cls: min(loaded.get(cls, 0), passengers.get(cls, 0))
+                    for cls in loaded
+                }
                 # Unused kits become usable immediately
                 add_event(usable_events, arr_abs, unused)
                 # Used kits become usable after processing time
@@ -178,29 +208,32 @@ class AirportPredictor:
         airport_code: str,
         current_day: int,
         current_hour: int,
-        horizon_hours: int = 9,
+        horizon_hours: int = 24,
     ) -> List[Dict[str, object]]:
         """
         Full forecast including optimistic passenger-based loads (simple_forecast)
         plus committed loads from plane_tracker/payload when available.
         """
-        cache_key = (airport_code, current_day, current_hour, horizon_hours, self._cache_version)
-        if cache_key in self._forecast_cache:
-            return self._forecast_cache[cache_key]
         now_abs = self._abs_hour(current_day, current_hour)
         horizon_abs = now_abs + horizon_hours
 
         # Start from simple forecast baseline
-        base = self.simple_forecast(airport_code, current_day, current_hour, horizon_hours)
+        base = self.simple_forecast(
+            airport_code, current_day, current_hour, horizon_hours
+        )
 
         # Apply committed loads from plane_tracker (if seen in last response and not landed)
         total_events: Dict[int, Dict[str, int]] = {}
         usable_events: Dict[int, Dict[str, int]] = {}
 
-        def add_event(bucket: Dict[int, Dict[str, int]], when: int, delta: Dict[str, int]) -> None:
+        def add_event(
+            bucket: Dict[int, Dict[str, int]], when: int, delta: Dict[str, int]
+        ) -> None:
             if when <= now_abs or when > horizon_abs:
                 return
-            cur = bucket.setdefault(when, {"first": 0, "business": 0, "premiumEconomy": 0, "economy": 0})
+            cur = bucket.setdefault(
+                when, {"first": 0, "business": 0, "premiumEconomy": 0, "economy": 0}
+            )
             for cls, val in delta.items():
                 cur[cls] = cur.get(cls, 0) + int(val)
 
@@ -210,13 +243,31 @@ class AirportPredictor:
                 continue
             if info["origin"] != airport_code and info["dest"] != airport_code:
                 continue
-            loaded = info["committed"] or info["payload_loaded"] or info["passenger_loaded"]
+            loaded = (
+                info["committed"] or info["payload_loaded"] or info["passenger_loaded"]
+            )
             if not loaded:
                 continue
-            if info["origin"] == airport_code and info["dep_abs"] > now_abs and info["evt"] in ("SCHEDULED", "CHECKED_IN"):
-                add_event(total_events, info["dep_abs"], {cls: -val for cls, val in loaded.items()})
-                add_event(usable_events, info["dep_abs"], {cls: -val for cls, val in loaded.items()})
-            if info["dest"] == airport_code and info["arr_abs"] > now_abs and info["evt"] in ("SCHEDULED", "CHECKED_IN"):
+            if (
+                info["origin"] == airport_code
+                and info["dep_abs"] > now_abs
+                and info["evt"] in ("SCHEDULED", "CHECKED_IN")
+            ):
+                add_event(
+                    total_events,
+                    info["dep_abs"],
+                    {cls: -val for cls, val in loaded.items()},
+                )
+                add_event(
+                    usable_events,
+                    info["dep_abs"],
+                    {cls: -val for cls, val in loaded.items()},
+                )
+            if (
+                info["dest"] == airport_code
+                and info["arr_abs"] > now_abs
+                and info["evt"] in ("SCHEDULED", "CHECKED_IN")
+            ):
                 add_event(total_events, info["arr_abs"], loaded)
                 add_event(usable_events, info["arr_abs"], loaded)
 
@@ -233,82 +284,14 @@ class AirportPredictor:
                 for cls, val in usable_events[abs_h].items():
                     usable[cls] = usable.get(cls, 0) + val
             timeline.append(
-                {"abs_hour": abs_h, "day": slot["day"], "hour": slot["hour"], "total": total, "usable": usable}
-            )
-        self._forecast_cache[cache_key] = timeline
-        return timeline
-
-    def forecast_with_requested(
-        self,
-        airport_code: str,
-        current_day: int,
-        current_hour: int,
-        horizon_hours: int = 24,
-    ) -> List[Dict[str, object]]:
-        """
-        Forecast using the requested payload (last request) rather than committed loads.
-        Useful to see the "if we send this request" impact before it is CHECKED_IN.
-        """
-        cache_key = ("req", airport_code, current_day, current_hour, horizon_hours, self._cache_version)
-        if cache_key in self._forecast_cache:
-            return self._forecast_cache[cache_key]
-        now_abs = self._abs_hour(current_day, current_hour)
-        horizon_abs = now_abs + horizon_hours
-
-        base = self.simple_forecast(airport_code, current_day, current_hour, horizon_hours)
-
-        # Build lookup for payload loads
-        payload_loads: Dict[str, Dict[str, int]] = {}
-        if self._last_request:
-            for item in self._last_request.get("flightLoads", []):
-                payload_loads[item["flightId"]] = {
-                    "first": int(item["loadedKits"].get("first", 0)),
-                    "business": int(item["loadedKits"].get("business", 0)),
-                    "premiumEconomy": int(item["loadedKits"].get("premiumEconomy", 0)),
-                    "economy": int(item["loadedKits"].get("economy", 0)),
+                {
+                    "abs_hour": abs_h,
+                    "day": slot["day"],
+                    "hour": slot["hour"],
+                    "total": total,
+                    "usable": usable,
                 }
-
-        total_events: Dict[int, Dict[str, int]] = {}
-        usable_events: Dict[int, Dict[str, int]] = {}
-
-        def add_event(bucket: Dict[int, Dict[str, int]], when: int, delta: Dict[str, int]) -> None:
-            if when <= now_abs or when > horizon_abs:
-                return
-            cur = bucket.setdefault(when, {"first": 0, "business": 0, "premiumEconomy": 0, "economy": 0})
-            for cls, val in delta.items():
-                cur[cls] = cur.get(cls, 0) + int(val)
-
-        infos = self._extract_flight_infos(now_abs, horizon_abs)
-        for info in infos:
-            if info["evt"] == "LANDED":
-                continue
-            if info["origin"] != airport_code and info["dest"] != airport_code:
-                continue
-            loaded = payload_loads.get(info["id"], info["passenger_loaded"])
-            if not loaded:
-                continue
-            if info["origin"] == airport_code and info["dep_abs"] > now_abs and info["evt"] in ("SCHEDULED", "CHECKED_IN"):
-                add_event(total_events, info["dep_abs"], {cls: -val for cls, val in loaded.items()})
-                add_event(usable_events, info["dep_abs"], {cls: -val for cls, val in loaded.items()})
-            if info["dest"] == airport_code and info["arr_abs"] > now_abs and info["evt"] in ("SCHEDULED", "CHECKED_IN"):
-                add_event(total_events, info["arr_abs"], loaded)
-                add_event(usable_events, info["arr_abs"], loaded)
-
-        timeline: List[Dict[str, object]] = []
-        for slot in base:
-            abs_h = slot["abs_hour"]
-            total = deepcopy(slot["total"])
-            usable = deepcopy(slot["usable"])
-            if abs_h in total_events:
-                for cls, val in total_events[abs_h].items():
-                    total[cls] = total.get(cls, 0) + val
-            if abs_h in usable_events:
-                for cls, val in usable_events[abs_h].items():
-                    usable[cls] = usable.get(cls, 0) + val
-            timeline.append(
-                {"abs_hour": abs_h, "day": slot["day"], "hour": slot["hour"], "total": total, "usable": usable}
             )
-        self._forecast_cache[cache_key] = timeline
         return timeline
 
     def forecast_with_planes(
@@ -329,7 +312,9 @@ class AirportPredictor:
         now_abs = self._abs_hour(current_day, current_hour)
         horizon_abs = now_abs + horizon_hours
 
-        base = self.simple_forecast(airport_code, current_day, current_hour, horizon_hours)
+        base = self.simple_forecast(
+            airport_code, current_day, current_hour, horizon_hours
+        )
 
         # Build lookup for payload loads
         payload_loads: Dict[str, Dict[str, int]] = {}
@@ -345,10 +330,14 @@ class AirportPredictor:
         total_events: Dict[int, Dict[str, int]] = {}
         usable_events: Dict[int, Dict[str, int]] = {}
 
-        def add_event(bucket: Dict[int, Dict[str, int]], when: int, delta: Dict[str, int]) -> None:
+        def add_event(
+            bucket: Dict[int, Dict[str, int]], when: int, delta: Dict[str, int]
+        ) -> None:
             if when <= now_abs or when > horizon_abs:
                 return
-            cur = bucket.setdefault(when, {"first": 0, "business": 0, "premiumEconomy": 0, "economy": 0})
+            cur = bucket.setdefault(
+                when, {"first": 0, "business": 0, "premiumEconomy": 0, "economy": 0}
+            )
             for cls, val in delta.items():
                 cur[cls] = cur.get(cls, 0) + int(val)
 
@@ -359,19 +348,51 @@ class AirportPredictor:
             if info["origin"] != airport_code and info["dest"] != airport_code:
                 continue
 
-            committed = self.plane_tracker.get_inventory(info["id"]) if self.plane_tracker else {}
+            committed = (
+                self.plane_tracker.get_inventory(info["id"])
+                if self.plane_tracker
+                else {}
+            )
             payload_loaded = payload_loads.get(info["id"], {})
             passenger_loaded = info["passenger_loaded"]
 
-            loaded = committed if any(committed.values()) else payload_loaded if any(payload_loaded.values()) else passenger_loaded
+            loaded = (
+                committed
+                if any(committed.values())
+                else (
+                    payload_loaded if any(payload_loaded.values()) else passenger_loaded
+                )
+            )
 
-            if info["origin"] == airport_code and info["dep_abs"] > now_abs and info["evt"] in ("SCHEDULED", "CHECKED_IN"):
-                add_event(total_events, info["dep_abs"], {cls: -val for cls, val in loaded.items()})
-                add_event(usable_events, info["dep_abs"], {cls: -val for cls, val in loaded.items()})
-            if info["dest"] == airport_code and info["arr_abs"] > now_abs and info["evt"] in ("SCHEDULED", "CHECKED_IN"):
+            if (
+                info["origin"] == airport_code
+                and info["dep_abs"] > now_abs
+                and info["evt"] in ("SCHEDULED", "CHECKED_IN")
+            ):
+                add_event(
+                    total_events,
+                    info["dep_abs"],
+                    {cls: -val for cls, val in loaded.items()},
+                )
+                add_event(
+                    usable_events,
+                    info["dep_abs"],
+                    {cls: -val for cls, val in loaded.items()},
+                )
+            if (
+                info["dest"] == airport_code
+                and info["arr_abs"] > now_abs
+                and info["evt"] in ("SCHEDULED", "CHECKED_IN")
+            ):
                 add_event(total_events, info["arr_abs"], loaded)
-                unused = {cls: max(0, loaded.get(cls, 0) - passenger_loaded.get(cls, 0)) for cls in loaded}
-                used = {cls: min(loaded.get(cls, 0), passenger_loaded.get(cls, 0)) for cls in loaded}
+                unused = {
+                    cls: max(0, loaded.get(cls, 0) - passenger_loaded.get(cls, 0))
+                    for cls in loaded
+                }
+                used = {
+                    cls: min(loaded.get(cls, 0), passenger_loaded.get(cls, 0))
+                    for cls in loaded
+                }
                 add_event(usable_events, info["arr_abs"], unused)
                 proc_time = self.airport_tracker.processing_time.get(info["dest"], {})
                 for cls, val in used.items():
@@ -392,7 +413,13 @@ class AirportPredictor:
                 for cls, val in usable_events[abs_h].items():
                     usable[cls] = usable.get(cls, 0) + val
             timeline.append(
-                {"abs_hour": abs_h, "day": slot["day"], "hour": slot["hour"], "total": total, "usable": usable}
+                {
+                    "abs_hour": abs_h,
+                    "day": slot["day"],
+                    "hour": slot["hour"],
+                    "total": total,
+                    "usable": usable,
+                }
             )
         return timeline
 
@@ -430,11 +457,11 @@ class AirportPredictor:
             cls: over[cls] * over_cap_factor + neg[cls] * neg_inv_factor for cls in over
         }
         return {
-            "over_stock": over,                 # per-class over-capacity amounts aggregated over horizon
-            "negative": neg,                    # per-class negative stock amounts aggregated over horizon
-            "over_stock_total": total_over,     # sum of over-capacity across all classes
-            "negative_total": total_neg,        # sum of negative stock across all classes
-            "estimated_penalty": estimate_cost, # rough total penalty using hard-coded factors
+            "over_stock": over,  # per-class over-capacity amounts aggregated over horizon
+            "negative": neg,  # per-class negative stock amounts aggregated over horizon
+            "over_stock_total": total_over,  # sum of over-capacity across all classes
+            "negative_total": total_neg,  # sum of negative stock across all classes
+            "estimated_penalty": estimate_cost,  # rough total penalty using hard-coded factors
             "per_class_penalty": per_class_penalty,  # per-class penalty using same factors
         }
 
@@ -452,10 +479,14 @@ class AirportPredictor:
         Useful for simulating how a different load on a specific flight affects stock.
         """
         # Build a temporary payload overriding this flight
-        payload_override = deepcopy(self._last_request) if self._last_request else {"flightLoads": []}
+        payload_override = (
+            deepcopy(self._last_request) if self._last_request else {"flightLoads": []}
+        )
         # Remove any existing entry for this flight
         payload_override["flightLoads"] = [
-            item for item in payload_override.get("flightLoads", []) if item.get("flightId") != flight_id
+            item
+            for item in payload_override.get("flightLoads", [])
+            if item.get("flightId") != flight_id
         ]
         # Add the custom load
         payload_override["flightLoads"].append(
@@ -470,9 +501,15 @@ class AirportPredictor:
             }
         )
         # Run the simulation with this payload override
-        return self.simulate_with_payload(airport_code, payload_override, current_day, current_hour, horizon_hours)
+        return self.simulate_with_payload(
+            airport_code, payload_override, current_day, current_hour, horizon_hours
+        )
 
-    def penalty_from_forecast(self, forecast_slots: List[Dict[str, object]], capacity: Dict[str, int] | None = None) -> Dict[str, object]:
+    def penalty_from_forecast(
+        self,
+        forecast_slots: List[Dict[str, object]],
+        capacity: Dict[str, int] | None = None,
+    ) -> Dict[str, object]:
         """
         Given the forecast output (list of slots with total/usable), compute over/negative and estimated penalty.
         Mirrors forecast_penalty but works off a precomputed forecast.
@@ -503,24 +540,11 @@ class AirportPredictor:
             "per_class_penalty": per_class_penalty,
         }
 
-    def penalty_for_payload(
+    def estimated_penalty_only(
         self,
-        airport_code: str,
-        payload_json: Dict,
-        current_day: int,
-        current_hour: int,
-        horizon_hours: int = 24,
+        forecast_slots: List[Dict[str, object]],
         capacity: Dict[str, int] | None = None,
-    ) -> Dict[str, object]:
-        """
-        Simulate a full custom payload (flightLoads) and return the penalty breakdown for one airport.
-        Uses simulate_with_payload -> penalty_from_forecast so totals reflect that payload.
-        """
-        forecast_slots = self.simulate_with_payload(airport_code, payload_json, current_day, current_hour, horizon_hours)
-        cap = capacity or self.airport_tracker.capacity.get(airport_code, {})
-        return self.penalty_from_forecast(forecast_slots, cap)
-
-    def estimated_penalty_only(self, forecast_slots: List[Dict[str, object]], capacity: Dict[str, int] | None = None) -> float:
+    ) -> float:
         """
         Convenience wrapper: given the output of any forecast* call, return only the estimated penalty number.
         Capacity defaults to the tracker capacity if not provided.
@@ -548,91 +572,16 @@ class AirportPredictor:
         Returns the same shape as forecast_penalty (over/negative, totals, per-class, estimated_penalty).
         """
         forecast_slots = self.forecast_with_custom_load(
-            airport_code, flight_id, custom_loaded_kits, current_day, current_hour, horizon_hours
+            airport_code,
+            flight_id,
+            custom_loaded_kits,
+            current_day,
+            current_hour,
+            horizon_hours,
         )
         cap = capacity or self.airport_tracker.capacity.get(airport_code, {})
         return self.penalty_from_forecast(forecast_slots, cap)
 
-    def penalty_empty_vs_full(
-        self,
-        airport_code: str,
-        flight_id: str,
-        current_day: int,
-        current_hour: int,
-        horizon_hours: int = 24,
-        capacity: Dict[str, int] | None = None,
-    ) -> Dict[str, object]:
-        """
-        Return penalties if the given flight flies empty vs. fully loaded.
-        - Empty: all loadedKits = 0
-        - Full: loadedKits = aircraft kit capacity when known, otherwise passenger counts
-        """
-        # Build base payload from last request, or an empty structure
-        base_payload = deepcopy(self._last_request) if self._last_request else {"flightLoads": []}
-        base_payload["flightLoads"] = [item for item in base_payload.get("flightLoads", []) if item.get("flightId") != flight_id]
-
-        # Lookup flight info from last response
-        flight_update = None
-        if self._last_response:
-            for upd in self._last_response.get("flightUpdates", []):
-                if str(upd.get("flightId")) == str(flight_id):
-                    flight_update = upd
-                    break
-
-        passengers = {"first": 0, "business": 0, "premiumEconomy": 0, "economy": 0}
-        if flight_update:
-            passengers = {
-                "first": int(flight_update.get("passengers", {}).get("first", 0)),
-                "business": int(flight_update.get("passengers", {}).get("business", 0)),
-                "premiumEconomy": int(flight_update.get("passengers", {}).get("premiumEconomy", 0)),
-                "economy": int(flight_update.get("passengers", {}).get("economy", 0)),
-            }
-
-        # Try to get aircraft kit capacity
-        full_load = dict(passengers)
-        if flight_update:
-            try:
-                from flight import AIRCRAFT_TYPES_BY_ID
-
-                ac_id = (
-                    flight_update.get("aircraftTypeId")
-                    or flight_update.get("actualAircraftTypeId")
-                    or flight_update.get("aircraftType")
-                )
-                if ac_id and ac_id in AIRCRAFT_TYPES_BY_ID:
-                    kits = AIRCRAFT_TYPES_BY_ID[ac_id].kit_capacity
-                    full_load = {
-                        "first": int(kits.get("first", passengers["first"])),
-                        "business": int(kits.get("business", passengers["business"])),
-                        "premiumEconomy": int(kits.get("premiumEconomy", passengers["premiumEconomy"])),
-                        "economy": int(kits.get("economy", passengers["economy"])),
-                    }
-            except Exception:
-                pass
-
-        empty_load = {"first": 0, "business": 0, "premiumEconomy": 0, "economy": 0}
-
-        empty_payload = deepcopy(base_payload)
-        empty_payload["flightLoads"].append({"flightId": flight_id, "loadedKits": empty_load})
-
-        full_payload = deepcopy(base_payload)
-        full_payload["flightLoads"].append({"flightId": flight_id, "loadedKits": full_load})
-
-        cap = capacity or self.airport_tracker.capacity.get(airport_code, {})
-        empty_pen = self.penalty_for_payload(airport_code, empty_payload, current_day, current_hour, horizon_hours, cap)
-        full_pen = self.penalty_for_payload(airport_code, full_payload, current_day, current_hour, horizon_hours, cap)
-
-        return {
-            "empty_penalty": float(empty_pen.get("estimated_penalty", 0.0)),
-            "full_penalty": float(full_pen.get("estimated_penalty", 0.0)),
-            "empty_breakdown": empty_pen,
-            "full_breakdown": full_pen,
-        }
-
-    
-    
-    
-    
     def simulate_with_payload(
         self,
         airport_code: str,
@@ -654,10 +603,14 @@ class AirportPredictor:
         total_events: Dict[int, Dict[str, int]] = {}
         usable_events: Dict[int, Dict[str, int]] = {}
 
-        def add_event(bucket: Dict[int, Dict[str, int]], when: int, delta: Dict[str, int]) -> None:
+        def add_event(
+            bucket: Dict[int, Dict[str, int]], when: int, delta: Dict[str, int]
+        ) -> None:
             if when <= now_abs or when > horizon_abs:
                 return
-            cur = bucket.setdefault(when, {"first": 0, "business": 0, "premiumEconomy": 0, "economy": 0})
+            cur = bucket.setdefault(
+                when, {"first": 0, "business": 0, "premiumEconomy": 0, "economy": 0}
+            )
             for cls, val in delta.items():
                 cur[cls] = cur.get(cls, 0) + int(val)
 
@@ -675,7 +628,9 @@ class AirportPredictor:
                 "economy": int(item["loadedKits"].get("economy", 0)),
             }
 
-        flights_iter = self._last_response.get("flightUpdates", []) if self._last_response else []
+        flights_iter = (
+            self._last_response.get("flightUpdates", []) if self._last_response else []
+        )
         flights_by_id = {item["flightId"]: item for item in flights_iter}
         for fli in flights_by_id.values():
             evt = (fli.get("eventType") or "").upper().replace(" ", "_")
@@ -696,13 +651,31 @@ class AirportPredictor:
                 },
             )
 
-            if origin == airport_code and dep_abs > now_abs and evt in ("SCHEDULED", "CHECKED_IN"):
-                add_event(total_events, dep_abs, {cls: -val for cls, val in loaded.items()})
-                add_event(usable_events, dep_abs, {cls: -val for cls, val in loaded.items()})
-            if dest == airport_code and arr_abs > now_abs and evt in ("SCHEDULED", "CHECKED_IN"):
+            if (
+                origin == airport_code
+                and dep_abs > now_abs
+                and evt in ("SCHEDULED", "CHECKED_IN")
+            ):
+                add_event(
+                    total_events, dep_abs, {cls: -val for cls, val in loaded.items()}
+                )
+                add_event(
+                    usable_events, dep_abs, {cls: -val for cls, val in loaded.items()}
+                )
+            if (
+                dest == airport_code
+                and arr_abs > now_abs
+                and evt in ("SCHEDULED", "CHECKED_IN")
+            ):
                 add_event(total_events, arr_abs, loaded)
-                unused = {cls: max(0, loaded.get(cls, 0) - passengers.get(cls, 0)) for cls in loaded}
-                used = {cls: min(loaded.get(cls, 0), passengers.get(cls, 0)) for cls in loaded}
+                unused = {
+                    cls: max(0, loaded.get(cls, 0) - passengers.get(cls, 0))
+                    for cls in loaded
+                }
+                used = {
+                    cls: min(loaded.get(cls, 0), passengers.get(cls, 0))
+                    for cls in loaded
+                }
                 add_event(usable_events, arr_abs, unused)
                 proc_time = self.airport_tracker.processing_time.get(dest, {})
                 for cls, val in used.items():
@@ -720,6 +693,12 @@ class AirportPredictor:
                 for cls, val in usable_events[abs_h].items():
                     usable[cls] = usable.get(cls, 0) + val
             timeline.append(
-                {"abs_hour": abs_h, "day": abs_h // 24, "hour": abs_h % 24, "total": deepcopy(total), "usable": deepcopy(usable)}
+                {
+                    "abs_hour": abs_h,
+                    "day": abs_h // 24,
+                    "hour": abs_h % 24,
+                    "total": deepcopy(total),
+                    "usable": deepcopy(usable),
+                }
             )
         return timeline

@@ -127,18 +127,6 @@ class AirportTracker:
         self.pending_arrivals: Dict[str, Dict[str, int]] = defaultdict(
             lambda: {"first": 0, "business": 0, "premiumEconomy": 0, "economy": 0}
         )  # outstanding clean arrivals scheduled
-        self._predictor = None  # optionally set by caller for debug forecasts
-        self._cost_simulator = None
-        self._last_response = None
-        self.hub_denied_by_day: Dict[int, int] = defaultdict(int)  # hub flights with shortfall per day
-
-    def set_predictor(self, predictor) -> None:
-        """Attach an AirportPredictor instance for debugging forecasts."""
-        self._predictor = predictor
-
-    def set_cost_simulator(self, cost_simulator) -> None:
-        """Attach a CostSimulator instance (optional)."""
-        self._cost_simulator = cost_simulator
 
     def _apply_ready(self, current_abs: int) -> None:
         # Move any ready events into usable inventory and reduce pending trackers.
@@ -159,31 +147,6 @@ class AirportTracker:
         reserved = self.reservations.get((airport_code, abs_hour), {"first": 0, "business": 0, "premiumEconomy": 0, "economy": 0})
         return {cls: max(base.get(cls, 0) - reserved.get(cls, 0), 0) for cls in base}
 
-    def ensure_hub_network_min_fill(self, day: int, hour: int, min_fill: float = 0.2) -> Dict[str, int]:
-        """
-        If both HUB1 usable stock and the total usable stock across the rest of the network
-        are below min_fill * HUB1 capacity, place a purchase to bring HUB1 up to that threshold.
-        """
-        hub = "HUB1"
-        if hub not in self.capacity:
-            return {"first": 0, "business": 0, "premiumEconomy": 0, "economy": 0}
-
-        order: Dict[str, int] = {"first": 0, "business": 0, "premiumEconomy": 0, "economy": 0}
-        for cls, cap in self.capacity[hub].items():
-            threshold = int(cap * min_fill)
-            hub_clean = self.usable_inventory[hub].get(cls, 0)
-            other_clean = sum(self.usable_inventory[ap].get(cls, 0) for ap in self.usable_inventory if ap != hub)
-            if hub_clean >= threshold or (hub_clean + other_clean) >= threshold:
-                continue  # enough stock in hub or across network
-
-            pending = self.pending_arrivals[hub].get(cls, 0)
-            available_room = max(0, cap - (self.inventory[hub].get(cls, 0) + pending))
-            need = max(0, threshold - (hub_clean + pending))
-            order[cls] = min(need, available_room)
-
-        self.schedule_purchase(hub, order, day, hour)
-        return {k: int(v) for k, v in order.items()}
-    
     def plan_hub_purchase(self, day: int, hour: int, target_fill: float = 0.5) -> Dict[str, int]:
         """
         Simple purchase strategy for HUB1: top up towards target_fill * capacity.
@@ -252,110 +215,30 @@ class AirportTracker:
         self.reservations.clear()
         self.reservation_by_flight.clear()
         self.reservation_info.clear()
-        # Prepare a 24h forecast cache (if predictor/last_response available)
-        forecast_cache: Dict[str, List[Dict[str, object]]] = {}
-        day = hour = 0
-        if self._last_response:
-            day = int(self._last_response.get("day", 0))
-            hour = int(self._last_response.get("hour", 0))
-
-        def get_forecast(code: str) -> List[Dict[str, object]]:
-            if not self._predictor:
-                return []
-            if code in forecast_cache:
-                return forecast_cache[code]
-            try:
-                fc = self._predictor.forecast(code, day, hour, horizon_hours=1)
-                forecast_cache[code] = fc
-                return fc
-            except Exception:
-                return []
         # iterate in given order
         for fli in flights:
             # Only reserve for flights not yet checked in; once CHECKED_IN we keep the previous load
             if fli.current_status not in ("SCHEDULED",) or not getattr(fli, "plane", None):
                 continue
-            
-            abs_dep = fli.departure_time[0] * 12 + fli.departure_time[1]
+            abs_dep = fli.departure_time[0] * 24 + fli.departure_time[1]
             # Load based on passenger demand (no forced full capacity)
-            available_before = self.max_available(fli.origin, abs_dep)
-            passengers = {
-                "first": int(fli.real_passengers.get("first", 0)),
-                "business": int(fli.real_passengers.get("business", 0)),
-                "premiumEconomy": int(fli.real_passengers.get("premiumEconomy", 0)),
-                "economy": int(fli.real_passengers.get("economy", 0)),
+            # requested = {
+            #     "first": int(fli.real_passengers.get("first", 0)),
+            #     "business": int(fli.real_passengers.get("business", 0)),
+            #     "premiumEconomy": int(fli.real_passengers.get("premiumEconomy", 0)),
+            #     "economy": int(fli.real_passengers.get("economy", 0)),
+            # }
+            requested = {           
+                "first" : 0,
+                "business" : 0,
+                "premiumEconomy" : 0,
+                "economy" : 0
+                
             }
-            requested = dict(passengers)
-            # Hub -> airport: add extra to cover predicted negatives at destination (usable min over next 24h)
-            if fli.origin == "HUB1" and fli.destination != "HUB1":
-                fc_dest = get_forecast(fli.destination)
-                if fc_dest:
-                    min_usable = {
-                        cls: min([slot["usable"].get(cls, 0) for slot in fc_dest])
-                        for cls in ("first", "business", "premiumEconomy", "economy")
-                    }
-                    for cls in requested:
-                        deficit = max(0, -int(min_usable[cls]))
-                        requested[cls] += deficit
-            # Airport -> hub: only send surplus beyond origin's own 24h needs
-            elif fli.destination == "HUB1":
-                fc_origin = get_forecast(fli.origin)
-                if fc_origin:
-                    min_usable_origin = {
-                        cls: min([slot["usable"].get(cls, 0) for slot in fc_origin])
-                        for cls in ("first", "business", "premiumEconomy", "economy")
-                    }
-                    for cls in requested:
-                        cap_cls = self.capacity.get(fli.origin, {}).get(cls, 0)
-                        target_keep = int(cap_cls * 0.5) if cap_cls else 0
-                        needed_buffer = max(0, -int(min_usable_origin[cls]), target_keep)
-                        sendable = max(0, available_before.get(cls, 0) - needed_buffer)
-                        requested[cls] = min(requested[cls], sendable)
-
-            # For non-hub destinations, avoid overfilling in next 24h based on total forecast
-            if fli.destination != "HUB1":
-                fc_dest = get_forecast(fli.destination)
-                dest_cap = self.capacity.get(fli.destination, {})
-                if fc_dest and dest_cap:
-                    for cls in requested:
-                        cap_cls = dest_cap.get(cls, 0)
-                        # cap_cls = cap_cls * 1.
-                        
-                        if cap_cls <= 0:
-                            continue
-                        max_total = max(slot["total"].get(cls, 0) for slot in fc_dest)
-                        headroom = max(0, cap_cls - max_total)
-                        requested[cls] = min(requested[cls], headroom)
-
-            # Clamp by availability and plane capacity to avoid overdraw
-            for cls in requested:
-                requested[cls] = min(requested.get(cls, 0), available_before.get(cls, 0), fli.plane.kit_capacity[cls])
-            # Do not drain origin below forecasted buffer (avoid pushing future usable below zero)
-            fc_origin_safety = get_forecast(fli.origin)
-            if fc_origin_safety:
-                min_usable_origin = {
-                    cls: min([slot["usable"].get(cls, 0) for slot in fc_origin_safety])
-                    for cls in ("first", "business", "premiumEconomy", "economy")
-                }
-                for cls in requested:
-                    buffer_need = max(0, -int(min_usable_origin.get(cls, 0)))
-                    keep = max(0, buffer_need)
-                    allowed = max(0, available_before.get(cls, 0) - keep)
-                    requested[cls] = min(requested[cls], allowed)
-            # If origin is over capacity on total stock, try to unload extra without causing future negatives
-            origin_cap = self.capacity.get(fli.origin, {})
-            over_total = {
-                cls: max(0, self.inventory[fli.origin].get(cls, 0) - origin_cap.get(cls, 0))
-                for cls in ("first", "business", "premiumEconomy", "economy")
-            }
-            if any(over_total.values()):
-                for cls in requested:
-                    extra = over_total.get(cls, 0)
-                    if extra > 0:
-                        sendable = min(extra, available_before.get(cls, 0), fli.plane.kit_capacity[cls])
-                        requested[cls] = min(fli.plane.kit_capacity[cls], requested[cls] + sendable)
             
-            
+            for k in requested:
+                requested[k] = min(requested[k], fli.plane.kit_capacity[k])  # avoid overloading plane
+            available_before = self.max_available(fli.origin, abs_dep)  # usable minus existing reservations
             actual = self.reserve_inventory(fli.origin, abs_dep, requested)  # clamp by current usable
             fli.loaded_packs = actual  # store what we actually reserved to send in payload
             self.reservation_by_flight[fli.id] = actual
@@ -366,12 +249,6 @@ class AirportTracker:
                 "allocated": actual,
                 "available_before": available_before,
             }
-            # Optional debug: show economy forecast for this airport starting at departure time
-            if fli.origin == "HUB1":
-                shortfall = sum(max(0, requested.get(cls, 0) - actual.get(cls, 0)) for cls in requested)
-                if shortfall > 0:
-                    self.hub_denied_by_day[abs_dep // 24] += 1
-
 
 
     def update(self, response_json: Dict, plane_tracker: PlaneTracker) -> None:
@@ -385,7 +262,6 @@ class AirportTracker:
         day = int(response_json.get("day", 0))
         hour = int(response_json.get("hour", 0))
         current_abs = day * 24 + hour
-        self._last_response = response_json
         self._apply_ready(current_abs)
 
         # Clear per-cycle events
@@ -416,18 +292,10 @@ class AirportTracker:
                         if all(v == 0 for v in res_hour.values()):
                             self.reservations.pop(key, None)
                 inv = plane_tracker.get_inventory(fid)
-                # Use the reserved amounts if available; otherwise use plane_tracker inventory
-                committed = res_flight or inv
-                for cls in ("first", "business", "premiumEconomy", "economy"):
-                    take = int(committed.get(cls, 0))
-                    if take <= 0:
-                        continue
-                    cur_total = self.inventory[origin].get(cls, 0)
-                    cur_usable = self.usable_inventory[origin].get(cls, 0)
-                    safe_take_total = min(cur_total, take)
-                    safe_take_usable = min(cur_usable, take)
-                    self.inventory[origin][cls] = cur_total - safe_take_total
-                    self.usable_inventory[origin][cls] = cur_usable - safe_take_usable
+                # already reserved usable; just adjust total
+                for cls, val in inv.items():
+                    self.inventory[origin][cls] = self.inventory[origin].get(cls, 0) - int(val)  # remove from ground (allow negative)
+                    self.usable_inventory[origin][cls] = self.usable_inventory[origin].get(cls, 0) - int(val)  # remove from clean (allow negative)
             if evt == "LANDED" and dest:
                 self.arrivals[dest].append(fid)  # mark this flight as arrived
                 inv = plane_tracker.get_inventory(fid)
@@ -436,7 +304,7 @@ class AirportTracker:
                 )
                 self.arrival_inventory[dest].append({"flightId": fid, "inventory": inv})
                 for cls, val in inv.items():
-                    self.inventory[dest][cls] = max(0, self.inventory[dest].get(cls, 0)) + int(val)  # add all kits to ground
+                    self.inventory[dest][cls] = self.inventory[dest].get(cls, 0) + int(val)  # add all kits to ground
                 proc_time = self.processing_time.get(dest, {})
                 for cls, val in inv.items():
                     loaded = int(val)
@@ -490,29 +358,15 @@ class AirportTracker:
             cls: ground.get(cls, 0) + pending.get(cls, 0) + in_transit.get(cls, 0)
             for cls in ground
         }
-        # Capacity totals
-        cap_totals = self._sum_dicts(*self.capacity.values())
-        econ_pct = 0.0
-        if cap_totals.get("economy", 0) > 0:
-            econ_pct = total_all.get("economy", 0) / cap_totals["economy"] * 100
         print(f"\n=== Network totals ===")
         print(f"Ground total: {ground}")
         print(f"Pending arrivals (purchases/processing): {pending}")
         print(f"In transit (on planes not yet LANDED): {in_transit}")
         print(f"Combined (ground + pending + in-transit): {total_all}")
-        print(f"Economy stock vs capacity: {total_all.get('economy',0)}/{cap_totals.get('economy',0)} ({econ_pct:.2f}%)")
         print(f"=== End ===\n")
 
     def debug_print(self, airport_code: str) -> None:
         self.print_airport(airport_code)
-
-    def print_hub_denied_stats(self) -> None:
-        """Print per-day count of HUB1 flights that could not be fully loaded due to usable shortage."""
-        if not self.hub_denied_by_day:
-            print("HUB1 denied counts: none")
-            return
-        parts = [f"day {d}: {c}" for d, c in sorted(self.hub_denied_by_day.items())]
-        print("HUB1 denied counts:", "; ".join(parts))
 
     def get_plane_inventory(self, plane_tracker: PlaneTracker, airport_code: str) -> Dict[str, Dict[str, int]]:
         """

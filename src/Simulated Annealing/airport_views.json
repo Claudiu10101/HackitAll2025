@@ -1,0 +1,5532 @@
+{
+  "HUB1": {
+    "currentCleanStock": {
+      "first": 1031,
+      "business": 211,
+      "premiumEconomy": 292,
+      "economy": 627
+    },
+    "inProcess": [
+      [
+        720,
+        {
+          "first": 13
+        }
+      ],
+      [
+        720,
+        {
+          "first": 15
+        }
+      ],
+      [
+        720,
+        {
+          "first": 6
+        }
+      ],
+      [
+        721,
+        {
+          "first": 7
+        }
+      ],
+      [
+        721,
+        {
+          "first": 2
+        }
+      ],
+      [
+        721,
+        {
+          "first": 2
+        }
+      ],
+      [
+        721,
+        {
+          "first": 4
+        }
+      ],
+      [
+        721,
+        {
+          "first": 7
+        }
+      ],
+      [
+        721,
+        {
+          "first": 1
+        }
+      ],
+      [
+        721,
+        {
+          "first": 12
+        }
+      ],
+      [
+        722,
+        {
+          "first": 4
+        }
+      ],
+      [
+        720,
+        {
+          "business": 30
+        }
+      ],
+      [
+        722,
+        {
+          "first": 20
+        }
+      ],
+      [
+        720,
+        {
+          "business": 3
+        }
+      ],
+      [
+        722,
+        {
+          "first": 4
+        }
+      ],
+      [
+        720,
+        {
+          "business": 30
+        }
+      ],
+      [
+        722,
+        {
+          "first": 6
+        }
+      ],
+      [
+        720,
+        {
+          "business": 7
+        }
+      ],
+      [
+        722,
+        {
+          "first": 10
+        }
+      ],
+      [
+        720,
+        {
+          "business": 21
+        }
+      ],
+      [
+        722,
+        {
+          "first": 5
+        }
+      ],
+      [
+        720,
+        {
+          "business": 10
+        }
+      ],
+      [
+        722,
+        {
+          "first": 1
+        }
+      ],
+      [
+        720,
+        {
+          "business": 12
+        }
+      ],
+      [
+        722,
+        {
+          "first": 3
+        }
+      ],
+      [
+        720,
+        {
+          "business": 12
+        }
+      ],
+      [
+        722,
+        {
+          "first": 4
+        }
+      ],
+      [
+        720,
+        {
+          "business": 34
+        }
+      ],
+      [
+        723,
+        {
+          "first": 3
+        }
+      ],
+      [
+        721,
+        {
+          "business": 37
+        }
+      ],
+      [
+        723,
+        {
+          "first": 4
+        }
+      ],
+      [
+        721,
+        {
+          "business": 7
+        }
+      ],
+      [
+        721,
+        {
+          "business": 4
+        }
+      ],
+      [
+        723,
+        {
+          "first": 12
+        }
+      ],
+      [
+        721,
+        {
+          "business": 21
+        }
+      ],
+      [
+        723,
+        {
+          "first": 4
+        }
+      ],
+      [
+        721,
+        {
+          "business": 17
+        }
+      ],
+      [
+        723,
+        {
+          "first": 7
+        }
+      ],
+      [
+        721,
+        {
+          "business": 32
+        }
+      ],
+      [
+        721,
+        {
+          "business": 33
+        }
+      ],
+      [
+        723,
+        {
+          "first": 3
+        }
+      ],
+      [
+        724,
+        {
+          "first": 2
+        }
+      ],
+      [
+        722,
+        {
+          "business": 22
+        }
+      ],
+      [
+        720,
+        {
+          "premiumEconomy": 4
+        }
+      ],
+      [
+        724,
+        {
+          "first": 1
+        }
+      ],
+      [
+        722,
+        {
+          "business": 53
+        }
+      ],
+      [
+        724,
+        {
+          "first": 3
+        }
+      ],
+      [
+        722,
+        {
+          "business": 1
+        }
+      ],
+      [
+        720,
+        {
+          "premiumEconomy": 5
+        }
+      ],
+      [
+        724,
+        {
+          "first": 9
+        }
+      ],
+      [
+        722,
+        {
+          "business": 58
+        }
+      ],
+      [
+        720,
+        {
+          "premiumEconomy": 24
+        }
+      ],
+      [
+        724,
+        {
+          "first": 11
+        }
+      ],
+      [
+        722,
+        {
+          "business": 21
+        }
+      ],
+      [
+        720,
+        {
+          "premiumEconomy": 7
+        }
+      ],
+      [
+        724,
+        {
+          "first": 1
+        }
+      ],
+      [
+        722,
+        {
+          "business": 25
+        }
+      ],
+      [
+        720,
+        {
+          "premiumEconomy": 20
+        }
+      ],
+      [
+        725,
+        {
+          "first": 1
+        }
+      ],
+      [
+        723,
+        {
+          "business": 22
+        }
+      ],
+      [
+        721,
+        {
+          "premiumEconomy": 4
+        }
+      ],
+      [
+        725,
+        {
+          "first": 4
+        }
+      ],
+      [
+        723,
+        {
+          "business": 13
+        }
+      ],
+      [
+        721,
+        {
+          "premiumEconomy": 14
+        }
+      ],
+      [
+        720,
+        {
+          "economy": 111
+        }
+      ],
+      [
+        725,
+        {
+          "first": 2
+        }
+      ],
+      [
+        723,
+        {
+          "business": 21
+        }
+      ],
+      [
+        721,
+        {
+          "premiumEconomy": 24
+        }
+      ],
+      [
+        720,
+        {
+          "economy": 86
+        }
+      ],
+      [
+        725,
+        {
+          "first": 7
+        }
+      ],
+      [
+        723,
+        {
+          "business": 23
+        }
+      ],
+      [
+        721,
+        {
+          "premiumEconomy": 20
+        }
+      ],
+      [
+        720,
+        {
+          "economy": 70
+        }
+      ],
+      [
+        725,
+        {
+          "first": 3
+        }
+      ],
+      [
+        723,
+        {
+          "business": 30
+        }
+      ],
+      [
+        721,
+        {
+          "premiumEconomy": 13
+        }
+      ],
+      [
+        720,
+        {
+          "economy": 156
+        }
+      ],
+      [
+        725,
+        {
+          "first": 4
+        }
+      ],
+      [
+        723,
+        {
+          "business": 19
+        }
+      ],
+      [
+        721,
+        {
+          "premiumEconomy": 14
+        }
+      ],
+      [
+        720,
+        {
+          "economy": 34
+        }
+      ],
+      [
+        723,
+        {
+          "business": 28
+        }
+      ],
+      [
+        721,
+        {
+          "premiumEconomy": 7
+        }
+      ],
+      [
+        720,
+        {
+          "economy": 118
+        }
+      ],
+      [
+        723,
+        {
+          "business": 38
+        }
+      ],
+      [
+        721,
+        {
+          "premiumEconomy": 11
+        }
+      ],
+      [
+        720,
+        {
+          "economy": 324
+        }
+      ],
+      [
+        725,
+        {
+          "first": 15
+        }
+      ],
+      [
+        723,
+        {
+          "business": 38
+        }
+      ],
+      [
+        721,
+        {
+          "premiumEconomy": 6
+        }
+      ],
+      [
+        720,
+        {
+          "economy": 46
+        }
+      ],
+      [
+        726,
+        {
+          "first": 6
+        }
+      ],
+      [
+        724,
+        {
+          "business": 38
+        }
+      ],
+      [
+        722,
+        {
+          "premiumEconomy": 9
+        }
+      ],
+      [
+        721,
+        {
+          "economy": 58
+        }
+      ],
+      [
+        726,
+        {
+          "first": 1
+        }
+      ],
+      [
+        724,
+        {
+          "business": 7
+        }
+      ],
+      [
+        722,
+        {
+          "premiumEconomy": 16
+        }
+      ],
+      [
+        721,
+        {
+          "economy": 32
+        }
+      ],
+      [
+        726,
+        {
+          "first": 4
+        }
+      ],
+      [
+        724,
+        {
+          "business": 15
+        }
+      ],
+      [
+        721,
+        {
+          "economy": 156
+        }
+      ],
+      [
+        726,
+        {
+          "first": 7
+        }
+      ],
+      [
+        724,
+        {
+          "business": 5
+        }
+      ],
+      [
+        722,
+        {
+          "premiumEconomy": 3
+        }
+      ],
+      [
+        721,
+        {
+          "economy": 27
+        }
+      ],
+      [
+        726,
+        {
+          "first": 4
+        }
+      ],
+      [
+        724,
+        {
+          "business": 23
+        }
+      ],
+      [
+        722,
+        {
+          "premiumEconomy": 10
+        }
+      ],
+      [
+        726,
+        {
+          "first": 12
+        }
+      ],
+      [
+        724,
+        {
+          "business": 3
+        }
+      ],
+      [
+        722,
+        {
+          "premiumEconomy": 26
+        }
+      ],
+      [
+        721,
+        {
+          "economy": 9
+        }
+      ],
+      [
+        726,
+        {
+          "first": 6
+        }
+      ],
+      [
+        724,
+        {
+          "business": 18
+        }
+      ],
+      [
+        722,
+        {
+          "premiumEconomy": 24
+        }
+      ],
+      [
+        726,
+        {
+          "first": 17
+        }
+      ],
+      [
+        724,
+        {
+          "business": 31
+        }
+      ],
+      [
+        722,
+        {
+          "premiumEconomy": 15
+        }
+      ],
+      [
+        724,
+        {
+          "business": 25
+        }
+      ],
+      [
+        722,
+        {
+          "premiumEconomy": 13
+        }
+      ],
+      [
+        721,
+        {
+          "economy": 32
+        }
+      ],
+      [
+        726,
+        {
+          "first": 6
+        }
+      ],
+      [
+        724,
+        {
+          "business": 24
+        }
+      ],
+      [
+        722,
+        {
+          "premiumEconomy": 14
+        }
+      ],
+      [
+        721,
+        {
+          "economy": 34
+        }
+      ],
+      [
+        726,
+        {
+          "first": 2
+        }
+      ],
+      [
+        724,
+        {
+          "business": 3
+        }
+      ],
+      [
+        722,
+        {
+          "premiumEconomy": 6
+        }
+      ],
+      [
+        721,
+        {
+          "economy": 15
+        }
+      ],
+      [
+        726,
+        {
+          "first": 12
+        }
+      ],
+      [
+        724,
+        {
+          "business": 21
+        }
+      ],
+      [
+        722,
+        {
+          "premiumEconomy": 18
+        }
+      ]
+    ]
+  },
+  "ZHVK": {
+    "currentCleanStock": {
+      "first": 186,
+      "business": 95,
+      "premiumEconomy": 129,
+      "economy": 639
+    },
+    "inProcess": [
+      [
+        733,
+        {
+          "first": 6
+        }
+      ]
+    ]
+  },
+  "WPUE": {
+    "currentCleanStock": {
+      "first": 164,
+      "business": 24,
+      "premiumEconomy": 336,
+      "economy": 92
+    },
+    "inProcess": [
+      [
+        723,
+        {
+          "first": 4
+        }
+      ],
+      [
+        722,
+        {
+          "business": 1
+        }
+      ],
+      [
+        728,
+        {
+          "first": 7
+        }
+      ],
+      [
+        727,
+        {
+          "business": 4
+        }
+      ],
+      [
+        747,
+        {
+          "first": 19
+        }
+      ],
+      [
+        746,
+        {
+          "business": 31
+        }
+      ],
+      [
+        735,
+        {
+          "premiumEconomy": 10
+        }
+      ],
+      [
+        750,
+        {
+          "first": 3
+        }
+      ],
+      [
+        749,
+        {
+          "business": 25
+        }
+      ],
+      [
+        738,
+        {
+          "premiumEconomy": 9
+        }
+      ]
+    ]
+  },
+  "UIVJ": {
+    "currentCleanStock": {
+      "first": 118,
+      "business": 256,
+      "premiumEconomy": 187,
+      "economy": 1154
+    },
+    "inProcess": [
+      [
+        725,
+        {
+          "first": 2
+        }
+      ],
+      [
+        746,
+        {
+          "first": 12
+        }
+      ],
+      [
+        749,
+        {
+          "first": 3
+        }
+      ]
+    ]
+  },
+  "EEUQ": {
+    "currentCleanStock": {
+      "first": 176,
+      "business": 288,
+      "premiumEconomy": 89,
+      "economy": 259
+    },
+    "inProcess": [
+      [
+        734,
+        {
+          "first": 4
+        }
+      ],
+      [
+        736,
+        {
+          "business": 4
+        }
+      ],
+      [
+        732,
+        {
+          "premiumEconomy": 9
+        }
+      ]
+    ]
+  },
+  "ZDQP": {
+    "currentCleanStock": {
+      "first": 92,
+      "business": 43,
+      "premiumEconomy": 107,
+      "economy": 550
+    },
+    "inProcess": [
+      [
+        721,
+        {
+          "first": 6
+        }
+      ],
+      [
+        745,
+        {
+          "first": 8
+        }
+      ],
+      [
+        726,
+        {
+          "business": 55
+        }
+      ]
+    ]
+  },
+  "KLZQ": {
+    "currentCleanStock": {
+      "first": 98,
+      "business": 108,
+      "premiumEconomy": 89,
+      "economy": 974
+    },
+    "inProcess": [
+      [
+        755,
+        {
+          "first": 5
+        }
+      ],
+      [
+        733,
+        {
+          "business": 1
+        }
+      ],
+      [
+        722,
+        {
+          "premiumEconomy": 10
+        }
+      ]
+    ]
+  },
+  "INFQ": {
+    "currentCleanStock": {
+      "first": 37,
+      "business": 0,
+      "premiumEconomy": 84,
+      "economy": 0
+    },
+    "inProcess": [
+      [
+        726,
+        {
+          "first": 4
+        }
+      ],
+      [
+        750,
+        {
+          "first": 1
+        }
+      ],
+      [
+        745,
+        {
+          "business": 29
+        }
+      ],
+      [
+        734,
+        {
+          "premiumEconomy": 3
+        }
+      ],
+      [
+        720,
+        {
+          "economy": 28
+        }
+      ],
+      [
+        750,
+        {
+          "business": 39
+        }
+      ],
+      [
+        739,
+        {
+          "premiumEconomy": 27
+        }
+      ],
+      [
+        725,
+        {
+          "economy": 168
+        }
+      ]
+    ]
+  },
+  "EIFH": {
+    "currentCleanStock": {
+      "first": 60,
+      "business": 115,
+      "premiumEconomy": 150,
+      "economy": 328
+    },
+    "inProcess": [
+      [
+        725,
+        {
+          "first": 20
+        }
+      ],
+      [
+        724,
+        {
+          "business": 63
+        }
+      ],
+      [
+        741,
+        {
+          "first": 3
+        }
+      ],
+      [
+        740,
+        {
+          "business": 5
+        }
+      ]
+    ]
+  },
+  "RRLB": {
+    "currentCleanStock": {
+      "first": 64,
+      "business": 37,
+      "premiumEconomy": 112,
+      "economy": 163
+    },
+    "inProcess": [
+      [
+        723,
+        {
+          "first": 6
+        }
+      ],
+      [
+        739,
+        {
+          "first": 1
+        }
+      ],
+      [
+        730,
+        {
+          "business": 55
+        }
+      ],
+      [
+        721,
+        {
+          "premiumEconomy": 6
+        }
+      ],
+      [
+        739,
+        {
+          "business": 57
+        }
+      ],
+      [
+        730,
+        {
+          "premiumEconomy": 21
+        }
+      ]
+    ]
+  },
+  "FQCG": {
+    "currentCleanStock": {
+      "first": 160,
+      "business": 421,
+      "premiumEconomy": 107,
+      "economy": 0
+    },
+    "inProcess": [
+      [
+        728,
+        {
+          "first": 8
+        }
+      ],
+      [
+        730,
+        {
+          "first": 2
+        }
+      ],
+      [
+        752,
+        {
+          "first": 7
+        }
+      ],
+      [
+        735,
+        {
+          "business": 25
+        }
+      ],
+      [
+        731,
+        {
+          "premiumEconomy": 1
+        }
+      ],
+      [
+        754,
+        {
+          "first": 2
+        }
+      ],
+      [
+        737,
+        {
+          "business": 1
+        }
+      ],
+      [
+        733,
+        {
+          "premiumEconomy": 2
+        }
+      ],
+      [
+        724,
+        {
+          "economy": 57
+        }
+      ]
+    ]
+  },
+  "ADXK": {
+    "currentCleanStock": {
+      "first": 179,
+      "business": 274,
+      "premiumEconomy": 68,
+      "economy": 716
+    },
+    "inProcess": [
+      [
+        728,
+        {
+          "business": 5
+        }
+      ],
+      [
+        727,
+        {
+          "premiumEconomy": 9
+        }
+      ]
+    ]
+  },
+  "QQYX": {
+    "currentCleanStock": {
+      "first": 187,
+      "business": 27,
+      "premiumEconomy": 0,
+      "economy": 0
+    },
+    "inProcess": [
+      [
+        722,
+        {
+          "first": 3
+        }
+      ],
+      [
+        726,
+        {
+          "first": 3
+        }
+      ],
+      [
+        747,
+        {
+          "first": 16
+        }
+      ],
+      [
+        735,
+        {
+          "business": 28
+        }
+      ],
+      [
+        722,
+        {
+          "premiumEconomy": 11
+        }
+      ],
+      [
+        750,
+        {
+          "first": 5
+        }
+      ],
+      [
+        738,
+        {
+          "business": 55
+        }
+      ],
+      [
+        725,
+        {
+          "premiumEconomy": 25
+        }
+      ]
+    ]
+  },
+  "USEF": {
+    "currentCleanStock": {
+      "first": 0,
+      "business": 17,
+      "premiumEconomy": 263,
+      "economy": 0
+    },
+    "inProcess": [
+      [
+        747,
+        {
+          "first": 2
+        }
+      ],
+      [
+        734,
+        {
+          "business": 28
+        }
+      ],
+      [
+        728,
+        {
+          "premiumEconomy": 16
+        }
+      ],
+      [
+        723,
+        {
+          "economy": 171
+        }
+      ],
+      [
+        748,
+        {
+          "first": 2
+        }
+      ],
+      [
+        735,
+        {
+          "business": 34
+        }
+      ],
+      [
+        729,
+        {
+          "premiumEconomy": 28
+        }
+      ]
+    ]
+  },
+  "OFRR": {
+    "currentCleanStock": {
+      "first": 136,
+      "business": 40,
+      "premiumEconomy": 162,
+      "economy": 493
+    },
+    "inProcess": [
+      [
+        730,
+        {
+          "first": 9
+        }
+      ],
+      [
+        733,
+        {
+          "first": 3
+        }
+      ],
+      [
+        754,
+        {
+          "first": 3
+        }
+      ],
+      [
+        740,
+        {
+          "business": 44
+        }
+      ],
+      [
+        727,
+        {
+          "premiumEconomy": 23
+        }
+      ],
+      [
+        757,
+        {
+          "first": 2
+        }
+      ],
+      [
+        743,
+        {
+          "business": 25
+        }
+      ],
+      [
+        730,
+        {
+          "premiumEconomy": 8
+        }
+      ]
+    ]
+  },
+  "OKVO": {
+    "currentCleanStock": {
+      "first": 193,
+      "business": 157,
+      "premiumEconomy": 51,
+      "economy": 11
+    },
+    "inProcess": [
+      [
+        728,
+        {
+          "first": 3
+        }
+      ],
+      [
+        760,
+        {
+          "first": 5
+        }
+      ],
+      [
+        745,
+        {
+          "business": 1
+        }
+      ],
+      [
+        733,
+        {
+          "premiumEconomy": 7
+        }
+      ]
+    ]
+  },
+  "UTYD": {
+    "currentCleanStock": {
+      "first": 94,
+      "business": 29,
+      "premiumEconomy": 144,
+      "economy": 180
+    },
+    "inProcess": [
+      [
+        748,
+        {
+          "first": 4
+        }
+      ],
+      [
+        727,
+        {
+          "business": 64
+        }
+      ],
+      [
+        723,
+        {
+          "premiumEconomy": 13
+        }
+      ]
+    ]
+  },
+  "OGMA": {
+    "currentCleanStock": {
+      "first": 151,
+      "business": 78,
+      "premiumEconomy": 91,
+      "economy": 1130
+    },
+    "inProcess": []
+  },
+  "ZGVH": {
+    "currentCleanStock": {
+      "first": 96,
+      "business": 116,
+      "premiumEconomy": 21,
+      "economy": 0
+    },
+    "inProcess": [
+      [
+        729,
+        {
+          "first": 3
+        }
+      ],
+      [
+        723,
+        {
+          "business": 8
+        }
+      ],
+      [
+        751,
+        {
+          "first": 8
+        }
+      ],
+      [
+        745,
+        {
+          "business": 53
+        }
+      ],
+      [
+        738,
+        {
+          "premiumEconomy": 13
+        }
+      ]
+    ]
+  },
+  "LYDC": {
+    "currentCleanStock": {
+      "first": 214,
+      "business": 207,
+      "premiumEconomy": 132,
+      "economy": 60
+    },
+    "inProcess": [
+      [
+        727,
+        {
+          "first": 11
+        }
+      ],
+      [
+        753,
+        {
+          "first": 3
+        }
+      ],
+      [
+        745,
+        {
+          "business": 4
+        }
+      ]
+    ]
+  },
+  "CJVM": {
+    "currentCleanStock": {
+      "first": 143,
+      "business": 107,
+      "premiumEconomy": 103,
+      "economy": 815
+    },
+    "inProcess": []
+  },
+  "WCKH": {
+    "currentCleanStock": {
+      "first": 57,
+      "business": 218,
+      "premiumEconomy": 57,
+      "economy": 1865
+    },
+    "inProcess": [
+      [
+        720,
+        {
+          "first": 1
+        }
+      ],
+      [
+        743,
+        {
+          "first": 6
+        }
+      ],
+      [
+        747,
+        {
+          "first": 4
+        }
+      ]
+    ]
+  },
+  "NMGU": {
+    "currentCleanStock": {
+      "first": 5,
+      "business": 25,
+      "premiumEconomy": 0,
+      "economy": 8
+    },
+    "inProcess": [
+      [
+        736,
+        {
+          "first": 1
+        }
+      ],
+      [
+        750,
+        {
+          "first": 10
+        }
+      ],
+      [
+        733,
+        {
+          "business": 42
+        }
+      ],
+      [
+        727,
+        {
+          "premiumEconomy": 1
+        }
+      ],
+      [
+        757,
+        {
+          "first": 1
+        }
+      ],
+      [
+        740,
+        {
+          "business": 67
+        }
+      ],
+      [
+        734,
+        {
+          "premiumEconomy": 6
+        }
+      ]
+    ]
+  },
+  "PEGV": {
+    "currentCleanStock": {
+      "first": 135,
+      "business": 61,
+      "premiumEconomy": 38,
+      "economy": 0
+    },
+    "inProcess": [
+      [
+        754,
+        {
+          "first": 6
+        }
+      ],
+      [
+        734,
+        {
+          "business": 32
+        }
+      ],
+      [
+        722,
+        {
+          "premiumEconomy": 20
+        }
+      ]
+    ]
+  },
+  "KUNB": {
+    "currentCleanStock": {
+      "first": 201,
+      "business": 294,
+      "premiumEconomy": 147,
+      "economy": 441
+    },
+    "inProcess": [
+      [
+        736,
+        {
+          "first": 6
+        }
+      ]
+    ]
+  },
+  "VVEV": {
+    "currentCleanStock": {
+      "first": 119,
+      "business": 213,
+      "premiumEconomy": 135,
+      "economy": 40
+    },
+    "inProcess": [
+      [
+        725,
+        {
+          "first": 2
+        }
+      ],
+      [
+        737,
+        {
+          "first": 2
+        }
+      ],
+      [
+        730,
+        {
+          "business": 30
+        }
+      ]
+    ]
+  },
+  "VXOT": {
+    "currentCleanStock": {
+      "first": 65,
+      "business": 101,
+      "premiumEconomy": 46,
+      "economy": 272
+    },
+    "inProcess": [
+      [
+        720,
+        {
+          "first": 3
+        }
+      ],
+      [
+        744,
+        {
+          "first": 5
+        }
+      ],
+      [
+        742,
+        {
+          "business": 27
+        }
+      ],
+      [
+        727,
+        {
+          "premiumEconomy": 1
+        }
+      ]
+    ]
+  },
+  "TEVN": {
+    "currentCleanStock": {
+      "first": 76,
+      "business": 264,
+      "premiumEconomy": 253,
+      "economy": 137
+    },
+    "inProcess": [
+      [
+        722,
+        {
+          "first": 7
+        }
+      ],
+      [
+        732,
+        {
+          "first": 3
+        }
+      ],
+      [
+        747,
+        {
+          "first": 5
+        }
+      ],
+      [
+        730,
+        {
+          "business": 32
+        }
+      ],
+      [
+        727,
+        {
+          "premiumEconomy": 9
+        }
+      ],
+      [
+        720,
+        {
+          "economy": 120
+        }
+      ]
+    ]
+  },
+  "AKAW": {
+    "currentCleanStock": {
+      "first": 79,
+      "business": 97,
+      "premiumEconomy": 172,
+      "economy": 761
+    },
+    "inProcess": [
+      [
+        725,
+        {
+          "business": 55
+        }
+      ],
+      [
+        753,
+        {
+          "first": 4
+        }
+      ],
+      [
+        751,
+        {
+          "business": 34
+        }
+      ],
+      [
+        739,
+        {
+          "premiumEconomy": 17
+        }
+      ]
+    ]
+  },
+  "XPAL": {
+    "currentCleanStock": {
+      "first": 205,
+      "business": 70,
+      "premiumEconomy": 277,
+      "economy": 392
+    },
+    "inProcess": [
+      [
+        727,
+        {
+          "first": 7
+        }
+      ],
+      [
+        764,
+        {
+          "first": 6
+        }
+      ],
+      [
+        742,
+        {
+          "business": 15
+        }
+      ],
+      [
+        733,
+        {
+          "premiumEconomy": 19
+        }
+      ],
+      [
+        725,
+        {
+          "economy": 79
+        }
+      ]
+    ]
+  },
+  "OCQQ": {
+    "currentCleanStock": {
+      "first": 167,
+      "business": 286,
+      "premiumEconomy": 39,
+      "economy": 0
+    },
+    "inProcess": [
+      [
+        728,
+        {
+          "first": 5
+        }
+      ],
+      [
+        726,
+        {
+          "business": 34
+        }
+      ]
+    ]
+  },
+  "GEJJ": {
+    "currentCleanStock": {
+      "first": 138,
+      "business": 423,
+      "premiumEconomy": 68,
+      "economy": 0
+    },
+    "inProcess": [
+      [
+        743,
+        {
+          "first": 5
+        }
+      ],
+      [
+        731,
+        {
+          "business": 7
+        }
+      ],
+      [
+        766,
+        {
+          "first": 14
+        }
+      ],
+      [
+        754,
+        {
+          "business": 62
+        }
+      ],
+      [
+        724,
+        {
+          "premiumEconomy": 21
+        }
+      ],
+      [
+        722,
+        {
+          "economy": 311
+        }
+      ],
+      [
+        767,
+        {
+          "first": 10
+        }
+      ],
+      [
+        755,
+        {
+          "business": 25
+        }
+      ],
+      [
+        725,
+        {
+          "premiumEconomy": 2
+        }
+      ]
+    ]
+  },
+  "COQL": {
+    "currentCleanStock": {
+      "first": 122,
+      "business": 204,
+      "premiumEconomy": 206,
+      "economy": 715
+    },
+    "inProcess": [
+      [
+        740,
+        {
+          "first": 3
+        }
+      ],
+      [
+        764,
+        {
+          "first": 4
+        }
+      ],
+      [
+        741,
+        {
+          "business": 29
+        }
+      ],
+      [
+        740,
+        {
+          "premiumEconomy": 11
+        }
+      ],
+      [
+        726,
+        {
+          "economy": 156
+        }
+      ],
+      [
+        764,
+        {
+          "first": 4
+        }
+      ],
+      [
+        741,
+        {
+          "business": 13
+        }
+      ],
+      [
+        740,
+        {
+          "premiumEconomy": 14
+        }
+      ]
+    ]
+  },
+  "DGMM": {
+    "currentCleanStock": {
+      "first": 168,
+      "business": 114,
+      "premiumEconomy": 166,
+      "economy": 249
+    },
+    "inProcess": []
+  },
+  "AESE": {
+    "currentCleanStock": {
+      "first": 171,
+      "business": 192,
+      "premiumEconomy": 95,
+      "economy": 111
+    },
+    "inProcess": []
+  },
+  "ZTWY": {
+    "currentCleanStock": {
+      "first": 121,
+      "business": 143,
+      "premiumEconomy": 120,
+      "economy": 397
+    },
+    "inProcess": [
+      [
+        721,
+        {
+          "first": 2
+        }
+      ],
+      [
+        745,
+        {
+          "first": 13
+        }
+      ],
+      [
+        727,
+        {
+          "business": 1
+        }
+      ],
+      [
+        724,
+        {
+          "premiumEconomy": 6
+        }
+      ],
+      [
+        751,
+        {
+          "first": 4
+        }
+      ],
+      [
+        733,
+        {
+          "business": 41
+        }
+      ],
+      [
+        730,
+        {
+          "premiumEconomy": 18
+        }
+      ]
+    ]
+  },
+  "TLQJ": {
+    "currentCleanStock": {
+      "first": 168,
+      "business": 34,
+      "premiumEconomy": 79,
+      "economy": 107
+    },
+    "inProcess": [
+      [
+        729,
+        {
+          "first": 5
+        }
+      ],
+      [
+        750,
+        {
+          "first": 18
+        }
+      ],
+      [
+        736,
+        {
+          "business": 1
+        }
+      ],
+      [
+        729,
+        {
+          "premiumEconomy": 16
+        }
+      ],
+      [
+        753,
+        {
+          "first": 7
+        }
+      ],
+      [
+        739,
+        {
+          "business": 35
+        }
+      ],
+      [
+        732,
+        {
+          "premiumEconomy": 21
+        }
+      ],
+      [
+        720,
+        {
+          "economy": 9
+        }
+      ]
+    ]
+  },
+  "AEGV": {
+    "currentCleanStock": {
+      "first": 76,
+      "business": 37,
+      "premiumEconomy": 137,
+      "economy": 1069
+    },
+    "inProcess": [
+      [
+        737,
+        {
+          "first": 3
+        }
+      ],
+      [
+        724,
+        {
+          "business": 22
+        }
+      ],
+      [
+        738,
+        {
+          "first": 4
+        }
+      ],
+      [
+        725,
+        {
+          "business": 33
+        }
+      ],
+      [
+        746,
+        {
+          "business": 40
+        }
+      ],
+      [
+        721,
+        {
+          "premiumEconomy": 21
+        }
+      ]
+    ]
+  },
+  "TKQI": {
+    "currentCleanStock": {
+      "first": 88,
+      "business": 74,
+      "premiumEconomy": 157,
+      "economy": 1082
+    },
+    "inProcess": [
+      [
+        728,
+        {
+          "first": 3
+        }
+      ],
+      [
+        750,
+        {
+          "first": 12
+        }
+      ],
+      [
+        734,
+        {
+          "business": 24
+        }
+      ],
+      [
+        752,
+        {
+          "first": 1
+        }
+      ]
+    ]
+  },
+  "AEAN": {
+    "currentCleanStock": {
+      "first": 129,
+      "business": 268,
+      "premiumEconomy": 168,
+      "economy": 697
+    },
+    "inProcess": [
+      [
+        729,
+        {
+          "first": 13
+        }
+      ],
+      [
+        746,
+        {
+          "first": 7
+        }
+      ],
+      [
+        735,
+        {
+          "business": 16
+        }
+      ],
+      [
+        725,
+        {
+          "premiumEconomy": 21
+        }
+      ]
+    ]
+  },
+  "ZWXK": {
+    "currentCleanStock": {
+      "first": 150,
+      "business": 153,
+      "premiumEconomy": 155,
+      "economy": 472
+    },
+    "inProcess": [
+      [
+        728,
+        {
+          "first": 7
+        }
+      ],
+      [
+        752,
+        {
+          "first": 6
+        }
+      ],
+      [
+        738,
+        {
+          "business": 24
+        }
+      ],
+      [
+        725,
+        {
+          "premiumEconomy": 17
+        }
+      ],
+      [
+        762,
+        {
+          "first": 3
+        }
+      ],
+      [
+        748,
+        {
+          "business": 33
+        }
+      ],
+      [
+        735,
+        {
+          "premiumEconomy": 18
+        }
+      ],
+      [
+        721,
+        {
+          "economy": 58
+        }
+      ]
+    ]
+  },
+  "JWYZ": {
+    "currentCleanStock": {
+      "first": 183,
+      "business": 135,
+      "premiumEconomy": 17,
+      "economy": 222
+    },
+    "inProcess": [
+      [
+        727,
+        {
+          "business": 48
+        }
+      ],
+      [
+        740,
+        {
+          "first": 2
+        }
+      ],
+      [
+        730,
+        {
+          "business": 25
+        }
+      ],
+      [
+        720,
+        {
+          "premiumEconomy": 1
+        }
+      ],
+      [
+        761,
+        {
+          "first": 3
+        }
+      ],
+      [
+        751,
+        {
+          "business": 41
+        }
+      ],
+      [
+        741,
+        {
+          "premiumEconomy": 10
+        }
+      ]
+    ]
+  },
+  "MZDU": {
+    "currentCleanStock": {
+      "first": 185,
+      "business": 190,
+      "premiumEconomy": 85,
+      "economy": 0
+    },
+    "inProcess": [
+      [
+        728,
+        {
+          "first": 18
+        }
+      ],
+      [
+        723,
+        {
+          "business": 43
+        }
+      ],
+      [
+        729,
+        {
+          "first": 7
+        }
+      ],
+      [
+        724,
+        {
+          "business": 18
+        }
+      ],
+      [
+        752,
+        {
+          "first": 4
+        }
+      ],
+      [
+        747,
+        {
+          "business": 30
+        }
+      ],
+      [
+        727,
+        {
+          "premiumEconomy": 7
+        }
+      ],
+      [
+        720,
+        {
+          "economy": 56
+        }
+      ],
+      [
+        753,
+        {
+          "first": 19
+        }
+      ],
+      [
+        748,
+        {
+          "business": 22
+        }
+      ],
+      [
+        728,
+        {
+          "premiumEconomy": 4
+        }
+      ],
+      [
+        721,
+        {
+          "economy": 17
+        }
+      ]
+    ]
+  },
+  "JFCW": {
+    "currentCleanStock": {
+      "first": 99,
+      "business": 275,
+      "premiumEconomy": 109,
+      "economy": 785
+    },
+    "inProcess": [
+      [
+        723,
+        {
+          "first": 17
+        }
+      ],
+      [
+        726,
+        {
+          "first": 5
+        }
+      ],
+      [
+        748,
+        {
+          "first": 17
+        }
+      ],
+      [
+        726,
+        {
+          "business": 54
+        }
+      ],
+      [
+        724,
+        {
+          "premiumEconomy": 2
+        }
+      ]
+    ]
+  },
+  "HJPR": {
+    "currentCleanStock": {
+      "first": 165,
+      "business": 295,
+      "premiumEconomy": 204,
+      "economy": 555
+    },
+    "inProcess": [
+      [
+        732,
+        {
+          "first": 1
+        }
+      ],
+      [
+        751,
+        {
+          "first": 4
+        }
+      ],
+      [
+        732,
+        {
+          "business": 1
+        }
+      ]
+    ]
+  },
+  "VWLL": {
+    "currentCleanStock": {
+      "first": 90,
+      "business": 137,
+      "premiumEconomy": 11,
+      "economy": 506
+    },
+    "inProcess": [
+      [
+        728,
+        {
+          "first": 4
+        }
+      ],
+      [
+        726,
+        {
+          "business": 1
+        }
+      ],
+      [
+        720,
+        {
+          "premiumEconomy": 4
+        }
+      ]
+    ]
+  },
+  "XYWK": {
+    "currentCleanStock": {
+      "first": 99,
+      "business": 153,
+      "premiumEconomy": 124,
+      "economy": 0
+    },
+    "inProcess": [
+      [
+        739,
+        {
+          "first": 15
+        }
+      ],
+      [
+        763,
+        {
+          "first": 6
+        }
+      ],
+      [
+        749,
+        {
+          "business": 6
+        }
+      ],
+      [
+        741,
+        {
+          "premiumEconomy": 31
+        }
+      ],
+      [
+        721,
+        {
+          "economy": 225
+        }
+      ]
+    ]
+  },
+  "QWNX": {
+    "currentCleanStock": {
+      "first": 245,
+      "business": 364,
+      "premiumEconomy": 207,
+      "economy": 1363
+    },
+    "inProcess": []
+  },
+  "NSCL": {
+    "currentCleanStock": {
+      "first": 179,
+      "business": 92,
+      "premiumEconomy": 75,
+      "economy": 84
+    },
+    "inProcess": [
+      [
+        749,
+        {
+          "first": 3
+        }
+      ],
+      [
+        739,
+        {
+          "business": 7
+        }
+      ]
+    ]
+  },
+  "GXHG": {
+    "currentCleanStock": {
+      "first": 163,
+      "business": 92,
+      "premiumEconomy": 276,
+      "economy": 298
+    },
+    "inProcess": [
+      [
+        720,
+        {
+          "first": 4
+        }
+      ],
+      [
+        731,
+        {
+          "first": 2
+        }
+      ],
+      [
+        720,
+        {
+          "business": 21
+        }
+      ],
+      [
+        744,
+        {
+          "first": 5
+        }
+      ],
+      [
+        733,
+        {
+          "business": 28
+        }
+      ]
+    ]
+  },
+  "SANT": {
+    "currentCleanStock": {
+      "first": 150,
+      "business": 58,
+      "premiumEconomy": 116,
+      "economy": 59
+    },
+    "inProcess": [
+      [
+        755,
+        {
+          "first": 1
+        }
+      ],
+      [
+        740,
+        {
+          "business": 17
+        }
+      ]
+    ]
+  },
+  "EUEC": {
+    "currentCleanStock": {
+      "first": 155,
+      "business": 323,
+      "premiumEconomy": 46,
+      "economy": 207
+    },
+    "inProcess": [
+      [
+        730,
+        {
+          "first": 1
+        }
+      ],
+      [
+        747,
+        {
+          "first": 4
+        }
+      ],
+      [
+        721,
+        {
+          "business": 3
+        }
+      ],
+      [
+        754,
+        {
+          "first": 4
+        }
+      ],
+      [
+        728,
+        {
+          "business": 30
+        }
+      ],
+      [
+        722,
+        {
+          "premiumEconomy": 17
+        }
+      ]
+    ]
+  },
+  "ATYF": {
+    "currentCleanStock": {
+      "first": 192,
+      "business": 47,
+      "premiumEconomy": 149,
+      "economy": 205
+    },
+    "inProcess": []
+  },
+  "LZLB": {
+    "currentCleanStock": {
+      "first": 108,
+      "business": 104,
+      "premiumEconomy": 149,
+      "economy": 1321
+    },
+    "inProcess": [
+      [
+        736,
+        {
+          "first": 1
+        }
+      ],
+      [
+        732,
+        {
+          "business": 18
+        }
+      ],
+      [
+        722,
+        {
+          "premiumEconomy": 17
+        }
+      ],
+      [
+        744,
+        {
+          "first": 5
+        }
+      ],
+      [
+        740,
+        {
+          "business": 10
+        }
+      ],
+      [
+        730,
+        {
+          "premiumEconomy": 7
+        }
+      ]
+    ]
+  },
+  "EBQM": {
+    "currentCleanStock": {
+      "first": 170,
+      "business": 300,
+      "premiumEconomy": 134,
+      "economy": 115
+    },
+    "inProcess": []
+  },
+  "NGSN": {
+    "currentCleanStock": {
+      "first": 111,
+      "business": 177,
+      "premiumEconomy": 145,
+      "economy": 441
+    },
+    "inProcess": [
+      [
+        720,
+        {
+          "first": 10
+        }
+      ],
+      [
+        723,
+        {
+          "first": 2
+        }
+      ],
+      [
+        747,
+        {
+          "first": 6
+        }
+      ],
+      [
+        742,
+        {
+          "business": 21
+        }
+      ]
+    ]
+  },
+  "XGJQ": {
+    "currentCleanStock": {
+      "first": 252,
+      "business": 287,
+      "premiumEconomy": 98,
+      "economy": 0
+    },
+    "inProcess": [
+      [
+        741,
+        {
+          "first": 5
+        }
+      ],
+      [
+        740,
+        {
+          "business": 22
+        }
+      ],
+      [
+        737,
+        {
+          "premiumEconomy": 19
+        }
+      ]
+    ]
+  },
+  "MWVR": {
+    "currentCleanStock": {
+      "first": 155,
+      "business": 100,
+      "premiumEconomy": 97,
+      "economy": 0
+    },
+    "inProcess": [
+      [
+        721,
+        {
+          "first": 4
+        }
+      ],
+      [
+        745,
+        {
+          "first": 19
+        }
+      ],
+      [
+        736,
+        {
+          "business": 63
+        }
+      ],
+      [
+        732,
+        {
+          "premiumEconomy": 6
+        }
+      ]
+    ]
+  },
+  "LZJN": {
+    "currentCleanStock": {
+      "first": 128,
+      "business": 161,
+      "premiumEconomy": 103,
+      "economy": 303
+    },
+    "inProcess": []
+  },
+  "FMNF": {
+    "currentCleanStock": {
+      "first": 125,
+      "business": 125,
+      "premiumEconomy": 5,
+      "economy": 0
+    },
+    "inProcess": [
+      [
+        736,
+        {
+          "first": 1
+        }
+      ],
+      [
+        722,
+        {
+          "business": 51
+        }
+      ],
+      [
+        739,
+        {
+          "first": 9
+        }
+      ],
+      [
+        760,
+        {
+          "first": 4
+        }
+      ],
+      [
+        746,
+        {
+          "business": 12
+        }
+      ],
+      [
+        729,
+        {
+          "premiumEconomy": 31
+        }
+      ],
+      [
+        723,
+        {
+          "economy": 203
+        }
+      ],
+      [
+        763,
+        {
+          "first": 2
+        }
+      ],
+      [
+        732,
+        {
+          "premiumEconomy": 13
+        }
+      ]
+    ]
+  },
+  "BYDH": {
+    "currentCleanStock": {
+      "first": 150,
+      "business": 81,
+      "premiumEconomy": 198,
+      "economy": 117
+    },
+    "inProcess": [
+      [
+        732,
+        {
+          "first": 7
+        }
+      ],
+      [
+        742,
+        {
+          "first": 17
+        }
+      ],
+      [
+        722,
+        {
+          "premiumEconomy": 23
+        }
+      ],
+      [
+        756,
+        {
+          "first": 1
+        }
+      ],
+      [
+        739,
+        {
+          "business": 27
+        }
+      ],
+      [
+        736,
+        {
+          "premiumEconomy": 4
+        }
+      ]
+    ]
+  },
+  "JQQS": {
+    "currentCleanStock": {
+      "first": 104,
+      "business": 176,
+      "premiumEconomy": 110,
+      "economy": 632
+    },
+    "inProcess": [
+      [
+        732,
+        {
+          "first": 1
+        }
+      ],
+      [
+        731,
+        {
+          "business": 26
+        }
+      ],
+      [
+        736,
+        {
+          "first": 6
+        }
+      ],
+      [
+        735,
+        {
+          "business": 45
+        }
+      ]
+    ]
+  },
+  "ZJDI": {
+    "currentCleanStock": {
+      "first": 50,
+      "business": 113,
+      "premiumEconomy": 133,
+      "economy": 18
+    },
+    "inProcess": [
+      [
+        726,
+        {
+          "first": 3
+        }
+      ],
+      [
+        724,
+        {
+          "business": 18
+        }
+      ],
+      [
+        749,
+        {
+          "first": 9
+        }
+      ],
+      [
+        747,
+        {
+          "business": 20
+        }
+      ],
+      [
+        734,
+        {
+          "premiumEconomy": 1
+        }
+      ],
+      [
+        720,
+        {
+          "economy": 112
+        }
+      ]
+    ]
+  },
+  "XPOT": {
+    "currentCleanStock": {
+      "first": 55,
+      "business": 0,
+      "premiumEconomy": 103,
+      "economy": 344
+    },
+    "inProcess": [
+      [
+        735,
+        {
+          "first": 6
+        }
+      ],
+      [
+        733,
+        {
+          "business": 41
+        }
+      ],
+      [
+        721,
+        {
+          "premiumEconomy": 16
+        }
+      ],
+      [
+        736,
+        {
+          "first": 5
+        }
+      ],
+      [
+        734,
+        {
+          "business": 33
+        }
+      ],
+      [
+        722,
+        {
+          "premiumEconomy": 10
+        }
+      ]
+    ]
+  },
+  "IVHE": {
+    "currentCleanStock": {
+      "first": 222,
+      "business": 888,
+      "premiumEconomy": 437,
+      "economy": 2517
+    },
+    "inProcess": [
+      [
+        727,
+        {
+          "first": 13
+        }
+      ],
+      [
+        725,
+        {
+          "business": 15
+        }
+      ],
+      [
+        730,
+        {
+          "business": 12
+        }
+      ]
+    ]
+  },
+  "LQSW": {
+    "currentCleanStock": {
+      "first": 111,
+      "business": 78,
+      "premiumEconomy": 0,
+      "economy": 171
+    },
+    "inProcess": [
+      [
+        734,
+        {
+          "first": 10
+        }
+      ],
+      [
+        729,
+        {
+          "business": 42
+        }
+      ],
+      [
+        724,
+        {
+          "premiumEconomy": 6
+        }
+      ]
+    ]
+  },
+  "RIIZ": {
+    "currentCleanStock": {
+      "first": 86,
+      "business": 56,
+      "premiumEconomy": 18,
+      "economy": 128
+    },
+    "inProcess": []
+  },
+  "ETLI": {
+    "currentCleanStock": {
+      "first": 151,
+      "business": 42,
+      "premiumEconomy": 79,
+      "economy": 180
+    },
+    "inProcess": [
+      [
+        731,
+        {
+          "first": 13
+        }
+      ],
+      [
+        726,
+        {
+          "business": 14
+        }
+      ]
+    ]
+  },
+  "IMAQ": {
+    "currentCleanStock": {
+      "first": 135,
+      "business": 27,
+      "premiumEconomy": 97,
+      "economy": 0
+    },
+    "inProcess": [
+      [
+        728,
+        {
+          "first": 8
+        }
+      ],
+      [
+        726,
+        {
+          "business": 26
+        }
+      ],
+      [
+        755,
+        {
+          "first": 7
+        }
+      ],
+      [
+        753,
+        {
+          "business": 41
+        }
+      ],
+      [
+        725,
+        {
+          "premiumEconomy": 6
+        }
+      ]
+    ]
+  },
+  "ILTW": {
+    "currentCleanStock": {
+      "first": 182,
+      "business": 89,
+      "premiumEconomy": 197,
+      "economy": 145
+    },
+    "inProcess": [
+      [
+        720,
+        {
+          "first": 4
+        }
+      ],
+      [
+        743,
+        {
+          "first": 5
+        }
+      ],
+      [
+        739,
+        {
+          "business": 21
+        }
+      ]
+    ]
+  },
+  "ABWR": {
+    "currentCleanStock": {
+      "first": 138,
+      "business": 0,
+      "premiumEconomy": 40,
+      "economy": 62
+    },
+    "inProcess": [
+      [
+        737,
+        {
+          "first": 1
+        }
+      ],
+      [
+        720,
+        {
+          "business": 14
+        }
+      ]
+    ]
+  },
+  "OCOZ": {
+    "currentCleanStock": {
+      "first": 75,
+      "business": 103,
+      "premiumEconomy": 142,
+      "economy": 630
+    },
+    "inProcess": [
+      [
+        720,
+        {
+          "first": 2
+        }
+      ]
+    ]
+  },
+  "LGZL": {
+    "currentCleanStock": {
+      "first": 114,
+      "business": 79,
+      "premiumEconomy": 153,
+      "economy": 872
+    },
+    "inProcess": [
+      [
+        743,
+        {
+          "first": 4
+        }
+      ]
+    ]
+  },
+  "POIH": {
+    "currentCleanStock": {
+      "first": 101,
+      "business": 274,
+      "premiumEconomy": 139,
+      "economy": 196
+    },
+    "inProcess": [
+      [
+        722,
+        {
+          "first": 18
+        }
+      ],
+      [
+        746,
+        {
+          "first": 7
+        }
+      ]
+    ]
+  },
+  "PWLW": {
+    "currentCleanStock": {
+      "first": 104,
+      "business": 87,
+      "premiumEconomy": 117,
+      "economy": 1093
+    },
+    "inProcess": [
+      [
+        752,
+        {
+          "first": 2
+        }
+      ]
+    ]
+  },
+  "GKCD": {
+    "currentCleanStock": {
+      "first": 95,
+      "business": 234,
+      "premiumEconomy": 62,
+      "economy": 649
+    },
+    "inProcess": [
+      [
+        732,
+        {
+          "first": 4
+        }
+      ],
+      [
+        756,
+        {
+          "first": 3
+        }
+      ],
+      [
+        740,
+        {
+          "business": 14
+        }
+      ]
+    ]
+  },
+  "IITZ": {
+    "currentCleanStock": {
+      "first": 164,
+      "business": 150,
+      "premiumEconomy": 129,
+      "economy": 347
+    },
+    "inProcess": [
+      [
+        738,
+        {
+          "first": 2
+        }
+      ],
+      [
+        725,
+        {
+          "business": 13
+        }
+      ],
+      [
+        762,
+        {
+          "first": 7
+        }
+      ],
+      [
+        749,
+        {
+          "business": 29
+        }
+      ],
+      [
+        737,
+        {
+          "premiumEconomy": 30
+        }
+      ]
+    ]
+  },
+  "ATAV": {
+    "currentCleanStock": {
+      "first": 143,
+      "business": 306,
+      "premiumEconomy": 141,
+      "economy": 642
+    },
+    "inProcess": []
+  },
+  "PBUN": {
+    "currentCleanStock": {
+      "first": 167,
+      "business": 324,
+      "premiumEconomy": 190,
+      "economy": 0
+    },
+    "inProcess": [
+      [
+        733,
+        {
+          "first": 16
+        }
+      ],
+      [
+        754,
+        {
+          "first": 5
+        }
+      ],
+      [
+        738,
+        {
+          "business": 18
+        }
+      ],
+      [
+        720,
+        {
+          "economy": 74
+        }
+      ]
+    ]
+  },
+  "ELUD": {
+    "currentCleanStock": {
+      "first": 125,
+      "business": 142,
+      "premiumEconomy": 148,
+      "economy": 0
+    },
+    "inProcess": [
+      [
+        732,
+        {
+          "first": 12
+        }
+      ]
+    ]
+  },
+  "UWXR": {
+    "currentCleanStock": {
+      "first": 130,
+      "business": 134,
+      "premiumEconomy": 153,
+      "economy": 241
+    },
+    "inProcess": []
+  },
+  "XPTP": {
+    "currentCleanStock": {
+      "first": 143,
+      "business": 25,
+      "premiumEconomy": 48,
+      "economy": 260
+    },
+    "inProcess": []
+  },
+  "ELGK": {
+    "currentCleanStock": {
+      "first": 116,
+      "business": 18,
+      "premiumEconomy": 204,
+      "economy": 1016
+    },
+    "inProcess": [
+      [
+        721,
+        {
+          "first": 3
+        }
+      ],
+      [
+        745,
+        {
+          "first": 3
+        }
+      ],
+      [
+        728,
+        {
+          "business": 33
+        }
+      ],
+      [
+        721,
+        {
+          "premiumEconomy": 10
+        }
+      ]
+    ]
+  },
+  "GCHL": {
+    "currentCleanStock": {
+      "first": 132,
+      "business": 79,
+      "premiumEconomy": 103,
+      "economy": 52
+    },
+    "inProcess": [
+      [
+        720,
+        {
+          "first": 14
+        }
+      ],
+      [
+        743,
+        {
+          "first": 7
+        }
+      ],
+      [
+        732,
+        {
+          "business": 53
+        }
+      ]
+    ]
+  },
+  "QUWU": {
+    "currentCleanStock": {
+      "first": 108,
+      "business": 185,
+      "premiumEconomy": 90,
+      "economy": 555
+    },
+    "inProcess": [
+      [
+        746,
+        {
+          "first": 1
+        }
+      ],
+      [
+        738,
+        {
+          "business": 32
+        }
+      ],
+      [
+        728,
+        {
+          "premiumEconomy": 7
+        }
+      ]
+    ]
+  },
+  "MRIG": {
+    "currentCleanStock": {
+      "first": 92,
+      "business": 80,
+      "premiumEconomy": 140,
+      "economy": 488
+    },
+    "inProcess": [
+      [
+        724,
+        {
+          "first": 4
+        }
+      ],
+      [
+        721,
+        {
+          "business": 19
+        }
+      ]
+    ]
+  },
+  "CTKN": {
+    "currentCleanStock": {
+      "first": 115,
+      "business": 142,
+      "premiumEconomy": 89,
+      "economy": 60
+    },
+    "inProcess": [
+      [
+        744,
+        {
+          "first": 3
+        }
+      ],
+      [
+        728,
+        {
+          "business": 13
+        }
+      ]
+    ]
+  },
+  "EBYA": {
+    "currentCleanStock": {
+      "first": 160,
+      "business": 20,
+      "premiumEconomy": 2,
+      "economy": 9
+    },
+    "inProcess": [
+      [
+        720,
+        {
+          "first": 2
+        }
+      ],
+      [
+        744,
+        {
+          "first": 2
+        }
+      ],
+      [
+        737,
+        {
+          "business": 28
+        }
+      ],
+      [
+        726,
+        {
+          "premiumEconomy": 15
+        }
+      ]
+    ]
+  },
+  "ANFP": {
+    "currentCleanStock": {
+      "first": 79,
+      "business": 78,
+      "premiumEconomy": 139,
+      "economy": 466
+    },
+    "inProcess": [
+      [
+        726,
+        {
+          "first": 18
+        }
+      ]
+    ]
+  },
+  "UDXI": {
+    "currentCleanStock": {
+      "first": 104,
+      "business": 63,
+      "premiumEconomy": 148,
+      "economy": 50
+    },
+    "inProcess": [
+      [
+        730,
+        {
+          "first": 1
+        }
+      ],
+      [
+        754,
+        {
+          "first": 6
+        }
+      ],
+      [
+        726,
+        {
+          "business": 32
+        }
+      ],
+      [
+        720,
+        {
+          "premiumEconomy": 27
+        }
+      ]
+    ]
+  },
+  "YCDO": {
+    "currentCleanStock": {
+      "first": 134,
+      "business": 104,
+      "premiumEconomy": 128,
+      "economy": 63
+    },
+    "inProcess": [
+      [
+        732,
+        {
+          "first": 1
+        }
+      ],
+      [
+        722,
+        {
+          "business": 22
+        }
+      ],
+      [
+        756,
+        {
+          "first": 1
+        }
+      ],
+      [
+        738,
+        {
+          "premiumEconomy": 11
+        }
+      ],
+      [
+        720,
+        {
+          "economy": 67
+        }
+      ]
+    ]
+  },
+  "PIGM": {
+    "currentCleanStock": {
+      "first": 168,
+      "business": 102,
+      "premiumEconomy": 113,
+      "economy": 332
+    },
+    "inProcess": [
+      [
+        720,
+        {
+          "first": 3
+        }
+      ]
+    ]
+  },
+  "CLLM": {
+    "currentCleanStock": {
+      "first": 18,
+      "business": 182,
+      "premiumEconomy": 85,
+      "economy": 245
+    },
+    "inProcess": [
+      [
+        723,
+        {
+          "first": 7
+        }
+      ],
+      [
+        747,
+        {
+          "first": 13
+        }
+      ],
+      [
+        734,
+        {
+          "business": 49
+        }
+      ],
+      [
+        720,
+        {
+          "premiumEconomy": 22
+        }
+      ]
+    ]
+  },
+  "HIHT": {
+    "currentCleanStock": {
+      "first": 112,
+      "business": 252,
+      "premiumEconomy": 100,
+      "economy": 467
+    },
+    "inProcess": []
+  },
+  "ZBKQ": {
+    "currentCleanStock": {
+      "first": 169,
+      "business": 195,
+      "premiumEconomy": 180,
+      "economy": 208
+    },
+    "inProcess": [
+      [
+        733,
+        {
+          "business": 3
+        }
+      ],
+      [
+        724,
+        {
+          "premiumEconomy": 16
+        }
+      ]
+    ]
+  },
+  "RJZH": {
+    "currentCleanStock": {
+      "first": 147,
+      "business": 292,
+      "premiumEconomy": 42,
+      "economy": 111
+    },
+    "inProcess": [
+      [
+        725,
+        {
+          "first": 2
+        }
+      ],
+      [
+        720,
+        {
+          "business": 11
+        }
+      ],
+      [
+        749,
+        {
+          "first": 7
+        }
+      ],
+      [
+        744,
+        {
+          "business": 13
+        }
+      ]
+    ]
+  },
+  "MYTG": {
+    "currentCleanStock": {
+      "first": 95,
+      "business": 98,
+      "premiumEconomy": 94,
+      "economy": 688
+    },
+    "inProcess": []
+  },
+  "AVUY": {
+    "currentCleanStock": {
+      "first": 99,
+      "business": 204,
+      "premiumEconomy": 114,
+      "economy": 308
+    },
+    "inProcess": [
+      [
+        760,
+        {
+          "first": 2
+        }
+      ],
+      [
+        738,
+        {
+          "business": 3
+        }
+      ],
+      [
+        726,
+        {
+          "premiumEconomy": 8
+        }
+      ]
+    ]
+  },
+  "FDVP": {
+    "currentCleanStock": {
+      "first": 150,
+      "business": 210,
+      "premiumEconomy": 160,
+      "economy": 947
+    },
+    "inProcess": []
+  },
+  "SCIA": {
+    "currentCleanStock": {
+      "first": 168,
+      "business": 192,
+      "premiumEconomy": 87,
+      "economy": 252
+    },
+    "inProcess": []
+  },
+  "YNQC": {
+    "currentCleanStock": {
+      "first": 151,
+      "business": 90,
+      "premiumEconomy": 31,
+      "economy": 35
+    },
+    "inProcess": [
+      [
+        736,
+        {
+          "first": 9
+        }
+      ],
+      [
+        733,
+        {
+          "business": 16
+        }
+      ]
+    ]
+  },
+  "OEXV": {
+    "currentCleanStock": {
+      "first": 189,
+      "business": 52,
+      "premiumEconomy": 113,
+      "economy": 333
+    },
+    "inProcess": [
+      [
+        722,
+        {
+          "business": 29
+        }
+      ],
+      [
+        746,
+        {
+          "first": 7
+        }
+      ],
+      [
+        744,
+        {
+          "business": 36
+        }
+      ],
+      [
+        724,
+        {
+          "premiumEconomy": 19
+        }
+      ]
+    ]
+  },
+  "OJFQ": {
+    "currentCleanStock": {
+      "first": 113,
+      "business": 28,
+      "premiumEconomy": 84,
+      "economy": 499
+    },
+    "inProcess": []
+  },
+  "QJEI": {
+    "currentCleanStock": {
+      "first": 140,
+      "business": 54,
+      "premiumEconomy": 149,
+      "economy": 147
+    },
+    "inProcess": [
+      [
+        752,
+        {
+          "first": 6
+        }
+      ],
+      [
+        744,
+        {
+          "business": 20
+        }
+      ],
+      [
+        736,
+        {
+          "premiumEconomy": 2
+        }
+      ]
+    ]
+  },
+  "VAPJ": {
+    "currentCleanStock": {
+      "first": 131,
+      "business": 128,
+      "premiumEconomy": 100,
+      "economy": 79
+    },
+    "inProcess": [
+      [
+        727,
+        {
+          "first": 2
+        }
+      ]
+    ]
+  },
+  "SWCP": {
+    "currentCleanStock": {
+      "first": 126,
+      "business": 141,
+      "premiumEconomy": 101,
+      "economy": 0
+    },
+    "inProcess": [
+      [
+        745,
+        {
+          "first": 6
+        }
+      ],
+      [
+        731,
+        {
+          "business": 20
+        }
+      ],
+      [
+        728,
+        {
+          "premiumEconomy": 11
+        }
+      ],
+      [
+        723,
+        {
+          "economy": 146
+        }
+      ]
+    ]
+  },
+  "OTII": {
+    "currentCleanStock": {
+      "first": 110,
+      "business": 129,
+      "premiumEconomy": 146,
+      "economy": 700
+    },
+    "inProcess": [
+      [
+        745,
+        {
+          "first": 11
+        }
+      ],
+      [
+        744,
+        {
+          "business": 60
+        }
+      ],
+      [
+        733,
+        {
+          "premiumEconomy": 17
+        }
+      ]
+    ]
+  },
+  "HVIR": {
+    "currentCleanStock": {
+      "first": 76,
+      "business": 169,
+      "premiumEconomy": 116,
+      "economy": 57
+    },
+    "inProcess": [
+      [
+        746,
+        {
+          "first": 7
+        }
+      ],
+      [
+        725,
+        {
+          "business": 32
+        }
+      ]
+    ]
+  },
+  "LYCB": {
+    "currentCleanStock": {
+      "first": 86,
+      "business": 41,
+      "premiumEconomy": 68,
+      "economy": 402
+    },
+    "inProcess": [
+      [
+        721,
+        {
+          "first": 5
+        }
+      ],
+      [
+        745,
+        {
+          "first": 7
+        }
+      ],
+      [
+        731,
+        {
+          "business": 41
+        }
+      ]
+    ]
+  },
+  "MSFJ": {
+    "currentCleanStock": {
+      "first": 158,
+      "business": 77,
+      "premiumEconomy": 84,
+      "economy": 95
+    },
+    "inProcess": []
+  },
+  "KLOO": {
+    "currentCleanStock": {
+      "first": 118,
+      "business": 185,
+      "premiumEconomy": 146,
+      "economy": 597
+    },
+    "inProcess": [
+      [
+        725,
+        {
+          "first": 2
+        }
+      ],
+      [
+        749,
+        {
+          "first": 4
+        }
+      ],
+      [
+        723,
+        {
+          "business": 38
+        }
+      ]
+    ]
+  },
+  "VEGZ": {
+    "currentCleanStock": {
+      "first": 161,
+      "business": 133,
+      "premiumEconomy": 108,
+      "economy": 0
+    },
+    "inProcess": []
+  },
+  "PAJF": {
+    "currentCleanStock": {
+      "first": 133,
+      "business": 70,
+      "premiumEconomy": 27,
+      "economy": 0
+    },
+    "inProcess": [
+      [
+        730,
+        {
+          "premiumEconomy": 22
+        }
+      ],
+      [
+        725,
+        {
+          "economy": 88
+        }
+      ]
+    ]
+  },
+  "CWHC": {
+    "currentCleanStock": {
+      "first": 145,
+      "business": 130,
+      "premiumEconomy": 88,
+      "economy": 0
+    },
+    "inProcess": [
+      [
+        738,
+        {
+          "first": 13
+        }
+      ],
+      [
+        763,
+        {
+          "first": 2
+        }
+      ],
+      [
+        739,
+        {
+          "business": 24
+        }
+      ],
+      [
+        728,
+        {
+          "premiumEconomy": 3
+        }
+      ]
+    ]
+  },
+  "HVYO": {
+    "currentCleanStock": {
+      "first": 115,
+      "business": 182,
+      "premiumEconomy": 138,
+      "economy": 0
+    },
+    "inProcess": [
+      [
+        730,
+        {
+          "first": 7
+        }
+      ],
+      [
+        721,
+        {
+          "business": 3
+        }
+      ],
+      [
+        754,
+        {
+          "first": 1
+        }
+      ],
+      [
+        745,
+        {
+          "business": 14
+        }
+      ]
+    ]
+  },
+  "WRAY": {
+    "currentCleanStock": {
+      "first": 108,
+      "business": 21,
+      "premiumEconomy": 150,
+      "economy": 388
+    },
+    "inProcess": [
+      [
+        720,
+        {
+          "first": 3
+        }
+      ],
+      [
+        747,
+        {
+          "first": 7
+        }
+      ],
+      [
+        734,
+        {
+          "business": 33
+        }
+      ],
+      [
+        720,
+        {
+          "premiumEconomy": 19
+        }
+      ]
+    ]
+  },
+  "WWPG": {
+    "currentCleanStock": {
+      "first": 116,
+      "business": 36,
+      "premiumEconomy": 129,
+      "economy": 79
+    },
+    "inProcess": [
+      [
+        743,
+        {
+          "first": 19
+        }
+      ],
+      [
+        733,
+        {
+          "business": 19
+        }
+      ],
+      [
+        731,
+        {
+          "premiumEconomy": 11
+        }
+      ]
+    ]
+  },
+  "SCTT": {
+    "currentCleanStock": {
+      "first": 55,
+      "business": 262,
+      "premiumEconomy": 126,
+      "economy": 987
+    },
+    "inProcess": [
+      [
+        729,
+        {
+          "first": 2
+        }
+      ],
+      [
+        753,
+        {
+          "first": 8
+        }
+      ],
+      [
+        731,
+        {
+          "business": 6
+        }
+      ],
+      [
+        728,
+        {
+          "premiumEconomy": 21
+        }
+      ]
+    ]
+  },
+  "ERNI": {
+    "currentCleanStock": {
+      "first": 125,
+      "business": 32,
+      "premiumEconomy": 91,
+      "economy": 94
+    },
+    "inProcess": [
+      [
+        723,
+        {
+          "first": 2
+        }
+      ],
+      [
+        720,
+        {
+          "business": 10
+        }
+      ],
+      [
+        747,
+        {
+          "first": 3
+        }
+      ],
+      [
+        744,
+        {
+          "business": 22
+        }
+      ],
+      [
+        737,
+        {
+          "premiumEconomy": 12
+        }
+      ],
+      [
+        723,
+        {
+          "economy": 335
+        }
+      ]
+    ]
+  },
+  "UYGT": {
+    "currentCleanStock": {
+      "first": 132,
+      "business": 68,
+      "premiumEconomy": 6,
+      "economy": 135
+    },
+    "inProcess": [
+      [
+        739,
+        {
+          "first": 20
+        }
+      ],
+      [
+        736,
+        {
+          "business": 45
+        }
+      ],
+      [
+        732,
+        {
+          "premiumEconomy": 22
+        }
+      ],
+      [
+        724,
+        {
+          "economy": 33
+        }
+      ]
+    ]
+  },
+  "XKQY": {
+    "currentCleanStock": {
+      "first": 135,
+      "business": 89,
+      "premiumEconomy": 54,
+      "economy": 401
+    },
+    "inProcess": [
+      [
+        750,
+        {
+          "first": 3
+        }
+      ],
+      [
+        738,
+        {
+          "business": 14
+        }
+      ],
+      [
+        731,
+        {
+          "premiumEconomy": 7
+        }
+      ],
+      [
+        723,
+        {
+          "economy": 85
+        }
+      ]
+    ]
+  },
+  "IKVT": {
+    "currentCleanStock": {
+      "first": 108,
+      "business": 129,
+      "premiumEconomy": 213,
+      "economy": 0
+    },
+    "inProcess": [
+      [
+        730,
+        {
+          "first": 5
+        }
+      ],
+      [
+        722,
+        {
+          "business": 30
+        }
+      ],
+      [
+        753,
+        {
+          "first": 2
+        }
+      ],
+      [
+        745,
+        {
+          "business": 24
+        }
+      ],
+      [
+        728,
+        {
+          "premiumEconomy": 10
+        }
+      ]
+    ]
+  },
+  "ALOK": {
+    "currentCleanStock": {
+      "first": 103,
+      "business": 31,
+      "premiumEconomy": 191,
+      "economy": 0
+    },
+    "inProcess": [
+      [
+        735,
+        {
+          "first": 13
+        }
+      ],
+      [
+        726,
+        {
+          "business": 20
+        }
+      ],
+      [
+        759,
+        {
+          "first": 2
+        }
+      ],
+      [
+        750,
+        {
+          "business": 43
+        }
+      ],
+      [
+        732,
+        {
+          "premiumEconomy": 12
+        }
+      ]
+    ]
+  },
+  "KRPW": {
+    "currentCleanStock": {
+      "first": 142,
+      "business": 158,
+      "premiumEconomy": 238,
+      "economy": 507
+    },
+    "inProcess": [
+      [
+        746,
+        {
+          "first": 6
+        }
+      ],
+      [
+        737,
+        {
+          "business": 9
+        }
+      ],
+      [
+        724,
+        {
+          "premiumEconomy": 23
+        }
+      ]
+    ]
+  },
+  "FESI": {
+    "currentCleanStock": {
+      "first": 163,
+      "business": 147,
+      "premiumEconomy": 49,
+      "economy": 325
+    },
+    "inProcess": [
+      [
+        722,
+        {
+          "first": 4
+        }
+      ]
+    ]
+  },
+  "FDFW": {
+    "currentCleanStock": {
+      "first": 98,
+      "business": 205,
+      "premiumEconomy": 15,
+      "economy": 452
+    },
+    "inProcess": [
+      [
+        738,
+        {
+          "first": 3
+        }
+      ],
+      [
+        737,
+        {
+          "business": 30
+        }
+      ],
+      [
+        733,
+        {
+          "premiumEconomy": 2
+        }
+      ]
+    ]
+  },
+  "MSKP": {
+    "currentCleanStock": {
+      "first": 173,
+      "business": 310,
+      "premiumEconomy": 140,
+      "economy": 319
+    },
+    "inProcess": [
+      [
+        721,
+        {
+          "first": 16
+        }
+      ],
+      [
+        745,
+        {
+          "first": 6
+        }
+      ],
+      [
+        738,
+        {
+          "business": 40
+        }
+      ],
+      [
+        720,
+        {
+          "premiumEconomy": 31
+        }
+      ]
+    ]
+  },
+  "RXUW": {
+    "currentCleanStock": {
+      "first": 154,
+      "business": 208,
+      "premiumEconomy": 122,
+      "economy": 818
+    },
+    "inProcess": []
+  },
+  "QFWG": {
+    "currentCleanStock": {
+      "first": 174,
+      "business": 147,
+      "premiumEconomy": 137,
+      "economy": 459
+    },
+    "inProcess": []
+  },
+  "NTDB": {
+    "currentCleanStock": {
+      "first": 102,
+      "business": 142,
+      "premiumEconomy": 179,
+      "economy": 0
+    },
+    "inProcess": [
+      [
+        756,
+        {
+          "first": 20
+        }
+      ],
+      [
+        752,
+        {
+          "business": 6
+        }
+      ],
+      [
+        732,
+        {
+          "premiumEconomy": 3
+        }
+      ],
+      [
+        722,
+        {
+          "economy": 75
+        }
+      ]
+    ]
+  },
+  "HHTP": {
+    "currentCleanStock": {
+      "first": 178,
+      "business": 245,
+      "premiumEconomy": 185,
+      "economy": 95
+    },
+    "inProcess": []
+  },
+  "GQMP": {
+    "currentCleanStock": {
+      "first": 104,
+      "business": 238,
+      "premiumEconomy": 127,
+      "economy": 0
+    },
+    "inProcess": [
+      [
+        720,
+        {
+          "first": 4
+        }
+      ],
+      [
+        742,
+        {
+          "first": 7
+        }
+      ],
+      [
+        766,
+        {
+          "first": 4
+        }
+      ],
+      [
+        751,
+        {
+          "business": 17
+        }
+      ],
+      [
+        740,
+        {
+          "premiumEconomy": 10
+        }
+      ],
+      [
+        725,
+        {
+          "economy": 302
+        }
+      ]
+    ]
+  },
+  "RBDJ": {
+    "currentCleanStock": {
+      "first": 153,
+      "business": 205,
+      "premiumEconomy": 10,
+      "economy": 211
+    },
+    "inProcess": [
+      [
+        728,
+        {
+          "first": 1
+        }
+      ],
+      [
+        753,
+        {
+          "first": 12
+        }
+      ],
+      [
+        723,
+        {
+          "business": 12
+        }
+      ],
+      [
+        722,
+        {
+          "premiumEconomy": 9
+        }
+      ]
+    ]
+  },
+  "PYVC": {
+    "currentCleanStock": {
+      "first": 150,
+      "business": 129,
+      "premiumEconomy": 122,
+      "economy": 0
+    },
+    "inProcess": [
+      [
+        724,
+        {
+          "first": 9
+        }
+      ],
+      [
+        751,
+        {
+          "first": 1
+        }
+      ],
+      [
+        736,
+        {
+          "business": 12
+        }
+      ],
+      [
+        724,
+        {
+          "premiumEconomy": 9
+        }
+      ]
+    ]
+  },
+  "OOKR": {
+    "currentCleanStock": {
+      "first": 95,
+      "business": 46,
+      "premiumEconomy": 21,
+      "economy": 791
+    },
+    "inProcess": [
+      [
+        745,
+        {
+          "first": 5
+        }
+      ],
+      [
+        732,
+        {
+          "business": 33
+        }
+      ],
+      [
+        729,
+        {
+          "premiumEconomy": 8
+        }
+      ]
+    ]
+  },
+  "VCYF": {
+    "currentCleanStock": {
+      "first": 145,
+      "business": 8,
+      "premiumEconomy": 128,
+      "economy": 0
+    },
+    "inProcess": [
+      [
+        742,
+        {
+          "first": 2
+        }
+      ],
+      [
+        741,
+        {
+          "business": 36
+        }
+      ],
+      [
+        726,
+        {
+          "premiumEconomy": 13
+        }
+      ]
+    ]
+  },
+  "KRCW": {
+    "currentCleanStock": {
+      "first": 141,
+      "business": 175,
+      "premiumEconomy": 158,
+      "economy": 0
+    },
+    "inProcess": []
+  },
+  "TROX": {
+    "currentCleanStock": {
+      "first": 161,
+      "business": 180,
+      "premiumEconomy": 22,
+      "economy": 118
+    },
+    "inProcess": []
+  },
+  "MDOE": {
+    "currentCleanStock": {
+      "first": 136,
+      "business": 110,
+      "premiumEconomy": 119,
+      "economy": 77
+    },
+    "inProcess": [
+      [
+        737,
+        {
+          "first": 4
+        }
+      ],
+      [
+        721,
+        {
+          "business": 8
+        }
+      ]
+    ]
+  },
+  "IYXF": {
+    "currentCleanStock": {
+      "first": 141,
+      "business": 167,
+      "premiumEconomy": 50,
+      "economy": 126
+    },
+    "inProcess": [
+      [
+        745,
+        {
+          "first": 20
+        }
+      ],
+      [
+        728,
+        {
+          "business": 34
+        }
+      ],
+      [
+        723,
+        {
+          "premiumEconomy": 20
+        }
+      ]
+    ]
+  },
+  "OONX": {
+    "currentCleanStock": {
+      "first": 174,
+      "business": 249,
+      "premiumEconomy": 145,
+      "economy": 1036
+    },
+    "inProcess": [
+      [
+        721,
+        {
+          "first": 11
+        }
+      ],
+      [
+        743,
+        {
+          "first": 16
+        }
+      ],
+      [
+        731,
+        {
+          "business": 25
+        }
+      ],
+      [
+        728,
+        {
+          "premiumEconomy": 25
+        }
+      ]
+    ]
+  },
+  "FSWN": {
+    "currentCleanStock": {
+      "first": 182,
+      "business": 82,
+      "premiumEconomy": 230,
+      "economy": 597
+    },
+    "inProcess": [
+      [
+        729,
+        {
+          "first": 2
+        }
+      ],
+      [
+        752,
+        {
+          "first": 4
+        }
+      ],
+      [
+        740,
+        {
+          "business": 23
+        }
+      ],
+      [
+        728,
+        {
+          "premiumEconomy": 15
+        }
+      ]
+    ]
+  },
+  "RTSU": {
+    "currentCleanStock": {
+      "first": 115,
+      "business": 92,
+      "premiumEconomy": 107,
+      "economy": 157
+    },
+    "inProcess": [
+      [
+        734,
+        {
+          "business": 14
+        }
+      ],
+      [
+        723,
+        {
+          "premiumEconomy": 10
+        }
+      ]
+    ]
+  },
+  "FEHM": {
+    "currentCleanStock": {
+      "first": 0,
+      "business": 121,
+      "premiumEconomy": 104,
+      "economy": 0
+    },
+    "inProcess": [
+      [
+        728,
+        {
+          "first": 1
+        }
+      ],
+      [
+        727,
+        {
+          "business": 47
+        }
+      ],
+      [
+        752,
+        {
+          "first": 15
+        }
+      ],
+      [
+        751,
+        {
+          "business": 46
+        }
+      ],
+      [
+        743,
+        {
+          "premiumEconomy": 19
+        }
+      ],
+      [
+        724,
+        {
+          "economy": 100
+        }
+      ]
+    ]
+  },
+  "KPCB": {
+    "currentCleanStock": {
+      "first": 179,
+      "business": 155,
+      "premiumEconomy": 122,
+      "economy": 0
+    },
+    "inProcess": [
+      [
+        729,
+        {
+          "first": 7
+        }
+      ],
+      [
+        722,
+        {
+          "business": 41
+        }
+      ],
+      [
+        748,
+        {
+          "business": 20
+        }
+      ],
+      [
+        726,
+        {
+          "premiumEconomy": 12
+        }
+      ]
+    ]
+  },
+  "EGLJ": {
+    "currentCleanStock": {
+      "first": 127,
+      "business": 214,
+      "premiumEconomy": 46,
+      "economy": 459
+    },
+    "inProcess": [
+      [
+        738,
+        {
+          "first": 2
+        }
+      ]
+    ]
+  },
+  "QPLO": {
+    "currentCleanStock": {
+      "first": 96,
+      "business": 188,
+      "premiumEconomy": 76,
+      "economy": 967
+    },
+    "inProcess": [
+      [
+        727,
+        {
+          "first": 5
+        }
+      ],
+      [
+        749,
+        {
+          "first": 5
+        }
+      ],
+      [
+        739,
+        {
+          "business": 25
+        }
+      ],
+      [
+        728,
+        {
+          "premiumEconomy": 31
+        }
+      ]
+    ]
+  },
+  "MSZK": {
+    "currentCleanStock": {
+      "first": 152,
+      "business": 36,
+      "premiumEconomy": 43,
+      "economy": 72
+    },
+    "inProcess": [
+      [
+        722,
+        {
+          "first": 3
+        }
+      ],
+      [
+        749,
+        {
+          "first": 2
+        }
+      ],
+      [
+        745,
+        {
+          "business": 37
+        }
+      ],
+      [
+        726,
+        {
+          "premiumEconomy": 4
+        }
+      ]
+    ]
+  },
+  "CPAT": {
+    "currentCleanStock": {
+      "first": 156,
+      "business": 131,
+      "premiumEconomy": 94,
+      "economy": 0
+    },
+    "inProcess": [
+      [
+        738,
+        {
+          "first": 11
+        }
+      ],
+      [
+        732,
+        {
+          "business": 40
+        }
+      ],
+      [
+        728,
+        {
+          "premiumEconomy": 23
+        }
+      ]
+    ]
+  },
+  "CFHZ": {
+    "currentCleanStock": {
+      "first": 166,
+      "business": 185,
+      "premiumEconomy": 81,
+      "economy": 778
+    },
+    "inProcess": []
+  },
+  "DPRM": {
+    "currentCleanStock": {
+      "first": 69,
+      "business": 31,
+      "premiumEconomy": 95,
+      "economy": 0
+    },
+    "inProcess": []
+  },
+  "WTGV": {
+    "currentCleanStock": {
+      "first": 122,
+      "business": 191,
+      "premiumEconomy": 25,
+      "economy": 691
+    },
+    "inProcess": []
+  },
+  "PJLP": {
+    "currentCleanStock": {
+      "first": 137,
+      "business": 34,
+      "premiumEconomy": 161,
+      "economy": 164
+    },
+    "inProcess": []
+  },
+  "ROCB": {
+    "currentCleanStock": {
+      "first": 22,
+      "business": 175,
+      "premiumEconomy": 109,
+      "economy": 0
+    },
+    "inProcess": [
+      [
+        748,
+        {
+          "first": 7
+        }
+      ],
+      [
+        747,
+        {
+          "business": 11
+        }
+      ],
+      [
+        728,
+        {
+          "premiumEconomy": 19
+        }
+      ],
+      [
+        721,
+        {
+          "economy": 67
+        }
+      ]
+    ]
+  },
+  "NKTP": {
+    "currentCleanStock": {
+      "first": 136,
+      "business": 151,
+      "premiumEconomy": 61,
+      "economy": 322
+    },
+    "inProcess": [
+      [
+        733,
+        {
+          "first": 5
+        }
+      ]
+    ]
+  },
+  "DYKR": {
+    "currentCleanStock": {
+      "first": 197,
+      "business": 165,
+      "premiumEconomy": 153,
+      "economy": 2
+    },
+    "inProcess": [
+      [
+        732,
+        {
+          "first": 1
+        }
+      ],
+      [
+        758,
+        {
+          "first": 4
+        }
+      ],
+      [
+        727,
+        {
+          "business": 13
+        }
+      ],
+      [
+        726,
+        {
+          "premiumEconomy": 14
+        }
+      ],
+      [
+        720,
+        {
+          "economy": 132
+        }
+      ]
+    ]
+  },
+  "NVKF": {
+    "currentCleanStock": {
+      "first": 175,
+      "business": 24,
+      "premiumEconomy": 96,
+      "economy": 68
+    },
+    "inProcess": [
+      [
+        765,
+        {
+          "first": 3
+        }
+      ],
+      [
+        742,
+        {
+          "premiumEconomy": 7
+        }
+      ],
+      [
+        722,
+        {
+          "economy": 97
+        }
+      ]
+    ]
+  },
+  "NUQO": {
+    "currentCleanStock": {
+      "first": 84,
+      "business": 15,
+      "premiumEconomy": 133,
+      "economy": 0
+    },
+    "inProcess": [
+      [
+        738,
+        {
+          "first": 19
+        }
+      ],
+      [
+        762,
+        {
+          "first": 6
+        }
+      ],
+      [
+        737,
+        {
+          "business": 3
+        }
+      ],
+      [
+        731,
+        {
+          "premiumEconomy": 4
+        }
+      ]
+    ]
+  },
+  "LEJP": {
+    "currentCleanStock": {
+      "first": 84,
+      "business": 261,
+      "premiumEconomy": 125,
+      "economy": 0
+    },
+    "inProcess": [
+      [
+        760,
+        {
+          "first": 7
+        }
+      ],
+      [
+        736,
+        {
+          "business": 24
+        }
+      ],
+      [
+        735,
+        {
+          "premiumEconomy": 10
+        }
+      ]
+    ]
+  },
+  "YCCY": {
+    "currentCleanStock": {
+      "first": 57,
+      "business": 93,
+      "premiumEconomy": 103,
+      "economy": 71
+    },
+    "inProcess": [
+      [
+        728,
+        {
+          "first": 2
+        }
+      ],
+      [
+        754,
+        {
+          "first": 4
+        }
+      ],
+      [
+        733,
+        {
+          "business": 41
+        }
+      ],
+      [
+        722,
+        {
+          "premiumEconomy": 10
+        }
+      ]
+    ]
+  },
+  "DHXR": {
+    "currentCleanStock": {
+      "first": 96,
+      "business": 11,
+      "premiumEconomy": 48,
+      "economy": 0
+    },
+    "inProcess": [
+      [
+        724,
+        {
+          "first": 4
+        }
+      ]
+    ]
+  }
+}

@@ -1,0 +1,3261 @@
+{
+  "day": 0,
+  "hour": 13,
+  "flightLoads": [
+    {
+      "flightId": "63a2022d-a90f-40fc-8c29-cad16627ae78",
+      "loadedKits": {
+        "first": 20,
+        "business": 0,
+        "premiumEconomy": 34,
+        "economy": 287
+      }
+    },
+    {
+      "flightId": "1180a5f0-b3de-474b-9f4d-bcd579bc3dc6",
+      "loadedKits": {
+        "first": 6,
+        "business": 62,
+        "premiumEconomy": 13,
+        "economy": 102
+      }
+    },
+    {
+      "flightId": "291cb2af-9dfb-4f9b-88a4-36b6227b0d1a",
+      "loadedKits": {
+        "first": 12,
+        "business": 29,
+        "premiumEconomy": 18,
+        "economy": 260
+      }
+    },
+    {
+      "flightId": "7e7fba6f-dd29-4855-a305-049826fcabeb",
+      "loadedKits": {
+        "first": 2,
+        "business": 49,
+        "premiumEconomy": 10,
+        "economy": 93
+      }
+    },
+    {
+      "flightId": "17105408-c9b4-43fe-98c1-33d8b27bc72f",
+      "loadedKits": {
+        "first": 2,
+        "business": 33,
+        "premiumEconomy": 10,
+        "economy": 24
+      }
+    },
+    {
+      "flightId": "b5bc9bbb-fb57-46ae-86ef-426b8f12a668",
+      "loadedKits": {
+        "first": 13,
+        "business": 25,
+        "premiumEconomy": 12,
+        "economy": 91
+      }
+    },
+    {
+      "flightId": "18e088f1-5214-46ff-8fa6-f72f410a2a16",
+      "loadedKits": {
+        "first": 1,
+        "business": 0,
+        "premiumEconomy": 12,
+        "economy": 61
+      }
+    },
+    {
+      "flightId": "541f39a5-18c1-41a8-8119-0881322f9d57",
+      "loadedKits": {
+        "first": 3,
+        "business": 4,
+        "premiumEconomy": 10,
+        "economy": 90
+      }
+    },
+    {
+      "flightId": "de939a2c-09ff-479c-bc97-84bd65279efe",
+      "loadedKits": {
+        "first": 1,
+        "business": 35,
+        "premiumEconomy": 7,
+        "economy": 156
+      }
+    },
+    {
+      "flightId": "f47126e2-3831-408a-be30-e2acc7c77f06",
+      "loadedKits": {
+        "first": 10,
+        "business": 0,
+        "premiumEconomy": 21,
+        "economy": 68
+      }
+    },
+    {
+      "flightId": "02aa880d-f9ee-4bdb-8fc0-09565538f7cb",
+      "loadedKits": {
+        "first": 9,
+        "business": 86,
+        "premiumEconomy": 5,
+        "economy": 58
+      }
+    },
+    {
+      "flightId": "e2130b93-f6b7-4960-b659-1d89a57e1289",
+      "loadedKits": {
+        "first": 3,
+        "business": 50,
+        "premiumEconomy": 13,
+        "economy": 143
+      }
+    },
+    {
+      "flightId": "0aac24ea-505d-49e7-8f56-3ffe65a9fff6",
+      "loadedKits": {
+        "first": 0,
+        "business": 67,
+        "premiumEconomy": 17,
+        "economy": 80
+      }
+    },
+    {
+      "flightId": "374e753f-7bee-46b1-8a34-e2f866d260d0",
+      "loadedKits": {
+        "first": 3,
+        "business": 52,
+        "premiumEconomy": 14,
+        "economy": 39
+      }
+    },
+    {
+      "flightId": "42f1d6d8-fcf4-47ff-9c1a-7b7563a045ff",
+      "loadedKits": {
+        "first": 6,
+        "business": 27,
+        "premiumEconomy": 0,
+        "economy": 39
+      }
+    },
+    {
+      "flightId": "e51f66bf-3fa1-4135-994e-e508f62f0d1b",
+      "loadedKits": {
+        "first": 7,
+        "business": 0,
+        "premiumEconomy": 8,
+        "economy": 1
+      }
+    },
+    {
+      "flightId": "6deb78e4-a075-437c-9f03-6500df084cdb",
+      "loadedKits": {
+        "first": 13,
+        "business": 0,
+        "premiumEconomy": 30,
+        "economy": 36
+      }
+    },
+    {
+      "flightId": "8f3598b9-a387-425b-be86-479ac310d6cb",
+      "loadedKits": {
+        "first": 1,
+        "business": 14,
+        "premiumEconomy": 0,
+        "economy": 37
+      }
+    },
+    {
+      "flightId": "89c93a1f-320c-44b2-b1dd-df3b69ab2bca",
+      "loadedKits": {
+        "first": 8,
+        "business": 23,
+        "premiumEconomy": 31,
+        "economy": 266
+      }
+    },
+    {
+      "flightId": "febfc147-9fd3-435c-b65c-3425ab7f2383",
+      "loadedKits": {
+        "first": 3,
+        "business": 14,
+        "premiumEconomy": 10,
+        "economy": 54
+      }
+    },
+    {
+      "flightId": "220e8612-8aab-4c88-bc7b-b02d2ef28703",
+      "loadedKits": {
+        "first": 0,
+        "business": 16,
+        "premiumEconomy": 0,
+        "economy": 8
+      }
+    },
+    {
+      "flightId": "cc675a0c-f4dc-4348-b4e1-69570c9c9b74",
+      "loadedKits": {
+        "first": 2,
+        "business": 43,
+        "premiumEconomy": 18,
+        "economy": 39
+      }
+    },
+    {
+      "flightId": "3bd6ae51-52ba-4fd4-b172-312ee7d079fc",
+      "loadedKits": {
+        "first": 5,
+        "business": 26,
+        "premiumEconomy": 4,
+        "economy": 74
+      }
+    },
+    {
+      "flightId": "a2239ae2-1115-4716-9574-59e464730e73",
+      "loadedKits": {
+        "first": 2,
+        "business": 24,
+        "premiumEconomy": 12,
+        "economy": 145
+      }
+    },
+    {
+      "flightId": "58946ca2-a81a-4311-a72c-5fda6bc596a3",
+      "loadedKits": {
+        "first": 1,
+        "business": 47,
+        "premiumEconomy": 3,
+        "economy": 48
+      }
+    },
+    {
+      "flightId": "70ae4115-50ba-48ce-86be-6e30fb1c5495",
+      "loadedKits": {
+        "first": 4,
+        "business": 20,
+        "premiumEconomy": 14,
+        "economy": 115
+      }
+    },
+    {
+      "flightId": "fa3cc3a6-0b6e-44af-9463-c49b311e61f5",
+      "loadedKits": {
+        "first": 19,
+        "business": 41,
+        "premiumEconomy": 13,
+        "economy": 44
+      }
+    },
+    {
+      "flightId": "1c276e0a-9841-4622-b731-0df20601ef7f",
+      "loadedKits": {
+        "first": 0,
+        "business": 5,
+        "premiumEconomy": 3,
+        "economy": 37
+      }
+    },
+    {
+      "flightId": "bd15f879-fa7b-43f3-924a-8d559c26eaad",
+      "loadedKits": {
+        "first": 1,
+        "business": 15,
+        "premiumEconomy": 3,
+        "economy": 111
+      }
+    },
+    {
+      "flightId": "dbfd6667-3c51-4b94-95f7-5126d2524063",
+      "loadedKits": {
+        "first": 1,
+        "business": 30,
+        "premiumEconomy": 22,
+        "economy": 91
+      }
+    },
+    {
+      "flightId": "96ee2efa-9f32-4640-bc14-8e7607ae1267",
+      "loadedKits": {
+        "first": 10,
+        "business": 38,
+        "premiumEconomy": 35,
+        "economy": 47
+      }
+    },
+    {
+      "flightId": "af3280b5-dd9a-4527-a9d3-3a2fab694923",
+      "loadedKits": {
+        "first": 13,
+        "business": 9,
+        "premiumEconomy": 19,
+        "economy": 25
+      }
+    },
+    {
+      "flightId": "86463ecd-af7a-492c-a5ef-96348ab19100",
+      "loadedKits": {
+        "first": 0,
+        "business": 38,
+        "premiumEconomy": 24,
+        "economy": 77
+      }
+    },
+    {
+      "flightId": "1ce01339-8993-4a12-866c-5c6e9540f4f2",
+      "loadedKits": {
+        "first": 4,
+        "business": 29,
+        "premiumEconomy": 15,
+        "economy": 96
+      }
+    },
+    {
+      "flightId": "89336950-b4d9-4419-ab4b-bf14a90dc030",
+      "loadedKits": {
+        "first": 5,
+        "business": 15,
+        "premiumEconomy": 28,
+        "economy": 82
+      }
+    },
+    {
+      "flightId": "b80246d6-d30c-4b95-a023-adb1d0a77256",
+      "loadedKits": {
+        "first": 3,
+        "business": 18,
+        "premiumEconomy": 14,
+        "economy": 207
+      }
+    },
+    {
+      "flightId": "627b1d91-9496-4e28-829a-44fc623bbf77",
+      "loadedKits": {
+        "first": 4,
+        "business": 19,
+        "premiumEconomy": 25,
+        "economy": 111
+      }
+    },
+    {
+      "flightId": "b5178138-7cd5-4ec4-8512-39023109d215",
+      "loadedKits": {
+        "first": 5,
+        "business": 0,
+        "premiumEconomy": 27,
+        "economy": 68
+      }
+    },
+    {
+      "flightId": "022cb45f-95e1-4caa-9039-86d1ca689389",
+      "loadedKits": {
+        "first": 1,
+        "business": 23,
+        "premiumEconomy": 6,
+        "economy": 100
+      }
+    },
+    {
+      "flightId": "5ffac4b9-5a5c-4cc5-9b85-9166b9eb579a",
+      "loadedKits": {
+        "first": 6,
+        "business": 0,
+        "premiumEconomy": 21,
+        "economy": 162
+      }
+    },
+    {
+      "flightId": "ac9d3622-6a80-47a6-8006-5392e8f94b36",
+      "loadedKits": {
+        "first": 20,
+        "business": 10,
+        "premiumEconomy": 4,
+        "economy": 122
+      }
+    },
+    {
+      "flightId": "e8cdcfdf-6923-437c-b48d-31c7e8d0e861",
+      "loadedKits": {
+        "first": 4,
+        "business": 24,
+        "premiumEconomy": 0,
+        "economy": 122
+      }
+    },
+    {
+      "flightId": "6ef040f0-ba25-45be-8e81-fcbc003acc6f",
+      "loadedKits": {
+        "first": 1,
+        "business": 5,
+        "premiumEconomy": 11,
+        "economy": 25
+      }
+    },
+    {
+      "flightId": "c6d86beb-439f-4547-8db6-98a49af9d010",
+      "loadedKits": {
+        "first": 2,
+        "business": 16,
+        "premiumEconomy": 2,
+        "economy": 87
+      }
+    },
+    {
+      "flightId": "7e8819bf-126a-475d-8f9d-b0a559f86d47",
+      "loadedKits": {
+        "first": 13,
+        "business": 22,
+        "premiumEconomy": 19,
+        "economy": 105
+      }
+    },
+    {
+      "flightId": "ee3b5503-43cc-4b81-871f-faf540ab9b83",
+      "loadedKits": {
+        "first": 14,
+        "business": 64,
+        "premiumEconomy": 19,
+        "economy": 104
+      }
+    },
+    {
+      "flightId": "bf2389c6-674c-4840-89bf-0f7f68bce68f",
+      "loadedKits": {
+        "first": 1,
+        "business": 21,
+        "premiumEconomy": 17,
+        "economy": 40
+      }
+    },
+    {
+      "flightId": "9828eb57-419f-4971-8a91-515fa41b83f5",
+      "loadedKits": {
+        "first": 2,
+        "business": 42,
+        "premiumEconomy": 38,
+        "economy": 66
+      }
+    },
+    {
+      "flightId": "45152847-c694-45a0-baeb-4cd97657a47b",
+      "loadedKits": {
+        "first": 10,
+        "business": 25,
+        "premiumEconomy": 0,
+        "economy": 94
+      }
+    },
+    {
+      "flightId": "10b62569-09ce-41c6-b97c-0829f9ce807f",
+      "loadedKits": {
+        "first": 10,
+        "business": 14,
+        "premiumEconomy": 0,
+        "economy": 100
+      }
+    },
+    {
+      "flightId": "a99925fc-e112-4d59-a3db-f3731b722463",
+      "loadedKits": {
+        "first": 4,
+        "business": 24,
+        "premiumEconomy": 0,
+        "economy": 37
+      }
+    },
+    {
+      "flightId": "b9e2b07e-409c-40f1-a7f4-40acc1ce741c",
+      "loadedKits": {
+        "first": 4,
+        "business": 24,
+        "premiumEconomy": 2,
+        "economy": 52
+      }
+    },
+    {
+      "flightId": "6d107dd0-6a3e-4597-a75a-800b516d8f89",
+      "loadedKits": {
+        "first": 1,
+        "business": 13,
+        "premiumEconomy": 0,
+        "economy": 155
+      }
+    },
+    {
+      "flightId": "621b6f5e-372a-473a-bd2b-2d2fcc7875b5",
+      "loadedKits": {
+        "first": 1,
+        "business": 8,
+        "premiumEconomy": 26,
+        "economy": 54
+      }
+    },
+    {
+      "flightId": "d1915949-c6de-47b8-82ce-529062caac96",
+      "loadedKits": {
+        "first": 1,
+        "business": 11,
+        "premiumEconomy": 0,
+        "economy": 71
+      }
+    },
+    {
+      "flightId": "d71a6faf-3763-477f-ac53-763836920382",
+      "loadedKits": {
+        "first": 10,
+        "business": 17,
+        "premiumEconomy": 6,
+        "economy": 217
+      }
+    },
+    {
+      "flightId": "4588fa18-7f33-4619-bda2-c938f7bc3b44",
+      "loadedKits": {
+        "first": 13,
+        "business": 20,
+        "premiumEconomy": 21,
+        "economy": 100
+      }
+    },
+    {
+      "flightId": "3a460df9-7f56-42aa-89bf-af34eddeaedf",
+      "loadedKits": {
+        "first": 11,
+        "business": 34,
+        "premiumEconomy": 2,
+        "economy": 136
+      }
+    },
+    {
+      "flightId": "7d58b291-c865-4a0f-ac0b-cc69b3f5744e",
+      "loadedKits": {
+        "first": 1,
+        "business": 34,
+        "premiumEconomy": 11,
+        "economy": 56
+      }
+    },
+    {
+      "flightId": "9713e5d9-e774-4521-97f2-5f41b25e54f6",
+      "loadedKits": {
+        "first": 6,
+        "business": 6,
+        "premiumEconomy": 26,
+        "economy": 137
+      }
+    },
+    {
+      "flightId": "303f621f-56c0-42ab-8d00-54b34c761c04",
+      "loadedKits": {
+        "first": 0,
+        "business": 12,
+        "premiumEconomy": 21,
+        "economy": 75
+      }
+    },
+    {
+      "flightId": "11019cb7-eafa-4053-9216-ab29f4739925",
+      "loadedKits": {
+        "first": 13,
+        "business": 25,
+        "premiumEconomy": 22,
+        "economy": 271
+      }
+    },
+    {
+      "flightId": "8e199529-a81e-44bf-8f63-b2183889bba8",
+      "loadedKits": {
+        "first": 6,
+        "business": 28,
+        "premiumEconomy": 22,
+        "economy": 62
+      }
+    },
+    {
+      "flightId": "17fe7dcd-ca88-4ed6-8ae0-5ee79c63a003",
+      "loadedKits": {
+        "first": 2,
+        "business": 12,
+        "premiumEconomy": 13,
+        "economy": 116
+      }
+    },
+    {
+      "flightId": "a872be06-5627-45e8-bcce-009d46bc1742",
+      "loadedKits": {
+        "first": 7,
+        "business": 10,
+        "premiumEconomy": 27,
+        "economy": 60
+      }
+    },
+    {
+      "flightId": "f0e0c679-73bb-44d9-afd3-5066fc9b7729",
+      "loadedKits": {
+        "first": 3,
+        "business": 18,
+        "premiumEconomy": 17,
+        "economy": 57
+      }
+    },
+    {
+      "flightId": "eeb7f5d2-c5e1-4f22-a0ff-cfa81fb58e89",
+      "loadedKits": {
+        "first": 4,
+        "business": 27,
+        "premiumEconomy": 17,
+        "economy": 74
+      }
+    },
+    {
+      "flightId": "8f9619fa-77f6-41f7-8035-d96232a0d0a1",
+      "loadedKits": {
+        "first": 0,
+        "business": 13,
+        "premiumEconomy": 4,
+        "economy": 42
+      }
+    },
+    {
+      "flightId": "ff4d238e-80de-4405-99be-893e5c5221d8",
+      "loadedKits": {
+        "first": 1,
+        "business": 25,
+        "premiumEconomy": 12,
+        "economy": 17
+      }
+    },
+    {
+      "flightId": "23aa28b2-260f-4e80-8384-f40899486539",
+      "loadedKits": {
+        "first": 7,
+        "business": 20,
+        "premiumEconomy": 9,
+        "economy": 68
+      }
+    },
+    {
+      "flightId": "b62f0196-ab29-4e36-b4eb-abe9796bbe8f",
+      "loadedKits": {
+        "first": 1,
+        "business": 34,
+        "premiumEconomy": 0,
+        "economy": 8
+      }
+    },
+    {
+      "flightId": "bd584d8a-0fa5-4f9a-9912-4d7d1867e626",
+      "loadedKits": {
+        "first": 0,
+        "business": 46,
+        "premiumEconomy": 24,
+        "economy": 32
+      }
+    },
+    {
+      "flightId": "4934d702-f09d-491e-b69c-f785a32e2b66",
+      "loadedKits": {
+        "first": 0,
+        "business": 20,
+        "premiumEconomy": 21,
+        "economy": 40
+      }
+    },
+    {
+      "flightId": "6e95d4dc-023e-40be-9ab5-1201751d44e0",
+      "loadedKits": {
+        "first": 5,
+        "business": 13,
+        "premiumEconomy": 10,
+        "economy": 259
+      }
+    },
+    {
+      "flightId": "de728531-2959-4d19-b755-5b8378414320",
+      "loadedKits": {
+        "first": 20,
+        "business": 28,
+        "premiumEconomy": 10,
+        "economy": 130
+      }
+    },
+    {
+      "flightId": "5b9d78ad-c7bd-4a96-bc98-1638f7221193",
+      "loadedKits": {
+        "first": 2,
+        "business": 20,
+        "premiumEconomy": 6,
+        "economy": 39
+      }
+    },
+    {
+      "flightId": "7e6f0020-6f3e-4dd3-ac3f-64f44a2c5dda",
+      "loadedKits": {
+        "first": 3,
+        "business": 15,
+        "premiumEconomy": 11,
+        "economy": 52
+      }
+    },
+    {
+      "flightId": "314e23a9-ec86-4a32-87d3-64a6876ba770",
+      "loadedKits": {
+        "first": 5,
+        "business": 0,
+        "premiumEconomy": 8,
+        "economy": 76
+      }
+    },
+    {
+      "flightId": "89fcffbd-7bb8-4cdb-9b67-7ce18eb82be7",
+      "loadedKits": {
+        "first": 0,
+        "business": 9,
+        "premiumEconomy": 2,
+        "economy": 82
+      }
+    },
+    {
+      "flightId": "22d8c499-6029-4ecb-9a99-38b6f083a9f1",
+      "loadedKits": {
+        "first": 3,
+        "business": 21,
+        "premiumEconomy": 18,
+        "economy": 135
+      }
+    },
+    {
+      "flightId": "446e25dc-e82b-4578-bb22-57043aa05626",
+      "loadedKits": {
+        "first": 1,
+        "business": 13,
+        "premiumEconomy": 8,
+        "economy": 69
+      }
+    },
+    {
+      "flightId": "d466dd61-37f7-44dd-8706-1a75caa5f4c4",
+      "loadedKits": {
+        "first": 11,
+        "business": 47,
+        "premiumEconomy": 24,
+        "economy": 54
+      }
+    },
+    {
+      "flightId": "b74e19b1-37d0-43c4-8162-28c2c4091394",
+      "loadedKits": {
+        "first": 2,
+        "business": 21,
+        "premiumEconomy": 21,
+        "economy": 116
+      }
+    },
+    {
+      "flightId": "cfa5d4ec-2573-4f35-9122-9c5345a384eb",
+      "loadedKits": {
+        "first": 0,
+        "business": 16,
+        "premiumEconomy": 6,
+        "economy": 149
+      }
+    },
+    {
+      "flightId": "a28775a6-61f8-4f93-af21-01e67a14e3bb",
+      "loadedKits": {
+        "first": 0,
+        "business": 13,
+        "premiumEconomy": 11,
+        "economy": 191
+      }
+    },
+    {
+      "flightId": "e6494009-4553-40b8-be04-edb3d0b1f270",
+      "loadedKits": {
+        "first": 2,
+        "business": 59,
+        "premiumEconomy": 8,
+        "economy": 35
+      }
+    },
+    {
+      "flightId": "3a1d64e6-b5c3-4a40-98a3-c0ecb2adde21",
+      "loadedKits": {
+        "first": 3,
+        "business": 6,
+        "premiumEconomy": 16,
+        "economy": 86
+      }
+    },
+    {
+      "flightId": "9e07ba4d-8651-4303-b2d5-cb4081fe1096",
+      "loadedKits": {
+        "first": 4,
+        "business": 2,
+        "premiumEconomy": 6,
+        "economy": 146
+      }
+    },
+    {
+      "flightId": "d01e2d54-096c-4723-9a8b-0db1645f196b",
+      "loadedKits": {
+        "first": 2,
+        "business": 11,
+        "premiumEconomy": 12,
+        "economy": 49
+      }
+    },
+    {
+      "flightId": "bc8e53a9-a049-401e-8cb2-8fdecebdf845",
+      "loadedKits": {
+        "first": 2,
+        "business": 18,
+        "premiumEconomy": 3,
+        "economy": 86
+      }
+    },
+    {
+      "flightId": "efe7206c-e1dc-476a-ae07-97462b24500c",
+      "loadedKits": {
+        "first": 2,
+        "business": 27,
+        "premiumEconomy": 0,
+        "economy": 27
+      }
+    },
+    {
+      "flightId": "ec7e855c-fa3d-4f08-b352-a9d8dcf7e5e8",
+      "loadedKits": {
+        "first": 5,
+        "business": 39,
+        "premiumEconomy": 1,
+        "economy": 109
+      }
+    },
+    {
+      "flightId": "e2cc7ee1-9fec-4403-9018-c727c113af45",
+      "loadedKits": {
+        "first": 13,
+        "business": 36,
+        "premiumEconomy": 0,
+        "economy": 213
+      }
+    },
+    {
+      "flightId": "b89c9db7-e7ca-415d-91d5-953c6a2b768f",
+      "loadedKits": {
+        "first": 5,
+        "business": 19,
+        "premiumEconomy": 24,
+        "economy": 11
+      }
+    },
+    {
+      "flightId": "75f55442-1cb6-44c3-9c01-cef5e5d5a7cb",
+      "loadedKits": {
+        "first": 1,
+        "business": 21,
+        "premiumEconomy": 20,
+        "economy": 39
+      }
+    },
+    {
+      "flightId": "0b214615-0d13-485d-bfb7-3e77e0674126",
+      "loadedKits": {
+        "first": 3,
+        "business": 11,
+        "premiumEconomy": 31,
+        "economy": 91
+      }
+    },
+    {
+      "flightId": "b9568715-2666-4808-b599-5db63a4ed50c",
+      "loadedKits": {
+        "first": 11,
+        "business": 45,
+        "premiumEconomy": 24,
+        "economy": 104
+      }
+    },
+    {
+      "flightId": "f83eb254-0151-442b-9d38-cc16fbe1b301",
+      "loadedKits": {
+        "first": 6,
+        "business": 20,
+        "premiumEconomy": 24,
+        "economy": 109
+      }
+    },
+    {
+      "flightId": "9878a238-b522-4adb-bf79-b3ee13971493",
+      "loadedKits": {
+        "first": 4,
+        "business": 7,
+        "premiumEconomy": 15,
+        "economy": 65
+      }
+    },
+    {
+      "flightId": "28e949a6-bdd0-43b9-b7f2-ac9410f2d5be",
+      "loadedKits": {
+        "first": 3,
+        "business": 17,
+        "premiumEconomy": 7,
+        "economy": 34
+      }
+    },
+    {
+      "flightId": "33cadd22-2c83-48e5-9deb-1e1131cd2f26",
+      "loadedKits": {
+        "first": 4,
+        "business": 54,
+        "premiumEconomy": 3,
+        "economy": 119
+      }
+    },
+    {
+      "flightId": "b4bed1d6-6a5d-4c7d-8663-11deec001773",
+      "loadedKits": {
+        "first": 1,
+        "business": 28,
+        "premiumEconomy": 9,
+        "economy": 129
+      }
+    },
+    {
+      "flightId": "48b6c39d-87bb-4412-9900-d86ecef206aa",
+      "loadedKits": {
+        "first": 5,
+        "business": 23,
+        "premiumEconomy": 11,
+        "economy": 147
+      }
+    },
+    {
+      "flightId": "8610f107-3bcb-4e43-a3fd-1fef05cccf83",
+      "loadedKits": {
+        "first": 2,
+        "business": 23,
+        "premiumEconomy": 9,
+        "economy": 11
+      }
+    },
+    {
+      "flightId": "b89f91c0-a5c7-4d63-b0b3-9892e932bf26",
+      "loadedKits": {
+        "first": 1,
+        "business": 5,
+        "premiumEconomy": 11,
+        "economy": 25
+      }
+    },
+    {
+      "flightId": "e7fd21d1-077b-4981-838d-b4d9dfb33099",
+      "loadedKits": {
+        "first": 0,
+        "business": 5,
+        "premiumEconomy": 12,
+        "economy": 98
+      }
+    },
+    {
+      "flightId": "2a29d4e5-704d-4db1-9562-0eaee846baef",
+      "loadedKits": {
+        "first": 1,
+        "business": 15,
+        "premiumEconomy": 6,
+        "economy": 65
+      }
+    },
+    {
+      "flightId": "4043d2f9-2e3d-4fa1-9228-2477bb6a8e6d",
+      "loadedKits": {
+        "first": 3,
+        "business": 23,
+        "premiumEconomy": 0,
+        "economy": 193
+      }
+    },
+    {
+      "flightId": "beef8673-08d7-40cb-bf5f-fc78290ef022",
+      "loadedKits": {
+        "first": 2,
+        "business": 45,
+        "premiumEconomy": 26,
+        "economy": 126
+      }
+    },
+    {
+      "flightId": "be7b2596-b3be-4c1f-aad0-ca3f9a0fc9cd",
+      "loadedKits": {
+        "first": 6,
+        "business": 19,
+        "premiumEconomy": 0,
+        "economy": 237
+      }
+    },
+    {
+      "flightId": "e4097394-e868-4008-9489-1f706b7b7e41",
+      "loadedKits": {
+        "first": 0,
+        "business": 13,
+        "premiumEconomy": 11,
+        "economy": 94
+      }
+    },
+    {
+      "flightId": "d6fa8650-eb6d-4c61-ac81-cdf725475ec7",
+      "loadedKits": {
+        "first": 5,
+        "business": 0,
+        "premiumEconomy": 3,
+        "economy": 101
+      }
+    },
+    {
+      "flightId": "1c0b3c0b-7e83-4b61-a408-020218324c76",
+      "loadedKits": {
+        "first": 19,
+        "business": 57,
+        "premiumEconomy": 1,
+        "economy": 150
+      }
+    },
+    {
+      "flightId": "e45cd699-6f30-4d7b-b7d3-db7f3436a912",
+      "loadedKits": {
+        "first": 6,
+        "business": 18,
+        "premiumEconomy": 0,
+        "economy": 56
+      }
+    },
+    {
+      "flightId": "d04f97c4-e3fb-4d50-b8a3-67509037a28b",
+      "loadedKits": {
+        "first": 1,
+        "business": 22,
+        "premiumEconomy": 0,
+        "economy": 52
+      }
+    },
+    {
+      "flightId": "cdbd8c37-edd9-4152-8d01-53be1e108e67",
+      "loadedKits": {
+        "first": 8,
+        "business": 27,
+        "premiumEconomy": 40,
+        "economy": 175
+      }
+    },
+    {
+      "flightId": "c4ab7e54-215f-4c9d-b712-f008e71fa2b0",
+      "loadedKits": {
+        "first": 9,
+        "business": 60,
+        "premiumEconomy": 20,
+        "economy": 94
+      }
+    },
+    {
+      "flightId": "5acab016-f770-4a83-a260-28eff742a083",
+      "loadedKits": {
+        "first": 9,
+        "business": 58,
+        "premiumEconomy": 11,
+        "economy": 230
+      }
+    },
+    {
+      "flightId": "1bdf67c4-30ed-4cf9-94c0-a8c0ef64d831",
+      "loadedKits": {
+        "first": 18,
+        "business": 28,
+        "premiumEconomy": 22,
+        "economy": 33
+      }
+    },
+    {
+      "flightId": "593010b7-ee40-4694-8ec3-22bd59aef66d",
+      "loadedKits": {
+        "first": 13,
+        "business": 33,
+        "premiumEconomy": 0,
+        "economy": 28
+      }
+    },
+    {
+      "flightId": "c5c288c0-980c-4e1a-a4e4-16a157459e27",
+      "loadedKits": {
+        "first": 6,
+        "business": 7,
+        "premiumEconomy": 14,
+        "economy": 52
+      }
+    },
+    {
+      "flightId": "ddb81d4c-7fc5-4565-84ae-3219a59ca4ba",
+      "loadedKits": {
+        "first": 3,
+        "business": 22,
+        "premiumEconomy": 6,
+        "economy": 49
+      }
+    },
+    {
+      "flightId": "36d52fba-5807-499e-9a9f-5fe8650d9a1d",
+      "loadedKits": {
+        "first": 0,
+        "business": 19,
+        "premiumEconomy": 14,
+        "economy": 118
+      }
+    },
+    {
+      "flightId": "c755fd7a-efaa-4eb1-9d14-e0b63c0d5dbf",
+      "loadedKits": {
+        "first": 5,
+        "business": 35,
+        "premiumEconomy": 5,
+        "economy": 72
+      }
+    },
+    {
+      "flightId": "557fe14c-5913-4370-83c7-3567b2739bdc",
+      "loadedKits": {
+        "first": 12,
+        "business": 52,
+        "premiumEconomy": 8,
+        "economy": 240
+      }
+    },
+    {
+      "flightId": "544235c1-21c9-45cf-9e71-131e03c53f5d",
+      "loadedKits": {
+        "first": 0,
+        "business": 0,
+        "premiumEconomy": 0,
+        "economy": 51
+      }
+    },
+    {
+      "flightId": "c482d6e8-577a-4daf-8af6-b999a9f03013",
+      "loadedKits": {
+        "first": 3,
+        "business": 22,
+        "premiumEconomy": 19,
+        "economy": 96
+      }
+    },
+    {
+      "flightId": "45a22f66-d3d4-40d9-ac10-be04840cfe0b",
+      "loadedKits": {
+        "first": 2,
+        "business": 40,
+        "premiumEconomy": 25,
+        "economy": 197
+      }
+    },
+    {
+      "flightId": "79e48ae6-20dd-4477-ac7b-ca0725233c58",
+      "loadedKits": {
+        "first": 10,
+        "business": 46,
+        "premiumEconomy": 13,
+        "economy": 179
+      }
+    },
+    {
+      "flightId": "b859ac3f-9391-4e69-8045-010481fd00a0",
+      "loadedKits": {
+        "first": 0,
+        "business": 24,
+        "premiumEconomy": 11,
+        "economy": 48
+      }
+    },
+    {
+      "flightId": "166c845c-5225-4467-b603-2b67fa4eb920",
+      "loadedKits": {
+        "first": 2,
+        "business": 5,
+        "premiumEconomy": 9,
+        "economy": 18
+      }
+    },
+    {
+      "flightId": "6f457d80-4742-43fe-b66c-505e05fe1d3b",
+      "loadedKits": {
+        "first": 11,
+        "business": 15,
+        "premiumEconomy": 11,
+        "economy": 71
+      }
+    },
+    {
+      "flightId": "8a65f578-ac60-479c-ac8c-f71c9e21f3ed",
+      "loadedKits": {
+        "first": 1,
+        "business": 0,
+        "premiumEconomy": 21,
+        "economy": 94
+      }
+    },
+    {
+      "flightId": "7f88c6db-7409-4251-9ce7-a1d3555d4fd6",
+      "loadedKits": {
+        "first": 0,
+        "business": 53,
+        "premiumEconomy": 15,
+        "economy": 26
+      }
+    },
+    {
+      "flightId": "ab3d6ab5-bc89-4ac0-a5d7-3f8b07f467e5",
+      "loadedKits": {
+        "first": 0,
+        "business": 30,
+        "premiumEconomy": 31,
+        "economy": 0
+      }
+    },
+    {
+      "flightId": "42055ebf-139f-4575-900f-64b8f7091b3a",
+      "loadedKits": {
+        "first": 3,
+        "business": 36,
+        "premiumEconomy": 9,
+        "economy": 153
+      }
+    },
+    {
+      "flightId": "705b9aa9-78c4-4340-ad4d-63e5f0da0838",
+      "loadedKits": {
+        "first": 4,
+        "business": 62,
+        "premiumEconomy": 16,
+        "economy": 169
+      }
+    },
+    {
+      "flightId": "dd6ac61e-219c-43da-875f-6602168289f8",
+      "loadedKits": {
+        "first": 12,
+        "business": 30,
+        "premiumEconomy": 24,
+        "economy": 79
+      }
+    },
+    {
+      "flightId": "728b1d79-9ab0-49d0-b1a7-3e7f78247dbe",
+      "loadedKits": {
+        "first": 0,
+        "business": 0,
+        "premiumEconomy": 2,
+        "economy": 51
+      }
+    },
+    {
+      "flightId": "dafc4a39-6504-4cad-afcc-073182f6fb54",
+      "loadedKits": {
+        "first": 3,
+        "business": 26,
+        "premiumEconomy": 9,
+        "economy": 76
+      }
+    },
+    {
+      "flightId": "c68f1086-de62-46ad-a222-4932eb884bcb",
+      "loadedKits": {
+        "first": 7,
+        "business": 53,
+        "premiumEconomy": 1,
+        "economy": 96
+      }
+    },
+    {
+      "flightId": "3a317bc1-e461-4a8d-8861-abb94ee34530",
+      "loadedKits": {
+        "first": 4,
+        "business": 19,
+        "premiumEconomy": 11,
+        "economy": 49
+      }
+    },
+    {
+      "flightId": "b7fa7718-60e0-4455-9b36-0c415c9b309a",
+      "loadedKits": {
+        "first": 19,
+        "business": 29,
+        "premiumEconomy": 21,
+        "economy": 73
+      }
+    },
+    {
+      "flightId": "8eb77446-8d3a-4d85-9d91-fb6c16941d24",
+      "loadedKits": {
+        "first": 9,
+        "business": 26,
+        "premiumEconomy": 20,
+        "economy": 43
+      }
+    },
+    {
+      "flightId": "8dc064cf-779c-4ece-a84c-8ba22b89b72f",
+      "loadedKits": {
+        "first": 3,
+        "business": 0,
+        "premiumEconomy": 10,
+        "economy": 78
+      }
+    },
+    {
+      "flightId": "7e7686bd-2389-42c3-9681-5ea2f46c594e",
+      "loadedKits": {
+        "first": 4,
+        "business": 28,
+        "premiumEconomy": 1,
+        "economy": 130
+      }
+    },
+    {
+      "flightId": "f9f7dec2-5e25-40dc-aeb3-ae0cc0a4d7eb",
+      "loadedKits": {
+        "first": 3,
+        "business": 5,
+        "premiumEconomy": 30,
+        "economy": 8
+      }
+    },
+    {
+      "flightId": "2c1b8067-a920-470c-b975-15a54036e0d2",
+      "loadedKits": {
+        "first": 15,
+        "business": 0,
+        "premiumEconomy": 3,
+        "economy": 59
+      }
+    },
+    {
+      "flightId": "cb6bd97e-7060-4353-ae15-fe558d9e0d9d",
+      "loadedKits": {
+        "first": 6,
+        "business": 19,
+        "premiumEconomy": 23,
+        "economy": 52
+      }
+    },
+    {
+      "flightId": "a87fb9c8-9bcc-4aeb-afb4-2fab4e83ae4f",
+      "loadedKits": {
+        "first": 3,
+        "business": 24,
+        "premiumEconomy": 14,
+        "economy": 36
+      }
+    },
+    {
+      "flightId": "bc9c8213-87cf-4a2a-9b32-992f45bcee2f",
+      "loadedKits": {
+        "first": 2,
+        "business": 0,
+        "premiumEconomy": 3,
+        "economy": 60
+      }
+    },
+    {
+      "flightId": "a1d806e8-82a0-4e54-b7ef-947d7799028c",
+      "loadedKits": {
+        "first": 1,
+        "business": 44,
+        "premiumEconomy": 21,
+        "economy": 90
+      }
+    },
+    {
+      "flightId": "67e2d8ed-77be-423e-a6a6-c640f9ebd84b",
+      "loadedKits": {
+        "first": 1,
+        "business": 0,
+        "premiumEconomy": 10,
+        "economy": 92
+      }
+    },
+    {
+      "flightId": "1a3c6ae3-fcdc-485c-b55e-80d3ed32d0e8",
+      "loadedKits": {
+        "first": 6,
+        "business": 64,
+        "premiumEconomy": 29,
+        "economy": 99
+      }
+    },
+    {
+      "flightId": "5aa41124-6ff0-47a7-873f-856e1906afa6",
+      "loadedKits": {
+        "first": 3,
+        "business": 19,
+        "premiumEconomy": 11,
+        "economy": 118
+      }
+    },
+    {
+      "flightId": "7e8c48f7-f39b-4bd3-9721-b5c92cfd5573",
+      "loadedKits": {
+        "first": 0,
+        "business": 9,
+        "premiumEconomy": 19,
+        "economy": 101
+      }
+    },
+    {
+      "flightId": "f852f84f-2732-4fbe-8772-052a63f48c11",
+      "loadedKits": {
+        "first": 0,
+        "business": 12,
+        "premiumEconomy": 14,
+        "economy": 49
+      }
+    },
+    {
+      "flightId": "1f9c7b02-d9ab-4857-9023-abcd0e26366e",
+      "loadedKits": {
+        "first": 15,
+        "business": 6,
+        "premiumEconomy": 26,
+        "economy": 357
+      }
+    },
+    {
+      "flightId": "52f8a315-185c-42e0-bbb3-ae3c12757e5b",
+      "loadedKits": {
+        "first": 9,
+        "business": 10,
+        "premiumEconomy": 23,
+        "economy": 105
+      }
+    },
+    {
+      "flightId": "239e1ae1-6429-468e-8a43-e7f33fc6d694",
+      "loadedKits": {
+        "first": 9,
+        "business": 8,
+        "premiumEconomy": 2,
+        "economy": 165
+      }
+    },
+    {
+      "flightId": "1994a9b7-6aa1-4ae9-bf33-54523d04aa79",
+      "loadedKits": {
+        "first": 1,
+        "business": 53,
+        "premiumEconomy": 4,
+        "economy": 276
+      }
+    },
+    {
+      "flightId": "c69516c8-d42d-4e28-9e40-5be4e25144fb",
+      "loadedKits": {
+        "first": 12,
+        "business": 28,
+        "premiumEconomy": 25,
+        "economy": 138
+      }
+    },
+    {
+      "flightId": "e758b24d-102a-4c55-a6e2-069da54b6eda",
+      "loadedKits": {
+        "first": 3,
+        "business": 15,
+        "premiumEconomy": 18,
+        "economy": 327
+      }
+    },
+    {
+      "flightId": "a98bcb4e-3a03-448f-a6ea-0f5bdea3e953",
+      "loadedKits": {
+        "first": 1,
+        "business": 3,
+        "premiumEconomy": 0,
+        "economy": 35
+      }
+    },
+    {
+      "flightId": "970c2060-4793-4e20-9f48-14de5a426e26",
+      "loadedKits": {
+        "first": 6,
+        "business": 0,
+        "premiumEconomy": 28,
+        "economy": 117
+      }
+    },
+    {
+      "flightId": "49e065a6-7e99-4490-8128-ced39fc3167c",
+      "loadedKits": {
+        "first": 4,
+        "business": 4,
+        "premiumEconomy": 17,
+        "economy": 142
+      }
+    },
+    {
+      "flightId": "314b89da-32a2-43c7-a08a-049a5908d805",
+      "loadedKits": {
+        "first": 1,
+        "business": 17,
+        "premiumEconomy": 18,
+        "economy": 133
+      }
+    },
+    {
+      "flightId": "4aadf8c2-0c0d-452b-bbba-3c4b9c5902e9",
+      "loadedKits": {
+        "first": 2,
+        "business": 19,
+        "premiumEconomy": 32,
+        "economy": 110
+      }
+    },
+    {
+      "flightId": "957b4c78-c2e4-42a4-8fc3-de865e8e0bef",
+      "loadedKits": {
+        "first": 11,
+        "business": 5,
+        "premiumEconomy": 21,
+        "economy": 40
+      }
+    },
+    {
+      "flightId": "0c30c4ad-3d67-4872-8c05-2cfdc97a78e7",
+      "loadedKits": {
+        "first": 5,
+        "business": 4,
+        "premiumEconomy": 30,
+        "economy": 75
+      }
+    },
+    {
+      "flightId": "2de9e6ff-0d56-4fb4-af99-b59f9171dd56",
+      "loadedKits": {
+        "first": 3,
+        "business": 44,
+        "premiumEconomy": 34,
+        "economy": 164
+      }
+    },
+    {
+      "flightId": "15d2055d-0bad-4853-b1da-e083f02e5b74",
+      "loadedKits": {
+        "first": 0,
+        "business": 17,
+        "premiumEconomy": 20,
+        "economy": 95
+      }
+    },
+    {
+      "flightId": "3555eded-bbe7-4a10-99c9-eb89dbe77601",
+      "loadedKits": {
+        "first": 2,
+        "business": 22,
+        "premiumEconomy": 0,
+        "economy": 123
+      }
+    },
+    {
+      "flightId": "8d509e04-8533-490c-aba4-ca23e88c81b4",
+      "loadedKits": {
+        "first": 0,
+        "business": 20,
+        "premiumEconomy": 16,
+        "economy": 101
+      }
+    },
+    {
+      "flightId": "5007d543-46e3-4726-b745-8dec47ffa691",
+      "loadedKits": {
+        "first": 7,
+        "business": 42,
+        "premiumEconomy": 14,
+        "economy": 96
+      }
+    },
+    {
+      "flightId": "4a290318-4dc3-437c-86f7-76437cda8c81",
+      "loadedKits": {
+        "first": 12,
+        "business": 40,
+        "premiumEconomy": 25,
+        "economy": 93
+      }
+    },
+    {
+      "flightId": "efafdbb6-10fa-48a6-9dbc-90190e68f664",
+      "loadedKits": {
+        "first": 1,
+        "business": 16,
+        "premiumEconomy": 4,
+        "economy": 98
+      }
+    },
+    {
+      "flightId": "f15a244f-a9b0-44a8-a569-eaba36e2234c",
+      "loadedKits": {
+        "first": 18,
+        "business": 57,
+        "premiumEconomy": 1,
+        "economy": 151
+      }
+    },
+    {
+      "flightId": "4b77f6d5-62cf-4598-849c-992b16f4de25",
+      "loadedKits": {
+        "first": 2,
+        "business": 0,
+        "premiumEconomy": 10,
+        "economy": 157
+      }
+    },
+    {
+      "flightId": "8c585fe7-4342-430d-8261-ba50be8cc508",
+      "loadedKits": {
+        "first": 4,
+        "business": 28,
+        "premiumEconomy": 17,
+        "economy": 77
+      }
+    },
+    {
+      "flightId": "843c3899-c155-4082-bf8f-cd1f0ae57f07",
+      "loadedKits": {
+        "first": 7,
+        "business": 0,
+        "premiumEconomy": 14,
+        "economy": 131
+      }
+    },
+    {
+      "flightId": "d63a7fc3-fe85-44ea-8241-c67fabba7178",
+      "loadedKits": {
+        "first": 9,
+        "business": 37,
+        "premiumEconomy": 30,
+        "economy": 75
+      }
+    },
+    {
+      "flightId": "05ee3023-33e3-44e1-a1d5-65b97fb5afa9",
+      "loadedKits": {
+        "first": 13,
+        "business": 29,
+        "premiumEconomy": 21,
+        "economy": 26
+      }
+    },
+    {
+      "flightId": "3c5e78a1-50c0-4df2-8c9b-2b0b06b06953",
+      "loadedKits": {
+        "first": 4,
+        "business": 26,
+        "premiumEconomy": 22,
+        "economy": 34
+      }
+    },
+    {
+      "flightId": "85dc0f6f-f487-44d9-8586-3538ad8253bf",
+      "loadedKits": {
+        "first": 13,
+        "business": 55,
+        "premiumEconomy": 22,
+        "economy": 185
+      }
+    },
+    {
+      "flightId": "4dda1b5a-1552-4fe2-a036-93940d2cba6b",
+      "loadedKits": {
+        "first": 3,
+        "business": 30,
+        "premiumEconomy": 23,
+        "economy": 184
+      }
+    },
+    {
+      "flightId": "387d7ba0-c90b-4cbd-b801-06b646938117",
+      "loadedKits": {
+        "first": 1,
+        "business": 15,
+        "premiumEconomy": 10,
+        "economy": 87
+      }
+    },
+    {
+      "flightId": "b64a0d8d-b410-40fe-85f4-3098e6f76dcc",
+      "loadedKits": {
+        "first": 17,
+        "business": 38,
+        "premiumEconomy": 10,
+        "economy": 99
+      }
+    },
+    {
+      "flightId": "6b0cebca-4fd3-4698-8ecb-982968806274",
+      "loadedKits": {
+        "first": 2,
+        "business": 20,
+        "premiumEconomy": 0,
+        "economy": 179
+      }
+    },
+    {
+      "flightId": "d20813a6-ab68-41a8-9b2d-aab95b51f604",
+      "loadedKits": {
+        "first": 13,
+        "business": 36,
+        "premiumEconomy": 34,
+        "economy": 260
+      }
+    },
+    {
+      "flightId": "80d554c2-f416-44b6-9a69-a4faac972486",
+      "loadedKits": {
+        "first": 0,
+        "business": 14,
+        "premiumEconomy": 17,
+        "economy": 71
+      }
+    },
+    {
+      "flightId": "72be7a4c-6324-4915-aaad-429f27152f15",
+      "loadedKits": {
+        "first": 7,
+        "business": 2,
+        "premiumEconomy": 6,
+        "economy": 143
+      }
+    },
+    {
+      "flightId": "0b989a78-8844-4127-bf54-db598cf2a18a",
+      "loadedKits": {
+        "first": 0,
+        "business": 14,
+        "premiumEconomy": 7,
+        "economy": 78
+      }
+    },
+    {
+      "flightId": "871c5725-c36c-4b64-871a-bbe37aae50ee",
+      "loadedKits": {
+        "first": 0,
+        "business": 28,
+        "premiumEconomy": 8,
+        "economy": 39
+      }
+    },
+    {
+      "flightId": "2f52ba0f-e5a8-40dd-a308-aa986da39cfe",
+      "loadedKits": {
+        "first": 2,
+        "business": 2,
+        "premiumEconomy": 6,
+        "economy": 89
+      }
+    },
+    {
+      "flightId": "79835168-913f-4e8b-936d-86e5401ee509",
+      "loadedKits": {
+        "first": 4,
+        "business": 8,
+        "premiumEconomy": 8,
+        "economy": 156
+      }
+    },
+    {
+      "flightId": "602be330-1d71-4f84-acbf-9524a3d23411",
+      "loadedKits": {
+        "first": 6,
+        "business": 13,
+        "premiumEconomy": 24,
+        "economy": 14
+      }
+    },
+    {
+      "flightId": "2628f4b3-a957-4407-8fed-fe4a2739188e",
+      "loadedKits": {
+        "first": 13,
+        "business": 60,
+        "premiumEconomy": 1,
+        "economy": 102
+      }
+    },
+    {
+      "flightId": "9ed8d52f-5156-42fa-a7cb-b9f52665335a",
+      "loadedKits": {
+        "first": 7,
+        "business": 22,
+        "premiumEconomy": 32,
+        "economy": 314
+      }
+    },
+    {
+      "flightId": "69fc8133-e1b4-4d2e-b5f3-a424c652018d",
+      "loadedKits": {
+        "first": 4,
+        "business": 42,
+        "premiumEconomy": 12,
+        "economy": 108
+      }
+    },
+    {
+      "flightId": "628d9e60-dcca-46d1-adb3-374ad00d18de",
+      "loadedKits": {
+        "first": 2,
+        "business": 44,
+        "premiumEconomy": 31,
+        "economy": 169
+      }
+    },
+    {
+      "flightId": "6ea50da7-7e53-4432-8e26-57aaa881aff3",
+      "loadedKits": {
+        "first": 1,
+        "business": 21,
+        "premiumEconomy": 18,
+        "economy": 71
+      }
+    },
+    {
+      "flightId": "9762f96a-2191-4f6b-868a-3ef95db51d40",
+      "loadedKits": {
+        "first": 17,
+        "business": 27,
+        "premiumEconomy": 32,
+        "economy": 110
+      }
+    },
+    {
+      "flightId": "8576e832-4152-4f05-af27-4d4fb72cd04f",
+      "loadedKits": {
+        "first": 5,
+        "business": 14,
+        "premiumEconomy": 27,
+        "economy": 61
+      }
+    },
+    {
+      "flightId": "29a4cb4c-1b38-4c02-a5e0-a35881fa5769",
+      "loadedKits": {
+        "first": 0,
+        "business": 4,
+        "premiumEconomy": 0,
+        "economy": 78
+      }
+    },
+    {
+      "flightId": "18f78c5b-9505-4cc3-9a34-a79f0949aa3e",
+      "loadedKits": {
+        "first": 13,
+        "business": 33,
+        "premiumEconomy": 16,
+        "economy": 46
+      }
+    },
+    {
+      "flightId": "f6aa4736-5726-4b17-aba0-6c25c0cbfe1c",
+      "loadedKits": {
+        "first": 0,
+        "business": 53,
+        "premiumEconomy": 13,
+        "economy": 59
+      }
+    },
+    {
+      "flightId": "469354f0-eaef-4f97-b0b0-1114936c9f11",
+      "loadedKits": {
+        "first": 3,
+        "business": 9,
+        "premiumEconomy": 21,
+        "economy": 143
+      }
+    },
+    {
+      "flightId": "05a62a1c-3fb3-44da-8992-3f7c4e665da4",
+      "loadedKits": {
+        "first": 0,
+        "business": 8,
+        "premiumEconomy": 19,
+        "economy": 113
+      }
+    },
+    {
+      "flightId": "245f6d99-cf91-498d-a9da-712aed468a62",
+      "loadedKits": {
+        "first": 4,
+        "business": 0,
+        "premiumEconomy": 5,
+        "economy": 99
+      }
+    },
+    {
+      "flightId": "f355a1c5-9656-4ecf-9ae1-5b70cdbfdeb1",
+      "loadedKits": {
+        "first": 18,
+        "business": 53,
+        "premiumEconomy": 28,
+        "economy": 137
+      }
+    },
+    {
+      "flightId": "19676d33-13e4-44c1-abb1-da84c36eaa8a",
+      "loadedKits": {
+        "first": 18,
+        "business": 37,
+        "premiumEconomy": 0,
+        "economy": 107
+      }
+    },
+    {
+      "flightId": "f21573a9-0bf1-4bad-9860-570e7d8052b7",
+      "loadedKits": {
+        "first": 1,
+        "business": 47,
+        "premiumEconomy": 25,
+        "economy": 191
+      }
+    },
+    {
+      "flightId": "03af2dd0-5f2d-4fd9-b175-96cd52c68cc1",
+      "loadedKits": {
+        "first": 10,
+        "business": 43,
+        "premiumEconomy": 16,
+        "economy": 144
+      }
+    },
+    {
+      "flightId": "28f2f524-461e-4b29-b338-dce3ed54266f",
+      "loadedKits": {
+        "first": 10,
+        "business": 39,
+        "premiumEconomy": 24,
+        "economy": 130
+      }
+    },
+    {
+      "flightId": "16222a07-24ef-4421-bbc7-a68bc9157ead",
+      "loadedKits": {
+        "first": 12,
+        "business": 46,
+        "premiumEconomy": 13,
+        "economy": 159
+      }
+    },
+    {
+      "flightId": "73cb2311-e7b8-4b16-99bf-7dfe73144e1c",
+      "loadedKits": {
+        "first": 1,
+        "business": 12,
+        "premiumEconomy": 19,
+        "economy": 73
+      }
+    },
+    {
+      "flightId": "6298221a-efbd-4899-8643-af8ace83aa50",
+      "loadedKits": {
+        "first": 5,
+        "business": 39,
+        "premiumEconomy": 10,
+        "economy": 28
+      }
+    },
+    {
+      "flightId": "9d1d3c7e-f624-4f16-b683-7c7b0bf703d1",
+      "loadedKits": {
+        "first": 3,
+        "business": 6,
+        "premiumEconomy": 11,
+        "economy": 45
+      }
+    },
+    {
+      "flightId": "e2d7caf7-5799-45e8-af08-e38be7abc556",
+      "loadedKits": {
+        "first": 7,
+        "business": 35,
+        "premiumEconomy": 3,
+        "economy": 148
+      }
+    },
+    {
+      "flightId": "bdd9c699-5f6c-4a7c-ba6f-0e65cc2f7b0b",
+      "loadedKits": {
+        "first": 3,
+        "business": 22,
+        "premiumEconomy": 32,
+        "economy": 190
+      }
+    },
+    {
+      "flightId": "e13515ae-d54a-4cb8-bfb0-9ec2563ed6df",
+      "loadedKits": {
+        "first": 4,
+        "business": 38,
+        "premiumEconomy": 32,
+        "economy": 27
+      }
+    },
+    {
+      "flightId": "f506e50c-0430-42de-ab95-d3fe9f4f604d",
+      "loadedKits": {
+        "first": 3,
+        "business": 48,
+        "premiumEconomy": 0,
+        "economy": 49
+      }
+    },
+    {
+      "flightId": "2ec324d5-ee99-436e-b109-76723eddab2c",
+      "loadedKits": {
+        "first": 5,
+        "business": 13,
+        "premiumEconomy": 6,
+        "economy": 6
+      }
+    },
+    {
+      "flightId": "8fd3d67b-ad5c-4b30-9976-3e6803f7839f",
+      "loadedKits": {
+        "first": 4,
+        "business": 22,
+        "premiumEconomy": 17,
+        "economy": 65
+      }
+    },
+    {
+      "flightId": "da0e21f5-65a4-4d1f-8c4c-16baecd7f99e",
+      "loadedKits": {
+        "first": 3,
+        "business": 31,
+        "premiumEconomy": 16,
+        "economy": 44
+      }
+    },
+    {
+      "flightId": "e12061da-4f15-4e5d-8d5a-a31ffaa5983f",
+      "loadedKits": {
+        "first": 14,
+        "business": 52,
+        "premiumEconomy": 16,
+        "economy": 35
+      }
+    },
+    {
+      "flightId": "21ebf5b4-776d-4bdc-98eb-165c02f5b4c8",
+      "loadedKits": {
+        "first": 3,
+        "business": 31,
+        "premiumEconomy": 12,
+        "economy": 32
+      }
+    },
+    {
+      "flightId": "6a1132d0-2235-4f50-bd51-a8c37678fb29",
+      "loadedKits": {
+        "first": 0,
+        "business": 56,
+        "premiumEconomy": 8,
+        "economy": 120
+      }
+    },
+    {
+      "flightId": "f062eb09-f964-4958-b08b-b28c621e2ad9",
+      "loadedKits": {
+        "first": 13,
+        "business": 52,
+        "premiumEconomy": 5,
+        "economy": 102
+      }
+    },
+    {
+      "flightId": "8d21c3ef-fd9d-4bf7-815d-60043a2afea2",
+      "loadedKits": {
+        "first": 7,
+        "business": 5,
+        "premiumEconomy": 12,
+        "economy": 83
+      }
+    },
+    {
+      "flightId": "d310062e-cbba-4147-9477-acac1bb09e7d",
+      "loadedKits": {
+        "first": 4,
+        "business": 25,
+        "premiumEconomy": 8,
+        "economy": 128
+      }
+    },
+    {
+      "flightId": "6fbe7dfa-561c-4ca8-9d6b-8908355c0eee",
+      "loadedKits": {
+        "first": 0,
+        "business": 28,
+        "premiumEconomy": 13,
+        "economy": 76
+      }
+    },
+    {
+      "flightId": "fa151d18-47b5-402c-8e74-8770f652ca95",
+      "loadedKits": {
+        "first": 10,
+        "business": 48,
+        "premiumEconomy": 31,
+        "economy": 198
+      }
+    },
+    {
+      "flightId": "9ed8ba79-485e-42e1-9667-ffa7b3f870cb",
+      "loadedKits": {
+        "first": 13,
+        "business": 29,
+        "premiumEconomy": 5,
+        "economy": 96
+      }
+    },
+    {
+      "flightId": "6df05f5a-f0c0-496e-965f-490ec55db364",
+      "loadedKits": {
+        "first": 7,
+        "business": 27,
+        "premiumEconomy": 0,
+        "economy": 46
+      }
+    },
+    {
+      "flightId": "ead28c8c-9f9f-4fd5-af7e-d27ada5592ef",
+      "loadedKits": {
+        "first": 2,
+        "business": 28,
+        "premiumEconomy": 29,
+        "economy": 49
+      }
+    },
+    {
+      "flightId": "750b62d9-93b1-4cd9-a6b1-03b04416c383",
+      "loadedKits": {
+        "first": 2,
+        "business": 2,
+        "premiumEconomy": 0,
+        "economy": 123
+      }
+    },
+    {
+      "flightId": "eecec440-2344-4036-a0d7-b7a63d4d3e1f",
+      "loadedKits": {
+        "first": 3,
+        "business": 0,
+        "premiumEconomy": 4,
+        "economy": 22
+      }
+    },
+    {
+      "flightId": "9bdfd20b-9227-4002-bd46-dae88448962d",
+      "loadedKits": {
+        "first": 5,
+        "business": 29,
+        "premiumEconomy": 2,
+        "economy": 76
+      }
+    },
+    {
+      "flightId": "9627066d-af97-4213-9951-c7de795c7a28",
+      "loadedKits": {
+        "first": 0,
+        "business": 10,
+        "premiumEconomy": 10,
+        "economy": 56
+      }
+    },
+    {
+      "flightId": "c531954c-b9d5-4618-b81e-c566b27e8875",
+      "loadedKits": {
+        "first": 2,
+        "business": 8,
+        "premiumEconomy": 9,
+        "economy": 49
+      }
+    },
+    {
+      "flightId": "0b50f3cc-611e-4ee0-80a2-a64141b0db7c",
+      "loadedKits": {
+        "first": 0,
+        "business": 36,
+        "premiumEconomy": 7,
+        "economy": 37
+      }
+    },
+    {
+      "flightId": "848c7aa6-43ed-4548-a70f-231103b34160",
+      "loadedKits": {
+        "first": 3,
+        "business": 27,
+        "premiumEconomy": 12,
+        "economy": 140
+      }
+    },
+    {
+      "flightId": "525f214a-c392-4aa9-9bc1-5fe8461f80ba",
+      "loadedKits": {
+        "first": 1,
+        "business": 45,
+        "premiumEconomy": 9,
+        "economy": 71
+      }
+    },
+    {
+      "flightId": "512b94f9-ea2d-4161-a03d-99aea2d45a38",
+      "loadedKits": {
+        "first": 7,
+        "business": 5,
+        "premiumEconomy": 3,
+        "economy": 28
+      }
+    },
+    {
+      "flightId": "d7a33624-1270-4a0e-8e7c-627c57acb372",
+      "loadedKits": {
+        "first": 1,
+        "business": 26,
+        "premiumEconomy": 16,
+        "economy": 109
+      }
+    },
+    {
+      "flightId": "0e1492af-4a1f-4135-b63e-1a504f411831",
+      "loadedKits": {
+        "first": 3,
+        "business": 17,
+        "premiumEconomy": 13,
+        "economy": 94
+      }
+    },
+    {
+      "flightId": "e1782ee5-d5c5-4c1d-9014-c55ab60289db",
+      "loadedKits": {
+        "first": 2,
+        "business": 32,
+        "premiumEconomy": 10,
+        "economy": 50
+      }
+    },
+    {
+      "flightId": "544f7d52-fd8e-41e5-8022-11a355bc38b0",
+      "loadedKits": {
+        "first": 6,
+        "business": 8,
+        "premiumEconomy": 20,
+        "economy": 15
+      }
+    },
+    {
+      "flightId": "d322e014-5ecd-42ac-9c34-79e4063ee4d9",
+      "loadedKits": {
+        "first": 15,
+        "business": 45,
+        "premiumEconomy": 5,
+        "economy": 40
+      }
+    },
+    {
+      "flightId": "135d4609-b85c-4971-8d07-8ccfd42bfa15",
+      "loadedKits": {
+        "first": 11,
+        "business": 3,
+        "premiumEconomy": 6,
+        "economy": 52
+      }
+    },
+    {
+      "flightId": "1d26a3de-9d91-48db-b08f-5daef1972a62",
+      "loadedKits": {
+        "first": 0,
+        "business": 45,
+        "premiumEconomy": 4,
+        "economy": 151
+      }
+    },
+    {
+      "flightId": "4074d340-8949-4233-8bdf-cf39802e0ad7",
+      "loadedKits": {
+        "first": 7,
+        "business": 31,
+        "premiumEconomy": 18,
+        "economy": 64
+      }
+    },
+    {
+      "flightId": "822294a6-6d43-42b3-a596-f6377fbc5639",
+      "loadedKits": {
+        "first": 5,
+        "business": 29,
+        "premiumEconomy": 24,
+        "economy": 169
+      }
+    },
+    {
+      "flightId": "4f758919-1434-4afd-a442-3c2b70b53592",
+      "loadedKits": {
+        "first": 11,
+        "business": 30,
+        "premiumEconomy": 16,
+        "economy": 88
+      }
+    },
+    {
+      "flightId": "2d27bc8a-0939-44a7-82f6-0a71c0780963",
+      "loadedKits": {
+        "first": 7,
+        "business": 29,
+        "premiumEconomy": 18,
+        "economy": 158
+      }
+    },
+    {
+      "flightId": "efeccd0c-7fda-42ab-aab7-d159c25bd743",
+      "loadedKits": {
+        "first": 7,
+        "business": 0,
+        "premiumEconomy": 38,
+        "economy": 33
+      }
+    },
+    {
+      "flightId": "4f41ff51-2a5f-4326-a675-919aa359c68f",
+      "loadedKits": {
+        "first": 4,
+        "business": 74,
+        "premiumEconomy": 12,
+        "economy": 30
+      }
+    },
+    {
+      "flightId": "98ff2d66-a08f-4adf-8452-6301c7c36b5f",
+      "loadedKits": {
+        "first": 18,
+        "business": 34,
+        "premiumEconomy": 23,
+        "economy": 0
+      }
+    },
+    {
+      "flightId": "9f8ba4e1-ab77-4173-8545-40b9a1163b50",
+      "loadedKits": {
+        "first": 16,
+        "business": 52,
+        "premiumEconomy": 16,
+        "economy": 44
+      }
+    },
+    {
+      "flightId": "36f22f25-8621-4928-9446-3feb29acbb67",
+      "loadedKits": {
+        "first": 9,
+        "business": 64,
+        "premiumEconomy": 9,
+        "economy": 10
+      }
+    },
+    {
+      "flightId": "01f0a9a0-60a6-4572-aff1-b7b98e7dd666",
+      "loadedKits": {
+        "first": 14,
+        "business": 37,
+        "premiumEconomy": 3,
+        "economy": 7
+      }
+    },
+    {
+      "flightId": "f7d9919f-553c-42b6-bb1b-581ebe82d9be",
+      "loadedKits": {
+        "first": 3,
+        "business": 15,
+        "premiumEconomy": 21,
+        "economy": 0
+      }
+    },
+    {
+      "flightId": "7ef4784e-a5dc-40f4-9421-82354ac8efe0",
+      "loadedKits": {
+        "first": 3,
+        "business": 12,
+        "premiumEconomy": 17,
+        "economy": 287
+      }
+    },
+    {
+      "flightId": "0e6d1bfd-7598-493c-8aab-3d2e8803b172",
+      "loadedKits": {
+        "first": 17,
+        "business": 1,
+        "premiumEconomy": 13,
+        "economy": 148
+      }
+    },
+    {
+      "flightId": "e94c9e72-721a-4fa3-8700-569edb4324c5",
+      "loadedKits": {
+        "first": 7,
+        "business": 0,
+        "premiumEconomy": 10,
+        "economy": 97
+      }
+    },
+    {
+      "flightId": "07cc8000-62e0-4097-975f-3e75fe9020e3",
+      "loadedKits": {
+        "first": 2,
+        "business": 28,
+        "premiumEconomy": 3,
+        "economy": 87
+      }
+    },
+    {
+      "flightId": "f6c1ec33-54fd-4d9c-a897-db6238617994",
+      "loadedKits": {
+        "first": 4,
+        "business": 9,
+        "premiumEconomy": 13,
+        "economy": 40
+      }
+    },
+    {
+      "flightId": "d2128c72-b263-4e7c-8826-b2483b3cf77a",
+      "loadedKits": {
+        "first": 11,
+        "business": 3,
+        "premiumEconomy": 23,
+        "economy": 107
+      }
+    },
+    {
+      "flightId": "80cd0d41-1b04-4806-99e4-f89d50e4bb85",
+      "loadedKits": {
+        "first": 4,
+        "business": 29,
+        "premiumEconomy": 10,
+        "economy": 82
+      }
+    },
+    {
+      "flightId": "85817228-aade-449b-989a-dac6f2d92d39",
+      "loadedKits": {
+        "first": 3,
+        "business": 29,
+        "premiumEconomy": 8,
+        "economy": 127
+      }
+    },
+    {
+      "flightId": "9583a457-3ed8-4c5c-836a-25fb229f036b",
+      "loadedKits": {
+        "first": 13,
+        "business": 53,
+        "premiumEconomy": 7,
+        "economy": 198
+      }
+    },
+    {
+      "flightId": "c21fbd20-0a7a-46f9-95f2-b47529d79f68",
+      "loadedKits": {
+        "first": 3,
+        "business": 21,
+        "premiumEconomy": 0,
+        "economy": 8
+      }
+    },
+    {
+      "flightId": "c9926569-7220-4c8c-90b4-8fe58ee49195",
+      "loadedKits": {
+        "first": 5,
+        "business": 30,
+        "premiumEconomy": 13,
+        "economy": 77
+      }
+    },
+    {
+      "flightId": "87d3b1e9-302e-47ec-8717-2c1656e4539f",
+      "loadedKits": {
+        "first": 14,
+        "business": 52,
+        "premiumEconomy": 6,
+        "economy": 98
+      }
+    },
+    {
+      "flightId": "98f065bb-eea1-45e4-a3f1-d4acf6a8caf8",
+      "loadedKits": {
+        "first": 11,
+        "business": 14,
+        "premiumEconomy": 25,
+        "economy": 173
+      }
+    },
+    {
+      "flightId": "1b49fb55-bafc-4142-b436-a86a682050d8",
+      "loadedKits": {
+        "first": 3,
+        "business": 13,
+        "premiumEconomy": 10,
+        "economy": 19
+      }
+    },
+    {
+      "flightId": "8669e40b-5c8b-491a-b878-0838ff23f87a",
+      "loadedKits": {
+        "first": 6,
+        "business": 0,
+        "premiumEconomy": 28,
+        "economy": 93
+      }
+    },
+    {
+      "flightId": "660f731a-bc79-47ae-8768-f830618d65e0",
+      "loadedKits": {
+        "first": 7,
+        "business": 65,
+        "premiumEconomy": 12,
+        "economy": 108
+      }
+    },
+    {
+      "flightId": "e3a547a6-5f47-4452-91dc-69d303bfed7a",
+      "loadedKits": {
+        "first": 4,
+        "business": 36,
+        "premiumEconomy": 0,
+        "economy": 94
+      }
+    },
+    {
+      "flightId": "7f0a9a4a-dc10-451f-972a-e08b7cb568ab",
+      "loadedKits": {
+        "first": 1,
+        "business": 52,
+        "premiumEconomy": 12,
+        "economy": 89
+      }
+    },
+    {
+      "flightId": "1a0ac629-981c-42b1-be2a-a5f4d7e982e6",
+      "loadedKits": {
+        "first": 2,
+        "business": 40,
+        "premiumEconomy": 24,
+        "economy": 127
+      }
+    },
+    {
+      "flightId": "1df16c62-e2ce-44a0-9ded-bacc7c4fca81",
+      "loadedKits": {
+        "first": 10,
+        "business": 19,
+        "premiumEconomy": 21,
+        "economy": 47
+      }
+    },
+    {
+      "flightId": "7301fb4f-1522-4078-8663-965990f2101a",
+      "loadedKits": {
+        "first": 4,
+        "business": 3,
+        "premiumEconomy": 10,
+        "economy": 73
+      }
+    },
+    {
+      "flightId": "e48fbf86-a7e1-48a7-bb94-b8cd547f1046",
+      "loadedKits": {
+        "first": 16,
+        "business": 28,
+        "premiumEconomy": 13,
+        "economy": 197
+      }
+    },
+    {
+      "flightId": "6e736adc-0d15-40cb-ba7e-e67255218f0a",
+      "loadedKits": {
+        "first": 4,
+        "business": 23,
+        "premiumEconomy": 3,
+        "economy": 207
+      }
+    },
+    {
+      "flightId": "8fb5fda2-013a-4239-bc0e-5115d98496b4",
+      "loadedKits": {
+        "first": 3,
+        "business": 9,
+        "premiumEconomy": 4,
+        "economy": 45
+      }
+    },
+    {
+      "flightId": "d1b344af-6c9b-40ad-ada0-5b1104da7791",
+      "loadedKits": {
+        "first": 2,
+        "business": 17,
+        "premiumEconomy": 29,
+        "economy": 82
+      }
+    },
+    {
+      "flightId": "c1f27e67-1486-482f-a188-919eee466a45",
+      "loadedKits": {
+        "first": 10,
+        "business": 43,
+        "premiumEconomy": 34,
+        "economy": 63
+      }
+    },
+    {
+      "flightId": "248f1fa6-707d-4151-989b-b332b9989e51",
+      "loadedKits": {
+        "first": 7,
+        "business": 9,
+        "premiumEconomy": 11,
+        "economy": 147
+      }
+    },
+    {
+      "flightId": "dbffce6e-3cdf-48a4-8ebd-7f0a7bbf7a86",
+      "loadedKits": {
+        "first": 12,
+        "business": 35,
+        "premiumEconomy": 6,
+        "economy": 46
+      }
+    },
+    {
+      "flightId": "74b05af8-c9e6-4192-be35-75d495521b7c",
+      "loadedKits": {
+        "first": 17,
+        "business": 65,
+        "premiumEconomy": 11,
+        "economy": 114
+      }
+    },
+    {
+      "flightId": "b8bd49f5-399f-4edf-a047-c6e427c07275",
+      "loadedKits": {
+        "first": 0,
+        "business": 8,
+        "premiumEconomy": 14,
+        "economy": 90
+      }
+    },
+    {
+      "flightId": "64d0489a-c0f6-4017-9a34-52e81acac209",
+      "loadedKits": {
+        "first": 0,
+        "business": 11,
+        "premiumEconomy": 14,
+        "economy": 164
+      }
+    },
+    {
+      "flightId": "f6e747f8-231b-4bd8-b0e0-8dbb87985b1d",
+      "loadedKits": {
+        "first": 3,
+        "business": 15,
+        "premiumEconomy": 24,
+        "economy": 70
+      }
+    },
+    {
+      "flightId": "126cfc5b-327e-4d3e-ae5a-2349fc87ab4a",
+      "loadedKits": {
+        "first": 2,
+        "business": 4,
+        "premiumEconomy": 0,
+        "economy": 37
+      }
+    },
+    {
+      "flightId": "c39ee7f6-0932-4218-8b30-cfbb3f5aaa4b",
+      "loadedKits": {
+        "first": 2,
+        "business": 5,
+        "premiumEconomy": 17,
+        "economy": 53
+      }
+    },
+    {
+      "flightId": "31394b84-cdc3-4ad2-9dc2-a696ed4bfb8f",
+      "loadedKits": {
+        "first": 3,
+        "business": 6,
+        "premiumEconomy": 12,
+        "economy": 73
+      }
+    },
+    {
+      "flightId": "253d32a1-5ade-41b9-bfcc-462af45511f9",
+      "loadedKits": {
+        "first": 2,
+        "business": 13,
+        "premiumEconomy": 5,
+        "economy": 41
+      }
+    },
+    {
+      "flightId": "62b84ec8-4bca-4bbd-9f4f-226d388702ad",
+      "loadedKits": {
+        "first": 16,
+        "business": 51,
+        "premiumEconomy": 11,
+        "economy": 94
+      }
+    },
+    {
+      "flightId": "3e735c43-cb20-42c6-b3d5-6d769225edf5",
+      "loadedKits": {
+        "first": 9,
+        "business": 44,
+        "premiumEconomy": 38,
+        "economy": 104
+      }
+    },
+    {
+      "flightId": "a5536abe-101a-491f-a04f-ea27f604b597",
+      "loadedKits": {
+        "first": 13,
+        "business": 65,
+        "premiumEconomy": 12,
+        "economy": 245
+      }
+    },
+    {
+      "flightId": "c91ce9f1-351f-4019-9c30-354d9747c5a9",
+      "loadedKits": {
+        "first": 0,
+        "business": 54,
+        "premiumEconomy": 0,
+        "economy": 59
+      }
+    },
+    {
+      "flightId": "69bbb357-fad3-43ca-8a6d-2f663aff94bd",
+      "loadedKits": {
+        "first": 4,
+        "business": 23,
+        "premiumEconomy": 12,
+        "economy": 75
+      }
+    },
+    {
+      "flightId": "3bd02431-39a4-4dea-a543-329515dd016a",
+      "loadedKits": {
+        "first": 10,
+        "business": 41,
+        "premiumEconomy": 11,
+        "economy": 246
+      }
+    },
+    {
+      "flightId": "ea3d726f-b356-4fb0-bcf1-e0512df16eb6",
+      "loadedKits": {
+        "first": 0,
+        "business": 36,
+        "premiumEconomy": 9,
+        "economy": 77
+      }
+    },
+    {
+      "flightId": "21eea271-17f5-48ca-b676-055dfc3ef2c4",
+      "loadedKits": {
+        "first": 2,
+        "business": 15,
+        "premiumEconomy": 13,
+        "economy": 57
+      }
+    },
+    {
+      "flightId": "13de747b-bbb6-4845-8c35-cbe3f4b35816",
+      "loadedKits": {
+        "first": 2,
+        "business": 0,
+        "premiumEconomy": 2,
+        "economy": 48
+      }
+    },
+    {
+      "flightId": "94be19c0-45c8-4bb6-b1da-4cea35cb10b5",
+      "loadedKits": {
+        "first": 4,
+        "business": 29,
+        "premiumEconomy": 14,
+        "economy": 83
+      }
+    },
+    {
+      "flightId": "75644b0a-ded5-4d14-bcae-ec9ae7156180",
+      "loadedKits": {
+        "first": 1,
+        "business": 40,
+        "premiumEconomy": 13,
+        "economy": 66
+      }
+    },
+    {
+      "flightId": "c263b71d-71bd-44f2-9bbf-bf6dc4732491",
+      "loadedKits": {
+        "first": 4,
+        "business": 14,
+        "premiumEconomy": 13,
+        "economy": 35
+      }
+    },
+    {
+      "flightId": "260e3e22-20bf-4885-a0c8-0418419e8f41",
+      "loadedKits": {
+        "first": 3,
+        "business": 33,
+        "premiumEconomy": 8,
+        "economy": 133
+      }
+    },
+    {
+      "flightId": "db5c0963-b0ec-449b-bf45-575271c0498f",
+      "loadedKits": {
+        "first": 0,
+        "business": 21,
+        "premiumEconomy": 14,
+        "economy": 185
+      }
+    },
+    {
+      "flightId": "1b132590-f9e7-4dab-a693-0e9a7c0c4261",
+      "loadedKits": {
+        "first": 0,
+        "business": 6,
+        "premiumEconomy": 9,
+        "economy": 49
+      }
+    },
+    {
+      "flightId": "ce05ceb6-8100-4df8-9f59-53c76e499217",
+      "loadedKits": {
+        "first": 10,
+        "business": 18,
+        "premiumEconomy": 29,
+        "economy": 110
+      }
+    },
+    {
+      "flightId": "2e0248e1-f02e-421a-8dd9-2ee9dd884caf",
+      "loadedKits": {
+        "first": 1,
+        "business": 0,
+        "premiumEconomy": 0,
+        "economy": 106
+      }
+    },
+    {
+      "flightId": "c4b27794-42d8-4903-baab-b5c755c80528",
+      "loadedKits": {
+        "first": 7,
+        "business": 22,
+        "premiumEconomy": 18,
+        "economy": 112
+      }
+    },
+    {
+      "flightId": "b762e32f-d347-4f38-b022-852310c51974",
+      "loadedKits": {
+        "first": 13,
+        "business": 3,
+        "premiumEconomy": 26,
+        "economy": 254
+      }
+    },
+    {
+      "flightId": "1b1fb6cd-bae6-4272-a82d-d1167eeb7638",
+      "loadedKits": {
+        "first": 9,
+        "business": 11,
+        "premiumEconomy": 23,
+        "economy": 15
+      }
+    },
+    {
+      "flightId": "073a72e5-05e9-4e97-be87-a7897e1bf690",
+      "loadedKits": {
+        "first": 10,
+        "business": 53,
+        "premiumEconomy": 20,
+        "economy": 158
+      }
+    },
+    {
+      "flightId": "4e477629-b859-4272-854e-ecb8c95fa0a2",
+      "loadedKits": {
+        "first": 4,
+        "business": 21,
+        "premiumEconomy": 10,
+        "economy": 37
+      }
+    },
+    {
+      "flightId": "81acef7f-8b06-4270-a043-492498b5f280",
+      "loadedKits": {
+        "first": 0,
+        "business": 44,
+        "premiumEconomy": 10,
+        "economy": 221
+      }
+    },
+    {
+      "flightId": "91c68036-6567-45c8-b3d4-2610412b8f74",
+      "loadedKits": {
+        "first": 1,
+        "business": 63,
+        "premiumEconomy": 18,
+        "economy": 5
+      }
+    },
+    {
+      "flightId": "9d5fc82f-fb9a-42c1-9344-69e4719828dc",
+      "loadedKits": {
+        "first": 7,
+        "business": 17,
+        "premiumEconomy": 0,
+        "economy": 127
+      }
+    },
+    {
+      "flightId": "1be3a046-6c46-4c35-888b-4a0ed6d145da",
+      "loadedKits": {
+        "first": 2,
+        "business": 50,
+        "premiumEconomy": 2,
+        "economy": 373
+      }
+    },
+    {
+      "flightId": "29caf8f0-8472-46f4-903d-ce12d1c63d7c",
+      "loadedKits": {
+        "first": 2,
+        "business": 19,
+        "premiumEconomy": 31,
+        "economy": 82
+      }
+    },
+    {
+      "flightId": "cf60da0d-51c8-4f59-a981-c1736978f1f6",
+      "loadedKits": {
+        "first": 7,
+        "business": 11,
+        "premiumEconomy": 10,
+        "economy": 95
+      }
+    },
+    {
+      "flightId": "d29894ce-240f-47cf-90aa-36296764b581",
+      "loadedKits": {
+        "first": 2,
+        "business": 57,
+        "premiumEconomy": 13,
+        "economy": 120
+      }
+    },
+    {
+      "flightId": "14fb5a39-6af7-4c36-be61-18e4813e8e9b",
+      "loadedKits": {
+        "first": 5,
+        "business": 46,
+        "premiumEconomy": 5,
+        "economy": 121
+      }
+    },
+    {
+      "flightId": "b97eae85-84ee-4786-80ed-491e9da6f268",
+      "loadedKits": {
+        "first": 1,
+        "business": 15,
+        "premiumEconomy": 9,
+        "economy": 54
+      }
+    },
+    {
+      "flightId": "123af046-bf69-4d30-aa9a-b329725affce",
+      "loadedKits": {
+        "first": 2,
+        "business": 23,
+        "premiumEconomy": 19,
+        "economy": 66
+      }
+    },
+    {
+      "flightId": "da70ad6b-e669-4cdd-8a3a-e58da81034c5",
+      "loadedKits": {
+        "first": 3,
+        "business": 29,
+        "premiumEconomy": 0,
+        "economy": 78
+      }
+    },
+    {
+      "flightId": "1db1a701-d54c-4759-b4f9-628d0baa1a40",
+      "loadedKits": {
+        "first": 0,
+        "business": 18,
+        "premiumEconomy": 13,
+        "economy": 151
+      }
+    },
+    {
+      "flightId": "381ed56c-708a-4f88-a6be-ebd7658d8620",
+      "loadedKits": {
+        "first": 7,
+        "business": 48,
+        "premiumEconomy": 32,
+        "economy": 55
+      }
+    },
+    {
+      "flightId": "ca31bbac-6e69-4069-987a-0761287b50d8",
+      "loadedKits": {
+        "first": 8,
+        "business": 19,
+        "premiumEconomy": 16,
+        "economy": 28
+      }
+    },
+    {
+      "flightId": "1c384624-9051-418c-9a31-536a6140eb34",
+      "loadedKits": {
+        "first": 2,
+        "business": 0,
+        "premiumEconomy": 4,
+        "economy": 79
+      }
+    },
+    {
+      "flightId": "9e535f2f-1d04-4ded-a3ff-39bd88191ed3",
+      "loadedKits": {
+        "first": 3,
+        "business": 17,
+        "premiumEconomy": 7,
+        "economy": 0
+      }
+    },
+    {
+      "flightId": "4bdb7ffd-8fc6-47e3-bb06-a9a9b71991eb",
+      "loadedKits": {
+        "first": 0,
+        "business": 4,
+        "premiumEconomy": 17,
+        "economy": 61
+      }
+    },
+    {
+      "flightId": "33b045e1-9ebf-4d80-93ef-bf112b5906b7",
+      "loadedKits": {
+        "first": 4,
+        "business": 16,
+        "premiumEconomy": 5,
+        "economy": 103
+      }
+    },
+    {
+      "flightId": "6f2a515a-1f0d-4e47-b46c-91bb4b9034d9",
+      "loadedKits": {
+        "first": 6,
+        "business": 0,
+        "premiumEconomy": 29,
+        "economy": 0
+      }
+    },
+    {
+      "flightId": "cc1e7773-1216-4145-a42a-5cec0c73f87e",
+      "loadedKits": {
+        "first": 13,
+        "business": 51,
+        "premiumEconomy": 13,
+        "economy": 141
+      }
+    },
+    {
+      "flightId": "8e129d95-97a6-4aec-9062-d3415121cf01",
+      "loadedKits": {
+        "first": 6,
+        "business": 51,
+        "premiumEconomy": 4,
+        "economy": 133
+      }
+    },
+    {
+      "flightId": "d7883d88-6f8f-4cec-8030-bbe85f443893",
+      "loadedKits": {
+        "first": 0,
+        "business": 0,
+        "premiumEconomy": 0,
+        "economy": 0
+      }
+    },
+    {
+      "flightId": "2e2c871f-78a0-4a0d-9270-f747fa539359",
+      "loadedKits": {
+        "first": 0,
+        "business": 6,
+        "premiumEconomy": 19,
+        "economy": 111
+      }
+    },
+    {
+      "flightId": "b9415210-4b6e-4518-8ead-15cd449035d2",
+      "loadedKits": {
+        "first": 7,
+        "business": 5,
+        "premiumEconomy": 18,
+        "economy": 97
+      }
+    },
+    {
+      "flightId": "fba8b526-1801-4d8e-8dd4-10e13ea2a5e1",
+      "loadedKits": {
+        "first": 9,
+        "business": 16,
+        "premiumEconomy": 18,
+        "economy": 167
+      }
+    },
+    {
+      "flightId": "7057eb13-8625-4ea0-8ff0-c8c5919314b8",
+      "loadedKits": {
+        "first": 10,
+        "business": 77,
+        "premiumEconomy": 18,
+        "economy": 117
+      }
+    },
+    {
+      "flightId": "1c4dbff8-e9c7-4e60-9b88-0b165248b6a6",
+      "loadedKits": {
+        "first": 7,
+        "business": 29,
+        "premiumEconomy": 6,
+        "economy": 50
+      }
+    },
+    {
+      "flightId": "daf786b6-1c2f-487f-986b-b5753a0815a4",
+      "loadedKits": {
+        "first": 2,
+        "business": 1,
+        "premiumEconomy": 22,
+        "economy": 68
+      }
+    },
+    {
+      "flightId": "602938ee-bf75-4348-8b4b-abdd4338c170",
+      "loadedKits": {
+        "first": 0,
+        "business": 0,
+        "premiumEconomy": 16,
+        "economy": 65
+      }
+    },
+    {
+      "flightId": "f1d2e961-bb34-4681-b308-45d5da6ed58b",
+      "loadedKits": {
+        "first": 1,
+        "business": 26,
+        "premiumEconomy": 23,
+        "economy": 108
+      }
+    },
+    {
+      "flightId": "30037d4d-bdd6-4427-b772-dd3b90330411",
+      "loadedKits": {
+        "first": 2,
+        "business": 34,
+        "premiumEconomy": 20,
+        "economy": 27
+      }
+    },
+    {
+      "flightId": "62130ec2-246b-4818-b8fc-ab73079f4846",
+      "loadedKits": {
+        "first": 2,
+        "business": 24,
+        "premiumEconomy": 15,
+        "economy": 52
+      }
+    },
+    {
+      "flightId": "0b580df3-9336-4127-8972-eaaaf392e4af",
+      "loadedKits": {
+        "first": 3,
+        "business": 55,
+        "premiumEconomy": 6,
+        "economy": 147
+      }
+    },
+    {
+      "flightId": "8788d7fb-ed4f-4261-bd49-c12edae0abde",
+      "loadedKits": {
+        "first": 13,
+        "business": 33,
+        "premiumEconomy": 26,
+        "economy": 122
+      }
+    },
+    {
+      "flightId": "f17bdb91-c65b-4c93-9979-0df4e51f2ca2",
+      "loadedKits": {
+        "first": 2,
+        "business": 13,
+        "premiumEconomy": 0,
+        "economy": 44
+      }
+    },
+    {
+      "flightId": "9c16533a-e189-4297-ba07-5e4c8fd93ada",
+      "loadedKits": {
+        "first": 2,
+        "business": 62,
+        "premiumEconomy": 16,
+        "economy": 84
+      }
+    },
+    {
+      "flightId": "ca695f36-777f-4033-b32a-48431dfa4ad3",
+      "loadedKits": {
+        "first": 2,
+        "business": 36,
+        "premiumEconomy": 22,
+        "economy": 100
+      }
+    },
+    {
+      "flightId": "f7d1de40-a454-474f-a4e6-b846b8fff583",
+      "loadedKits": {
+        "first": 2,
+        "business": 33,
+        "premiumEconomy": 2,
+        "economy": 96
+      }
+    },
+    {
+      "flightId": "bc35a82c-675b-4fc4-8522-2387e3812497",
+      "loadedKits": {
+        "first": 0,
+        "business": 0,
+        "premiumEconomy": 0,
+        "economy": 0
+      }
+    }
+  ],
+  "kitPurchasingOrders": {
+    "first": 0,
+    "business": 0,
+    "premiumEconomy": 0,
+    "economy": 0
+  }
+}

@@ -1,0 +1,4826 @@
+{
+  "day": 3,
+  "hour": 11,
+  "flightUpdates": [
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1004",
+      "flightId": "ada267bc-2593-4126-9bce-ee93b0691a6f",
+      "originAirport": "HUB1",
+      "destinationAirport": "UIVJ",
+      "departure": {
+        "day": 4,
+        "hour": 8
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 10
+      },
+      "passengers": {
+        "first": 0,
+        "business": 8,
+        "premiumEconomy": 13,
+        "economy": 41
+      },
+      "aircraftType": "NHY337",
+      "distance": 1372.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1009",
+      "flightId": "7cafeda7-f993-4b68-9b68-ffdc4861bdcf",
+      "originAirport": "ZDQP",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 4,
+        "hour": 5
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 9
+      },
+      "passengers": {
+        "first": 8,
+        "business": 34,
+        "premiumEconomy": 28,
+        "economy": 72
+      },
+      "aircraftType": "WTA646",
+      "distance": 2672.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1012",
+      "flightId": "a2c953a8-3b99-408f-a432-72b4aa5c6f7b",
+      "originAirport": "HUB1",
+      "destinationAirport": "INFQ",
+      "departure": {
+        "day": 3,
+        "hour": 14
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 16
+      },
+      "passengers": {
+        "first": 6,
+        "business": 16,
+        "premiumEconomy": 22,
+        "economy": 268
+      },
+      "aircraftType": "OJF294",
+      "distance": 1491.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1013",
+      "flightId": "1e512525-629d-44af-ab2a-723c2920ac3d",
+      "originAirport": "INFQ",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 3,
+        "hour": 22
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 4
+      },
+      "passengers": {
+        "first": 14,
+        "business": 46,
+        "premiumEconomy": 10,
+        "economy": 208
+      },
+      "aircraftType": "WTA646",
+      "distance": 4830.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1022",
+      "flightId": "7ac8e409-23e9-4458-98db-d9654e23c70d",
+      "originAirport": "HUB1",
+      "destinationAirport": "QQYX",
+      "departure": {
+        "day": 4,
+        "hour": 11
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 15
+      },
+      "passengers": {
+        "first": 6,
+        "business": 17,
+        "premiumEconomy": 13,
+        "economy": 25
+      },
+      "aircraftType": "UHB596",
+      "distance": 2926.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1023",
+      "flightId": "630e31e4-d9fb-47a0-bf38-9494aa35f2f8",
+      "originAirport": "QQYX",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 3,
+        "hour": 15
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 18
+      },
+      "passengers": {
+        "first": 5,
+        "business": 17,
+        "premiumEconomy": 4,
+        "economy": 314
+      },
+      "aircraftType": "WTA646",
+      "distance": 2492.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1025",
+      "flightId": "e2218c1f-42a2-49a5-964a-4e291cb0c6bc",
+      "originAirport": "USEF",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 4,
+        "hour": 2
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 6
+      },
+      "passengers": {
+        "first": 1,
+        "business": 37,
+        "premiumEconomy": 16,
+        "economy": 74
+      },
+      "aircraftType": "UHB596",
+      "distance": 2837.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1031",
+      "flightId": "d6f50eb3-06aa-4299-b0b9-2927d934d35f",
+      "originAirport": "UTYD",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 3,
+        "hour": 19
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 22
+      },
+      "passengers": {
+        "first": 3,
+        "business": 15,
+        "premiumEconomy": 15,
+        "economy": 136
+      },
+      "aircraftType": "NHY337",
+      "distance": 1896.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1032",
+      "flightId": "ab9fcd17-3fc4-4db4-bfd6-e06b637b1518",
+      "originAirport": "HUB1",
+      "destinationAirport": "OGMA",
+      "departure": {
+        "day": 3,
+        "hour": 18
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 20
+      },
+      "passengers": {
+        "first": 4,
+        "business": 13,
+        "premiumEconomy": 5,
+        "economy": 50
+      },
+      "aircraftType": "NHY337",
+      "distance": 895.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1035",
+      "flightId": "01f3741f-d5a4-4e9f-8b28-c425099e08ce",
+      "originAirport": "ZGVH",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 4,
+        "hour": 2
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 6
+      },
+      "passengers": {
+        "first": 0,
+        "business": 57,
+        "premiumEconomy": 4,
+        "economy": 168
+      },
+      "aircraftType": "WTA646",
+      "distance": 3142.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1038",
+      "flightId": "68c8fdaf-2e8f-40fc-9bef-ae0dd62ef8ea",
+      "originAirport": "HUB1",
+      "destinationAirport": "CJVM",
+      "departure": {
+        "day": 3,
+        "hour": 21
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 0
+      },
+      "passengers": {
+        "first": 7,
+        "business": 12,
+        "premiumEconomy": 24,
+        "economy": 126
+      },
+      "aircraftType": "UHB596",
+      "distance": 2329.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1041",
+      "flightId": "2f7b6ed8-373f-4e40-a85e-eb78a7954c10",
+      "originAirport": "WCKH",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 4,
+        "hour": 0
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 5
+      },
+      "passengers": {
+        "first": 7,
+        "business": 20,
+        "premiumEconomy": 4,
+        "economy": 19
+      },
+      "aircraftType": "OJF294",
+      "distance": 3576.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1042",
+      "flightId": "4770dc36-d96f-4e45-a147-ffd2e5b8f19f",
+      "originAirport": "HUB1",
+      "destinationAirport": "NMGU",
+      "departure": {
+        "day": 4,
+        "hour": 6
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 10
+      },
+      "passengers": {
+        "first": 0,
+        "business": 19,
+        "premiumEconomy": 3,
+        "economy": 92
+      },
+      "aircraftType": "UHB596",
+      "distance": 2699.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1044",
+      "flightId": "4dbef687-7f17-4ae3-b51b-658c2618844d",
+      "originAirport": "HUB1",
+      "destinationAirport": "PEGV",
+      "departure": {
+        "day": 4,
+        "hour": 8
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 14
+      },
+      "passengers": {
+        "first": 3,
+        "business": 23,
+        "premiumEconomy": 20,
+        "economy": 146
+      },
+      "aircraftType": "UHB596",
+      "distance": 4394.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1048",
+      "flightId": "c210e18c-c7c8-4cfe-a902-e5330df9e674",
+      "originAirport": "HUB1",
+      "destinationAirport": "VVEV",
+      "departure": {
+        "day": 4,
+        "hour": 7
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 11
+      },
+      "passengers": {
+        "first": 1,
+        "business": 25,
+        "premiumEconomy": 13,
+        "economy": 65
+      },
+      "aircraftType": "NHY337",
+      "distance": 3019.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1049",
+      "flightId": "6c9b436c-e5bb-4670-835f-6b33882587c2",
+      "originAirport": "VVEV",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 4,
+        "hour": 11
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 15
+      },
+      "passengers": {
+        "first": 3,
+        "business": 23,
+        "premiumEconomy": 30,
+        "economy": 277
+      },
+      "aircraftType": "OJF294",
+      "distance": 3282.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1052",
+      "flightId": "be8f2af1-83b0-47cc-b714-cc26bc678fff",
+      "originAirport": "HUB1",
+      "destinationAirport": "TEVN",
+      "departure": {
+        "day": 4,
+        "hour": 1
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 4
+      },
+      "passengers": {
+        "first": 1,
+        "business": 17,
+        "premiumEconomy": 16,
+        "economy": 100
+      },
+      "aircraftType": "UHB596",
+      "distance": 2414.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1053",
+      "flightId": "ddd77a56-6277-4a78-9e53-0c1ae08150d9",
+      "originAirport": "TEVN",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 4,
+        "hour": 7
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 11
+      },
+      "passengers": {
+        "first": 8,
+        "business": 66,
+        "premiumEconomy": 23,
+        "economy": 113
+      },
+      "aircraftType": "OJF294",
+      "distance": 2658.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1057",
+      "flightId": "1a79ba95-fbc3-4578-942f-b4cdaece1328",
+      "originAirport": "XPAL",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 4,
+        "hour": 2
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 6
+      },
+      "passengers": {
+        "first": 2,
+        "business": 18,
+        "premiumEconomy": 8,
+        "economy": 319
+      },
+      "aircraftType": "OJF294",
+      "distance": 2552.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1059",
+      "flightId": "00542c2e-dc08-435e-b1e6-d42f879c2a76",
+      "originAirport": "OCQQ",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 3,
+        "hour": 16
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 19
+      },
+      "passengers": {
+        "first": 5,
+        "business": 19,
+        "premiumEconomy": 11,
+        "economy": 139
+      },
+      "aircraftType": "UHB596",
+      "distance": 2325.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1063",
+      "flightId": "46352732-d532-49db-b07d-2eca6e5b1723",
+      "originAirport": "COQL",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 4,
+        "hour": 2
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 5
+      },
+      "passengers": {
+        "first": 0,
+        "business": 5,
+        "premiumEconomy": 0,
+        "economy": 119
+      },
+      "aircraftType": "NHY337",
+      "distance": 2431.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1066",
+      "flightId": "6f68025a-8211-4d20-9b7e-62f5eb44d6d8",
+      "originAirport": "HUB1",
+      "destinationAirport": "AESE",
+      "departure": {
+        "day": 3,
+        "hour": 23
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 2
+      },
+      "passengers": {
+        "first": 10,
+        "business": 34,
+        "premiumEconomy": 14,
+        "economy": 197
+      },
+      "aircraftType": "WTA646",
+      "distance": 1988.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1068",
+      "flightId": "ae13d80e-2e79-4e0f-a390-b813c4e7f402",
+      "originAirport": "HUB1",
+      "destinationAirport": "ZTWY",
+      "departure": {
+        "day": 4,
+        "hour": 12
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 13
+      },
+      "passengers": {
+        "first": 7,
+        "business": 35,
+        "premiumEconomy": 20,
+        "economy": 39
+      },
+      "aircraftType": "UHB596",
+      "distance": 837.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1070",
+      "flightId": "8796baa0-5c7b-417f-937d-badd297fa100",
+      "originAirport": "HUB1",
+      "destinationAirport": "TLQJ",
+      "departure": {
+        "day": 3,
+        "hour": 16
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 18
+      },
+      "passengers": {
+        "first": 3,
+        "business": 1,
+        "premiumEconomy": 14,
+        "economy": 142
+      },
+      "aircraftType": "NHY337",
+      "distance": 1426.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1071",
+      "flightId": "ebb3c661-5ece-46f7-a009-a49f891b2608",
+      "originAirport": "TLQJ",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 3,
+        "hour": 19
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 1
+      },
+      "passengers": {
+        "first": 12,
+        "business": 26,
+        "premiumEconomy": 3,
+        "economy": 237
+      },
+      "aircraftType": "OJF294",
+      "distance": 4909.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1072",
+      "flightId": "5003a5b7-e24f-43ab-b77c-2a8f2dd559cb",
+      "originAirport": "HUB1",
+      "destinationAirport": "AEGV",
+      "departure": {
+        "day": 4,
+        "hour": 11
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 15
+      },
+      "passengers": {
+        "first": 1,
+        "business": 45,
+        "premiumEconomy": 1,
+        "economy": 146
+      },
+      "aircraftType": "OJF294",
+      "distance": 2975.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1073",
+      "flightId": "c883c8b1-c1a2-4793-a248-f943aff65edd",
+      "originAirport": "AEGV",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 3,
+        "hour": 18
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 21
+      },
+      "passengers": {
+        "first": 8,
+        "business": 66,
+        "premiumEconomy": 21,
+        "economy": 64
+      },
+      "aircraftType": "OJF294",
+      "distance": 1729.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1074",
+      "flightId": "e4a736e9-41f2-462f-bfa3-6ea46f12d366",
+      "originAirport": "HUB1",
+      "destinationAirport": "TKQI",
+      "departure": {
+        "day": 4,
+        "hour": 6
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 8
+      },
+      "passengers": {
+        "first": 1,
+        "business": 67,
+        "premiumEconomy": 9,
+        "economy": 68
+      },
+      "aircraftType": "OJF294",
+      "distance": 1442.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1075",
+      "flightId": "1c568dcf-49f4-485d-8812-01d3f3deaeaa",
+      "originAirport": "TKQI",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 4,
+        "hour": 11
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 14
+      },
+      "passengers": {
+        "first": 20,
+        "business": 27,
+        "premiumEconomy": 7,
+        "economy": 159
+      },
+      "aircraftType": "WTA646",
+      "distance": 2101.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1079",
+      "flightId": "52c7fe25-8bcd-4f46-a84f-9ea16071cabc",
+      "originAirport": "ZWXK",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 4,
+        "hour": 0
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 6
+      },
+      "passengers": {
+        "first": 1,
+        "business": 23,
+        "premiumEconomy": 14,
+        "economy": 162
+      },
+      "aircraftType": "UHB596",
+      "distance": 4265.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1086",
+      "flightId": "0d58abaf-1175-44d5-b6ce-db374564877a",
+      "originAirport": "HUB1",
+      "destinationAirport": "HJPR",
+      "departure": {
+        "day": 4,
+        "hour": 1
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 7
+      },
+      "passengers": {
+        "first": 5,
+        "business": 29,
+        "premiumEconomy": 24,
+        "economy": 251
+      },
+      "aircraftType": "WTA646",
+      "distance": 4552.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1087",
+      "flightId": "83dcfdce-7851-47be-bc15-f22e4ded264d",
+      "originAirport": "HJPR",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 4,
+        "hour": 8
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 13
+      },
+      "passengers": {
+        "first": 1,
+        "business": 20,
+        "premiumEconomy": 8,
+        "economy": 80
+      },
+      "aircraftType": "NHY337",
+      "distance": 4152.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1090",
+      "flightId": "4402826e-6149-4fa8-aba0-d740cfb142e8",
+      "originAirport": "HUB1",
+      "destinationAirport": "XYWK",
+      "departure": {
+        "day": 3,
+        "hour": 20
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 21
+      },
+      "passengers": {
+        "first": 10,
+        "business": 33,
+        "premiumEconomy": 12,
+        "economy": 292
+      },
+      "aircraftType": "OJF294",
+      "distance": 516.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1094",
+      "flightId": "3309e033-48e4-442d-a594-66d334b9a773",
+      "originAirport": "HUB1",
+      "destinationAirport": "NSCL",
+      "departure": {
+        "day": 4,
+        "hour": 8
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 13
+      },
+      "passengers": {
+        "first": 11,
+        "business": 29,
+        "premiumEconomy": 20,
+        "economy": 57
+      },
+      "aircraftType": "WTA646",
+      "distance": 3564.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1096",
+      "flightId": "e3576577-ce78-4c3b-a029-cf1df03bd3f0",
+      "originAirport": "HUB1",
+      "destinationAirport": "GXHG",
+      "departure": {
+        "day": 4,
+        "hour": 5
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 10
+      },
+      "passengers": {
+        "first": 2,
+        "business": 54,
+        "premiumEconomy": 20,
+        "economy": 40
+      },
+      "aircraftType": "WTA646",
+      "distance": 3716.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1097",
+      "flightId": "884405b2-8456-4420-8e2a-acb2d151501d",
+      "originAirport": "GXHG",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 3,
+        "hour": 15
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 16
+      },
+      "passengers": {
+        "first": 0,
+        "business": 2,
+        "premiumEconomy": 15,
+        "economy": 135
+      },
+      "aircraftType": "UHB596",
+      "distance": 494.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1098",
+      "flightId": "c6013f8e-4fef-4e4a-b319-7a64beb741e2",
+      "originAirport": "HUB1",
+      "destinationAirport": "SANT",
+      "departure": {
+        "day": 4,
+        "hour": 9
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 12
+      },
+      "passengers": {
+        "first": 3,
+        "business": 17,
+        "premiumEconomy": 12,
+        "economy": 115
+      },
+      "aircraftType": "NHY337",
+      "distance": 2472.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1100",
+      "flightId": "6a10a389-6a3d-4b4f-82c1-7cce638bdaab",
+      "originAirport": "HUB1",
+      "destinationAirport": "EUEC",
+      "departure": {
+        "day": 4,
+        "hour": 7
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 10
+      },
+      "passengers": {
+        "first": 6,
+        "business": 17,
+        "premiumEconomy": 16,
+        "economy": 88
+      },
+      "aircraftType": "UHB596",
+      "distance": 1987.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1101",
+      "flightId": "e4e1b4a3-d1c7-4c94-bf7e-066c77920734",
+      "originAirport": "EUEC",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 3,
+        "hour": 15
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 19
+      },
+      "passengers": {
+        "first": 12,
+        "business": 11,
+        "premiumEconomy": 0,
+        "economy": 178
+      },
+      "aircraftType": "OJF294",
+      "distance": 3064.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1104",
+      "flightId": "b7b7ea56-9113-455d-b38c-9b588cdee3cd",
+      "originAirport": "HUB1",
+      "destinationAirport": "LZLB",
+      "departure": {
+        "day": 3,
+        "hour": 23
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 1
+      },
+      "passengers": {
+        "first": 5,
+        "business": 17,
+        "premiumEconomy": 15,
+        "economy": 59
+      },
+      "aircraftType": "UHB596",
+      "distance": 1312.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1105",
+      "flightId": "749ca194-fe64-4df5-acd5-ff2d3dea1692",
+      "originAirport": "LZLB",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 4,
+        "hour": 4
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 7
+      },
+      "passengers": {
+        "first": 12,
+        "business": 39,
+        "premiumEconomy": 7,
+        "economy": 26
+      },
+      "aircraftType": "OJF294",
+      "distance": 2362.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1106",
+      "flightId": "85fc91c2-fd40-4f7f-9807-4e9d030dc433",
+      "originAirport": "HUB1",
+      "destinationAirport": "EBQM",
+      "departure": {
+        "day": 3,
+        "hour": 18
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 23
+      },
+      "passengers": {
+        "first": 1,
+        "business": 23,
+        "premiumEconomy": 21,
+        "economy": 71
+      },
+      "aircraftType": "UHB596",
+      "distance": 3423.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1110",
+      "flightId": "64efd0c3-026e-44f5-9ee9-2f997ae86d1d",
+      "originAirport": "HUB1",
+      "destinationAirport": "XGJQ",
+      "departure": {
+        "day": 3,
+        "hour": 20
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 23
+      },
+      "passengers": {
+        "first": 9,
+        "business": 45,
+        "premiumEconomy": 3,
+        "economy": 242
+      },
+      "aircraftType": "WTA646",
+      "distance": 2545.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1111",
+      "flightId": "db4c6a7f-285b-4217-802f-ab32ba3ce8c9",
+      "originAirport": "XGJQ",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 4,
+        "hour": 1
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 3
+      },
+      "passengers": {
+        "first": 7,
+        "business": 16,
+        "premiumEconomy": 25,
+        "economy": 179
+      },
+      "aircraftType": "UHB596",
+      "distance": 1669.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1115",
+      "flightId": "c6dec7de-e661-448f-ada7-5b8d7a5d982d",
+      "originAirport": "LZJN",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 3,
+        "hour": 19
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 0
+      },
+      "passengers": {
+        "first": 9,
+        "business": 50,
+        "premiumEconomy": 17,
+        "economy": 47
+      },
+      "aircraftType": "WTA646",
+      "distance": 3575.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1123",
+      "flightId": "e2f50f97-06ef-415e-8e6b-51cb78f99d69",
+      "originAirport": "ZJDI",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 4,
+        "hour": 2
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 4
+      },
+      "passengers": {
+        "first": 4,
+        "business": 35,
+        "premiumEconomy": 16,
+        "economy": 161
+      },
+      "aircraftType": "WTA646",
+      "distance": 1556.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1124",
+      "flightId": "66e94eec-d0dd-4929-8c96-63145ad91f03",
+      "originAirport": "HUB1",
+      "destinationAirport": "XPOT",
+      "departure": {
+        "day": 4,
+        "hour": 10
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 15
+      },
+      "passengers": {
+        "first": 7,
+        "business": 4,
+        "premiumEconomy": 26,
+        "economy": 26
+      },
+      "aircraftType": "UHB596",
+      "distance": 3511.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1129",
+      "flightId": "7d5bde2f-db1c-40bb-85ec-25916e27d444",
+      "originAirport": "LQSW",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 4,
+        "hour": 4
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 9
+      },
+      "passengers": {
+        "first": 3,
+        "business": 20,
+        "premiumEconomy": 31,
+        "economy": 164
+      },
+      "aircraftType": "OJF294",
+      "distance": 3710.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1132",
+      "flightId": "55b34994-98ca-49f3-bde3-e8110e24c5b2",
+      "originAirport": "HUB1",
+      "destinationAirport": "ETLI",
+      "departure": {
+        "day": 3,
+        "hour": 22
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 2
+      },
+      "passengers": {
+        "first": 7,
+        "business": 15,
+        "premiumEconomy": 16,
+        "economy": 17
+      },
+      "aircraftType": "OJF294",
+      "distance": 2773.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1133",
+      "flightId": "83511704-f4f2-44f1-a0a2-bc60e773e2da",
+      "originAirport": "ETLI",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 4,
+        "hour": 5
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 6
+      },
+      "passengers": {
+        "first": 0,
+        "business": 8,
+        "premiumEconomy": 29,
+        "economy": 335
+      },
+      "aircraftType": "OJF294",
+      "distance": 443.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1136",
+      "flightId": "ee95e328-c229-4145-bf5d-4b3099e0fa29",
+      "originAirport": "HUB1",
+      "destinationAirport": "ILTW",
+      "departure": {
+        "day": 4,
+        "hour": 4
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 9
+      },
+      "passengers": {
+        "first": 1,
+        "business": 63,
+        "premiumEconomy": 10,
+        "economy": 311
+      },
+      "aircraftType": "WTA646",
+      "distance": 3519.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1137",
+      "flightId": "ba76edb9-d8cf-4877-add1-1b957e3df316",
+      "originAirport": "ILTW",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 3,
+        "hour": 13
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 19
+      },
+      "passengers": {
+        "first": 5,
+        "business": 28,
+        "premiumEconomy": 0,
+        "economy": 203
+      },
+      "aircraftType": "WTA646",
+      "distance": 4673.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1141",
+      "flightId": "12757656-042b-4127-bc7a-7ba3674ce134",
+      "originAirport": "OCOZ",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 4,
+        "hour": 5
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 8
+      },
+      "passengers": {
+        "first": 5,
+        "business": 52,
+        "premiumEconomy": 11,
+        "economy": 231
+      },
+      "aircraftType": "WTA646",
+      "distance": 2155.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1153",
+      "flightId": "9e724b1c-697e-4722-a9bc-eb1a27d01ad9",
+      "originAirport": "ATAV",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 3,
+        "hour": 18
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 23
+      },
+      "passengers": {
+        "first": 0,
+        "business": 15,
+        "premiumEconomy": 3,
+        "economy": 67
+      },
+      "aircraftType": "NHY337",
+      "distance": 3788.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1158",
+      "flightId": "ee64a945-7cf0-407a-99ea-a260b0cdb220",
+      "originAirport": "HUB1",
+      "destinationAirport": "UWXR",
+      "departure": {
+        "day": 3,
+        "hour": 19
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 21
+      },
+      "passengers": {
+        "first": 3,
+        "business": 8,
+        "premiumEconomy": 24,
+        "economy": 68
+      },
+      "aircraftType": "UHB596",
+      "distance": 1308.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1160",
+      "flightId": "e323a1da-5278-4599-ac8f-327f5492e16d",
+      "originAirport": "HUB1",
+      "destinationAirport": "XPTP",
+      "departure": {
+        "day": 3,
+        "hour": 22
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 4
+      },
+      "passengers": {
+        "first": 18,
+        "business": 19,
+        "premiumEconomy": 12,
+        "economy": 106
+      },
+      "aircraftType": "WTA646",
+      "distance": 4924.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1162",
+      "flightId": "f6df43ba-7b07-4d66-b670-17082766072d",
+      "originAirport": "HUB1",
+      "destinationAirport": "ELGK",
+      "departure": {
+        "day": 4,
+        "hour": 4
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 6
+      },
+      "passengers": {
+        "first": 8,
+        "business": 20,
+        "premiumEconomy": 25,
+        "economy": 139
+      },
+      "aircraftType": "OJF294",
+      "distance": 1200.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1163",
+      "flightId": "a668c33e-c06d-41a2-bfb9-4130a7ec8ec5",
+      "originAirport": "ELGK",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 4,
+        "hour": 9
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 14
+      },
+      "passengers": {
+        "first": 1,
+        "business": 7,
+        "premiumEconomy": 9,
+        "economy": 48
+      },
+      "aircraftType": "UHB596",
+      "distance": 4236.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1164",
+      "flightId": "7d09bfde-194b-43a2-9d9a-87d2186abd5c",
+      "originAirport": "HUB1",
+      "destinationAirport": "GCHL",
+      "departure": {
+        "day": 3,
+        "hour": 18
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 0
+      },
+      "passengers": {
+        "first": 4,
+        "business": 4,
+        "premiumEconomy": 11,
+        "economy": 52
+      },
+      "aircraftType": "NHY337",
+      "distance": 4701.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1165",
+      "flightId": "1114dbdc-5022-4d44-b168-bef1610893e7",
+      "originAirport": "GCHL",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 4,
+        "hour": 1
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 4
+      },
+      "passengers": {
+        "first": 11,
+        "business": 11,
+        "premiumEconomy": 27,
+        "economy": 332
+      },
+      "aircraftType": "OJF294",
+      "distance": 1725.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1166",
+      "flightId": "019633cd-2179-4f22-9b23-6824b79fef5d",
+      "originAirport": "HUB1",
+      "destinationAirport": "QUWU",
+      "departure": {
+        "day": 4,
+        "hour": 4
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 8
+      },
+      "passengers": {
+        "first": 12,
+        "business": 40,
+        "premiumEconomy": 7,
+        "economy": 54
+      },
+      "aircraftType": "OJF294",
+      "distance": 3044.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1167",
+      "flightId": "2dec358b-7b37-49f8-b811-1bacc0906418",
+      "originAirport": "QUWU",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 4,
+        "hour": 10
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 12
+      },
+      "passengers": {
+        "first": 3,
+        "business": 16,
+        "premiumEconomy": 27,
+        "economy": 45
+      },
+      "aircraftType": "UHB596",
+      "distance": 1118.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1172",
+      "flightId": "a9e2566b-f39d-4d41-b87f-33e6fe345546",
+      "originAirport": "HUB1",
+      "destinationAirport": "EBYA",
+      "departure": {
+        "day": 4,
+        "hour": 6
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 9
+      },
+      "passengers": {
+        "first": 1,
+        "business": 18,
+        "premiumEconomy": 1,
+        "economy": 98
+      },
+      "aircraftType": "NHY337",
+      "distance": 2126.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1179",
+      "flightId": "b99a7a7f-e610-4b56-860e-0dd77b01517d",
+      "originAirport": "YCDO",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 4,
+        "hour": 0
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 5
+      },
+      "passengers": {
+        "first": 2,
+        "business": 25,
+        "premiumEconomy": 7,
+        "economy": 42
+      },
+      "aircraftType": "NHY337",
+      "distance": 4113.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1182",
+      "flightId": "0027287f-bd7e-469f-8d53-e3d066a451c3",
+      "originAirport": "HUB1",
+      "destinationAirport": "CLLM",
+      "departure": {
+        "day": 3,
+        "hour": 21
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 2
+      },
+      "passengers": {
+        "first": 16,
+        "business": 61,
+        "premiumEconomy": 26,
+        "economy": 31
+      },
+      "aircraftType": "WTA646",
+      "distance": 3820.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1183",
+      "flightId": "688b6d0a-1be8-4b02-a9c3-ca32954ad0ae",
+      "originAirport": "CLLM",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 4,
+        "hour": 5
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 9
+      },
+      "passengers": {
+        "first": 4,
+        "business": 32,
+        "premiumEconomy": 9,
+        "economy": 239
+      },
+      "aircraftType": "WTA646",
+      "distance": 3192.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1186",
+      "flightId": "d20fde23-7ce3-447f-a77b-5cffb7bf0fc5",
+      "originAirport": "HUB1",
+      "destinationAirport": "ZBKQ",
+      "departure": {
+        "day": 4,
+        "hour": 8
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 12
+      },
+      "passengers": {
+        "first": 18,
+        "business": 35,
+        "premiumEconomy": 18,
+        "economy": 322
+      },
+      "aircraftType": "WTA646",
+      "distance": 3122.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1187",
+      "flightId": "72e09ea7-4a5d-485e-9c63-e4d4f78e4e8f",
+      "originAirport": "ZBKQ",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 4,
+        "hour": 12
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 18
+      },
+      "passengers": {
+        "first": 1,
+        "business": 33,
+        "premiumEconomy": 4,
+        "economy": 10
+      },
+      "aircraftType": "UHB596",
+      "distance": 4814.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1191",
+      "flightId": "3532dbd6-f630-4447-b503-9ec9fd626548",
+      "originAirport": "MYTG",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 3,
+        "hour": 16
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 18
+      },
+      "passengers": {
+        "first": 3,
+        "business": 27,
+        "premiumEconomy": 3,
+        "economy": 26
+      },
+      "aircraftType": "NHY337",
+      "distance": 1034.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1194",
+      "flightId": "625d1a9c-5a11-4f91-a38e-48d9300575aa",
+      "originAirport": "HUB1",
+      "destinationAirport": "FDVP",
+      "departure": {
+        "day": 3,
+        "hour": 22
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 1
+      },
+      "passengers": {
+        "first": 2,
+        "business": 42,
+        "premiumEconomy": 6,
+        "economy": 111
+      },
+      "aircraftType": "OJF294",
+      "distance": 1907.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1198",
+      "flightId": "c8f397d3-fa86-4a2e-bd3e-6d8cc59dfc32",
+      "originAirport": "HUB1",
+      "destinationAirport": "YNQC",
+      "departure": {
+        "day": 3,
+        "hour": 22
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 2
+      },
+      "passengers": {
+        "first": 0,
+        "business": 19,
+        "premiumEconomy": 4,
+        "economy": 26
+      },
+      "aircraftType": "UHB596",
+      "distance": 3249.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1199",
+      "flightId": "cc9fc6df-db37-4d79-b7be-9cfc0afc395e",
+      "originAirport": "YNQC",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 4,
+        "hour": 1
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 5
+      },
+      "passengers": {
+        "first": 16,
+        "business": 59,
+        "premiumEconomy": 2,
+        "economy": 168
+      },
+      "aircraftType": "WTA646",
+      "distance": 3119.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1200",
+      "flightId": "2de7f76a-b881-4b31-b62b-b241aa6ce0ea",
+      "originAirport": "HUB1",
+      "destinationAirport": "OEXV",
+      "departure": {
+        "day": 4,
+        "hour": 11
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 12
+      },
+      "passengers": {
+        "first": 8,
+        "business": 56,
+        "premiumEconomy": 2,
+        "economy": 59
+      },
+      "aircraftType": "WTA646",
+      "distance": 640.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1203",
+      "flightId": "3e5781e8-9d42-48c8-a775-69369ada50e3",
+      "originAirport": "OJFQ",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 3,
+        "hour": 17
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 19
+      },
+      "passengers": {
+        "first": 4,
+        "business": 1,
+        "premiumEconomy": 9,
+        "economy": 35
+      },
+      "aircraftType": "OJF294",
+      "distance": 1333.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1206",
+      "flightId": "be71c0b3-17c2-4cce-88bd-d9a1581f3e19",
+      "originAirport": "HUB1",
+      "destinationAirport": "VAPJ",
+      "departure": {
+        "day": 3,
+        "hour": 19
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 0
+      },
+      "passengers": {
+        "first": 2,
+        "business": 34,
+        "premiumEconomy": 2,
+        "economy": 13
+      },
+      "aircraftType": "UHB596",
+      "distance": 3602.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1207",
+      "flightId": "1511dbb9-2c1f-4701-9baf-17adc8318797",
+      "originAirport": "VAPJ",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 4,
+        "hour": 5
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 9
+      },
+      "passengers": {
+        "first": 9,
+        "business": 43,
+        "premiumEconomy": 13,
+        "economy": 315
+      },
+      "aircraftType": "WTA646",
+      "distance": 2767.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1210",
+      "flightId": "e1608412-e7a6-4686-8095-f570cc4e1997",
+      "originAirport": "HUB1",
+      "destinationAirport": "OTII",
+      "departure": {
+        "day": 4,
+        "hour": 11
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 15
+      },
+      "passengers": {
+        "first": 3,
+        "business": 0,
+        "premiumEconomy": 14,
+        "economy": 32
+      },
+      "aircraftType": "NHY337",
+      "distance": 2799.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1215",
+      "flightId": "cb8f66aa-f0c5-4521-9b43-32a5d09bd204",
+      "originAirport": "LYCB",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 4,
+        "hour": 5
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 8
+      },
+      "passengers": {
+        "first": 4,
+        "business": 0,
+        "premiumEconomy": 1,
+        "economy": 101
+      },
+      "aircraftType": "UHB596",
+      "distance": 1978.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1216",
+      "flightId": "6e24fd86-4c2a-4f67-99ec-2a45b361e630",
+      "originAirport": "HUB1",
+      "destinationAirport": "MSFJ",
+      "departure": {
+        "day": 3,
+        "hour": 20
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 21
+      },
+      "passengers": {
+        "first": 2,
+        "business": 8,
+        "premiumEconomy": 13,
+        "economy": 86
+      },
+      "aircraftType": "NHY337",
+      "distance": 664.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1218",
+      "flightId": "ff3973c0-510e-42fb-a0e4-858638738594",
+      "originAirport": "HUB1",
+      "destinationAirport": "KLOO",
+      "departure": {
+        "day": 4,
+        "hour": 7
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 9
+      },
+      "passengers": {
+        "first": 19,
+        "business": 11,
+        "premiumEconomy": 2,
+        "economy": 251
+      },
+      "aircraftType": "WTA646",
+      "distance": 852.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1220",
+      "flightId": "50612509-d5ed-478f-9866-439ef1e9d19d",
+      "originAirport": "HUB1",
+      "destinationAirport": "VEGZ",
+      "departure": {
+        "day": 3,
+        "hour": 18
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 23
+      },
+      "passengers": {
+        "first": 9,
+        "business": 0,
+        "premiumEconomy": 1,
+        "economy": 68
+      },
+      "aircraftType": "OJF294",
+      "distance": 3740.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1221",
+      "flightId": "05475ba8-dfc2-4ac6-8305-719b899f1748",
+      "originAirport": "VEGZ",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 3,
+        "hour": 21
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 23
+      },
+      "passengers": {
+        "first": 1,
+        "business": 24,
+        "premiumEconomy": 2,
+        "economy": 42
+      },
+      "aircraftType": "NHY337",
+      "distance": 1353.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1222",
+      "flightId": "1699872c-5263-4e01-88c2-62fa7172cbf9",
+      "originAirport": "HUB1",
+      "destinationAirport": "PAJF",
+      "departure": {
+        "day": 3,
+        "hour": 21
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 23
+      },
+      "passengers": {
+        "first": 8,
+        "business": 46,
+        "premiumEconomy": 2,
+        "economy": 276
+      },
+      "aircraftType": "WTA646",
+      "distance": 983.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1223",
+      "flightId": "a71f134c-6a3f-4591-bdf8-ae9d5c31945c",
+      "originAirport": "PAJF",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 4,
+        "hour": 6
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 9
+      },
+      "passengers": {
+        "first": 12,
+        "business": 55,
+        "premiumEconomy": 31,
+        "economy": 174
+      },
+      "aircraftType": "OJF294",
+      "distance": 2500.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1228",
+      "flightId": "e9742b68-66c4-433a-b086-109adf6162d4",
+      "originAirport": "HUB1",
+      "destinationAirport": "WRAY",
+      "departure": {
+        "day": 4,
+        "hour": 10
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 14
+      },
+      "passengers": {
+        "first": 1,
+        "business": 15,
+        "premiumEconomy": 10,
+        "economy": 116
+      },
+      "aircraftType": "NHY337",
+      "distance": 3261.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1229",
+      "flightId": "36141e42-8138-4cc9-981f-ea9aeb77d4c5",
+      "originAirport": "WRAY",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 3,
+        "hour": 15
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 20
+      },
+      "passengers": {
+        "first": 2,
+        "business": 18,
+        "premiumEconomy": 12,
+        "economy": 108
+      },
+      "aircraftType": "NHY337",
+      "distance": 3887.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1230",
+      "flightId": "f310eb58-9b70-4690-8117-9b78cb640dd0",
+      "originAirport": "HUB1",
+      "destinationAirport": "WWPG",
+      "departure": {
+        "day": 3,
+        "hour": 16
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 19
+      },
+      "passengers": {
+        "first": 1,
+        "business": 5,
+        "premiumEconomy": 13,
+        "economy": 106
+      },
+      "aircraftType": "NHY337",
+      "distance": 2535.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1231",
+      "flightId": "1b31bd28-5d7a-4c03-8fa9-ec466ce9c580",
+      "originAirport": "WWPG",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 4,
+        "hour": 0
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 5
+      },
+      "passengers": {
+        "first": 3,
+        "business": 13,
+        "premiumEconomy": 12,
+        "economy": 88
+      },
+      "aircraftType": "NHY337",
+      "distance": 3906.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1232",
+      "flightId": "580cba34-6114-408f-8f4a-25a360c01090",
+      "originAirport": "HUB1",
+      "destinationAirport": "SCTT",
+      "departure": {
+        "day": 4,
+        "hour": 8
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 12
+      },
+      "passengers": {
+        "first": 12,
+        "business": 23,
+        "premiumEconomy": 31,
+        "economy": 288
+      },
+      "aircraftType": "OJF294",
+      "distance": 3374.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1233",
+      "flightId": "df48ac04-a05e-4e18-b7e3-6a38e3a59b4f",
+      "originAirport": "SCTT",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 4,
+        "hour": 12
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 17
+      },
+      "passengers": {
+        "first": 6,
+        "business": 41,
+        "premiumEconomy": 8,
+        "economy": 130
+      },
+      "aircraftType": "UHB596",
+      "distance": 4234.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1234",
+      "flightId": "50517e7b-c913-4650-bbaf-bde906ca8be7",
+      "originAirport": "HUB1",
+      "destinationAirport": "ERNI",
+      "departure": {
+        "day": 3,
+        "hour": 20
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 21
+      },
+      "passengers": {
+        "first": 6,
+        "business": 19,
+        "premiumEconomy": 26,
+        "economy": 168
+      },
+      "aircraftType": "UHB596",
+      "distance": 494.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1235",
+      "flightId": "89676ff8-12cc-42e3-ae7b-4dacdff46dee",
+      "originAirport": "ERNI",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 4,
+        "hour": 5
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 7
+      },
+      "passengers": {
+        "first": 0,
+        "business": 18,
+        "premiumEconomy": 1,
+        "economy": 137
+      },
+      "aircraftType": "NHY337",
+      "distance": 1063.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1236",
+      "flightId": "fcec2a12-8f39-444f-b452-39d2f5c12aa8",
+      "originAirport": "HUB1",
+      "destinationAirport": "UYGT",
+      "departure": {
+        "day": 3,
+        "hour": 18
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 22
+      },
+      "passengers": {
+        "first": 2,
+        "business": 20,
+        "premiumEconomy": 11,
+        "economy": 54
+      },
+      "aircraftType": "NHY337",
+      "distance": 2670.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1237",
+      "flightId": "133f8690-272b-4db5-bb20-1ac9994738f0",
+      "originAirport": "UYGT",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 4,
+        "hour": 2
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 6
+      },
+      "passengers": {
+        "first": 8,
+        "business": 46,
+        "premiumEconomy": 24,
+        "economy": 107
+      },
+      "aircraftType": "OJF294",
+      "distance": 3362.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1244",
+      "flightId": "37d04bf8-8a5a-499c-8fd5-19b1a51881ea",
+      "originAirport": "HUB1",
+      "destinationAirport": "KRPW",
+      "departure": {
+        "day": 4,
+        "hour": 1
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 6
+      },
+      "passengers": {
+        "first": 2,
+        "business": 20,
+        "premiumEconomy": 15,
+        "economy": 155
+      },
+      "aircraftType": "NHY337",
+      "distance": 3595.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1245",
+      "flightId": "98d734e2-2e8b-46e1-a63f-9bbdd8779986",
+      "originAirport": "KRPW",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 4,
+        "hour": 6
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 11
+      },
+      "passengers": {
+        "first": 1,
+        "business": 27,
+        "premiumEconomy": 7,
+        "economy": 121
+      },
+      "aircraftType": "UHB596",
+      "distance": 3634.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1248",
+      "flightId": "21c37c9f-a892-4105-a9d5-b7c26e4781b1",
+      "originAirport": "HUB1",
+      "destinationAirport": "FDFW",
+      "departure": {
+        "day": 4,
+        "hour": 9
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 13
+      },
+      "passengers": {
+        "first": 0,
+        "business": 23,
+        "premiumEconomy": 3,
+        "economy": 73
+      },
+      "aircraftType": "UHB596",
+      "distance": 3189.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1250",
+      "flightId": "032f9b41-6abf-48c4-b69d-18ca49a80de2",
+      "originAirport": "HUB1",
+      "destinationAirport": "MSKP",
+      "departure": {
+        "day": 4,
+        "hour": 7
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 9
+      },
+      "passengers": {
+        "first": 6,
+        "business": 13,
+        "premiumEconomy": 6,
+        "economy": 110
+      },
+      "aircraftType": "UHB596",
+      "distance": 1018.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1251",
+      "flightId": "dba95d59-e124-44c4-8c08-a5e3cd3be904",
+      "originAirport": "MSKP",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 3,
+        "hour": 14
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 17
+      },
+      "passengers": {
+        "first": 4,
+        "business": 19,
+        "premiumEconomy": 10,
+        "economy": 10
+      },
+      "aircraftType": "NHY337",
+      "distance": 2274.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1253",
+      "flightId": "86c0c15f-24a7-4557-8957-a96e8087cd91",
+      "originAirport": "RXUW",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 3,
+        "hour": 13
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 14
+      },
+      "passengers": {
+        "first": 4,
+        "business": 25,
+        "premiumEconomy": 17,
+        "economy": 159
+      },
+      "aircraftType": "UHB596",
+      "distance": 753.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1255",
+      "flightId": "676de022-cdfc-4658-8ad1-df1aec5cfea4",
+      "originAirport": "QFWG",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 3,
+        "hour": 16
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 21
+      },
+      "passengers": {
+        "first": 0,
+        "business": 29,
+        "premiumEconomy": 15,
+        "economy": 72
+      },
+      "aircraftType": "NHY337",
+      "distance": 3602.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1260",
+      "flightId": "c8102c69-3c2a-4cd7-9d8e-853b1464bb32",
+      "originAirport": "HUB1",
+      "destinationAirport": "GQMP",
+      "departure": {
+        "day": 3,
+        "hour": 19
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 23
+      },
+      "passengers": {
+        "first": 3,
+        "business": 13,
+        "premiumEconomy": 1,
+        "economy": 135
+      },
+      "aircraftType": "UHB596",
+      "distance": 3276.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1261",
+      "flightId": "397dedec-b83e-4728-b900-4caec4007d21",
+      "originAirport": "GQMP",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 3,
+        "hour": 21
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 23
+      },
+      "passengers": {
+        "first": 9,
+        "business": 24,
+        "premiumEconomy": 22,
+        "economy": 289
+      },
+      "aircraftType": "WTA646",
+      "distance": 1332.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1262",
+      "flightId": "c4a28487-617f-4786-8f03-d9440d3d24b3",
+      "originAirport": "HUB1",
+      "destinationAirport": "RBDJ",
+      "departure": {
+        "day": 4,
+        "hour": 5
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 11
+      },
+      "passengers": {
+        "first": 8,
+        "business": 60,
+        "premiumEconomy": 19,
+        "economy": 44
+      },
+      "aircraftType": "WTA646",
+      "distance": 4759.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1266",
+      "flightId": "70455a4e-5d44-4796-bc26-8e69cbb9bf88",
+      "originAirport": "HUB1",
+      "destinationAirport": "OOKR",
+      "departure": {
+        "day": 4,
+        "hour": 12
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 15
+      },
+      "passengers": {
+        "first": 16,
+        "business": 0,
+        "premiumEconomy": 7,
+        "economy": 325
+      },
+      "aircraftType": "WTA646",
+      "distance": 1788.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1270",
+      "flightId": "c40df4bf-3bce-44c7-b45e-f15ffd639558",
+      "originAirport": "HUB1",
+      "destinationAirport": "KRCW",
+      "departure": {
+        "day": 3,
+        "hour": 17
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 19
+      },
+      "passengers": {
+        "first": 1,
+        "business": 15,
+        "premiumEconomy": 0,
+        "economy": 70
+      },
+      "aircraftType": "NHY337",
+      "distance": 1131.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1271",
+      "flightId": "023984fe-035a-48e6-9798-5ce13d1809c9",
+      "originAirport": "KRCW",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 3,
+        "hour": 22
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 3
+      },
+      "passengers": {
+        "first": 3,
+        "business": 30,
+        "premiumEconomy": 4,
+        "economy": 100
+      },
+      "aircraftType": "NHY337",
+      "distance": 4043.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1272",
+      "flightId": "7da44516-ab9a-47aa-b40d-2f514e647fa1",
+      "originAirport": "HUB1",
+      "destinationAirport": "TROX",
+      "departure": {
+        "day": 3,
+        "hour": 18
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 19
+      },
+      "passengers": {
+        "first": 7,
+        "business": 65,
+        "premiumEconomy": 9,
+        "economy": 71
+      },
+      "aircraftType": "OJF294",
+      "distance": 838.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1276",
+      "flightId": "3bc19342-03f8-4555-99fc-0dafe7131da7",
+      "originAirport": "HUB1",
+      "destinationAirport": "IYXF",
+      "departure": {
+        "day": 4,
+        "hour": 1
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 6
+      },
+      "passengers": {
+        "first": 13,
+        "business": 42,
+        "premiumEconomy": 24,
+        "economy": 174
+      },
+      "aircraftType": "WTA646",
+      "distance": 4228.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1277",
+      "flightId": "3b207405-69af-4eb9-b245-7be99a347bb1",
+      "originAirport": "IYXF",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 4,
+        "hour": 8
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 10
+      },
+      "passengers": {
+        "first": 18,
+        "business": 18,
+        "premiumEconomy": 9,
+        "economy": 162
+      },
+      "aircraftType": "WTA646",
+      "distance": 1674.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1278",
+      "flightId": "0bad6f31-a9e1-4654-8759-6afe9debf52d",
+      "originAirport": "HUB1",
+      "destinationAirport": "OONX",
+      "departure": {
+        "day": 4,
+        "hour": 8
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 10
+      },
+      "passengers": {
+        "first": 0,
+        "business": 19,
+        "premiumEconomy": 8,
+        "economy": 108
+      },
+      "aircraftType": "UHB596",
+      "distance": 889.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1280",
+      "flightId": "7f2741d6-e22c-4b32-86d7-682c96f3cc5f",
+      "originAirport": "HUB1",
+      "destinationAirport": "FSWN",
+      "departure": {
+        "day": 4,
+        "hour": 4
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 9
+      },
+      "passengers": {
+        "first": 7,
+        "business": 7,
+        "premiumEconomy": 22,
+        "economy": 212
+      },
+      "aircraftType": "OJF294",
+      "distance": 3427.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1281",
+      "flightId": "e1cefc0e-364f-46d5-b692-82c9bf68085d",
+      "originAirport": "FSWN",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 3,
+        "hour": 14
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 18
+      },
+      "passengers": {
+        "first": 0,
+        "business": 24,
+        "premiumEconomy": 15,
+        "economy": 23
+      },
+      "aircraftType": "NHY337",
+      "distance": 2607.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1284",
+      "flightId": "5bc9e68c-b988-4193-8c59-08f18c39b40d",
+      "originAirport": "HUB1",
+      "destinationAirport": "FEHM",
+      "departure": {
+        "day": 3,
+        "hour": 15
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 21
+      },
+      "passengers": {
+        "first": 6,
+        "business": 19,
+        "premiumEconomy": 3,
+        "economy": 95
+      },
+      "aircraftType": "OJF294",
+      "distance": 4622.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1285",
+      "flightId": "713bf6e0-2dcd-49d9-9338-2b24552124f4",
+      "originAirport": "FEHM",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 3,
+        "hour": 20
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 21
+      },
+      "passengers": {
+        "first": 0,
+        "business": 37,
+        "premiumEconomy": 5,
+        "economy": 101
+      },
+      "aircraftType": "WTA646",
+      "distance": 809.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1286",
+      "flightId": "336fb4d4-2813-4804-ab6b-30f4dd39e7a3",
+      "originAirport": "HUB1",
+      "destinationAirport": "KPCB",
+      "departure": {
+        "day": 3,
+        "hour": 13
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 15
+      },
+      "passengers": {
+        "first": 8,
+        "business": 42,
+        "premiumEconomy": 9,
+        "economy": 316
+      },
+      "aircraftType": "WTA646",
+      "distance": 1536.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1287",
+      "flightId": "b3b818c6-195f-441f-b6dc-5ef588a967ca",
+      "originAirport": "KPCB",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 3,
+        "hour": 17
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 20
+      },
+      "passengers": {
+        "first": 15,
+        "business": 59,
+        "premiumEconomy": 20,
+        "economy": 294
+      },
+      "aircraftType": "WTA646",
+      "distance": 1822.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1290",
+      "flightId": "52876e47-8b8d-4d2c-afc6-d0e95b7f24f0",
+      "originAirport": "HUB1",
+      "destinationAirport": "QPLO",
+      "departure": {
+        "day": 4,
+        "hour": 6
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 8
+      },
+      "passengers": {
+        "first": 4,
+        "business": 29,
+        "premiumEconomy": 0,
+        "economy": 218
+      },
+      "aircraftType": "OJF294",
+      "distance": 1369.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1291",
+      "flightId": "9b2d4bfe-0af6-4e23-aba0-3297a3dbd464",
+      "originAirport": "QPLO",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 4,
+        "hour": 12
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 13
+      },
+      "passengers": {
+        "first": 4,
+        "business": 23,
+        "premiumEconomy": 1,
+        "economy": 30
+      },
+      "aircraftType": "NHY337",
+      "distance": 425.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1298",
+      "flightId": "2e7919c2-9ae7-47ab-b4ef-88a41739e80a",
+      "originAirport": "HUB1",
+      "destinationAirport": "DPRM",
+      "departure": {
+        "day": 3,
+        "hour": 22
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 0
+      },
+      "passengers": {
+        "first": 5,
+        "business": 41,
+        "premiumEconomy": 26,
+        "economy": 148
+      },
+      "aircraftType": "WTA646",
+      "distance": 1467.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1301",
+      "flightId": "d058e4b2-3e4c-47c2-ac82-22bb70b4beeb",
+      "originAirport": "WTGV",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 4,
+        "hour": 8
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 14
+      },
+      "passengers": {
+        "first": 4,
+        "business": 52,
+        "premiumEconomy": 20,
+        "economy": 218
+      },
+      "aircraftType": "OJF294",
+      "distance": 4873.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1308",
+      "flightId": "558bc5de-40da-4b7e-ab85-3678d5233787",
+      "originAirport": "HUB1",
+      "destinationAirport": "DYKR",
+      "departure": {
+        "day": 4,
+        "hour": 11
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 17
+      },
+      "passengers": {
+        "first": 15,
+        "business": 46,
+        "premiumEconomy": 6,
+        "economy": 13
+      },
+      "aircraftType": "WTA646",
+      "distance": 4899.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1309",
+      "flightId": "c8b13c22-f8f8-4de9-9c43-e3393d167866",
+      "originAirport": "DYKR",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 3,
+        "hour": 15
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 20
+      },
+      "passengers": {
+        "first": 2,
+        "business": 38,
+        "premiumEconomy": 10,
+        "economy": 18
+      },
+      "aircraftType": "WTA646",
+      "distance": 3665.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1311",
+      "flightId": "fdf3c1b7-741d-45aa-af93-2aac2c6ad4e2",
+      "originAirport": "NVKF",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 4,
+        "hour": 3
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 7
+      },
+      "passengers": {
+        "first": 3,
+        "business": 35,
+        "premiumEconomy": 21,
+        "economy": 194
+      },
+      "aircraftType": "OJF294",
+      "distance": 2939.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1313",
+      "flightId": "48ed2452-238e-4b60-9771-6adf489d435a",
+      "originAirport": "NUQO",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 4,
+        "hour": 1
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 5
+      },
+      "passengers": {
+        "first": 4,
+        "business": 7,
+        "premiumEconomy": 27,
+        "economy": 152
+      },
+      "aircraftType": "UHB596",
+      "distance": 2737.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1316",
+      "flightId": "7c5cb365-b8a1-4ac0-afe5-511ddab5000c",
+      "originAirport": "HUB1",
+      "destinationAirport": "YCCY",
+      "departure": {
+        "day": 4,
+        "hour": 11
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 16
+      },
+      "passengers": {
+        "first": 0,
+        "business": 17,
+        "premiumEconomy": 16,
+        "economy": 58
+      },
+      "aircraftType": "NHY337",
+      "distance": 3591.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1318",
+      "flightId": "ab93c6ed-1d4d-4b77-a6d0-99a0b75b84a4",
+      "originAirport": "HUB1",
+      "destinationAirport": "DHXR",
+      "departure": {
+        "day": 3,
+        "hour": 22
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 2
+      },
+      "passengers": {
+        "first": 5,
+        "business": 37,
+        "premiumEconomy": 16,
+        "economy": 197
+      },
+      "aircraftType": "WTA646",
+      "distance": 2901.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1319",
+      "flightId": "b66c73df-3615-4b39-8268-df75be7cddec",
+      "originAirport": "DHXR",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 4,
+        "hour": 2
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 7
+      },
+      "passengers": {
+        "first": 1,
+        "business": 29,
+        "premiumEconomy": 11,
+        "economy": 47
+      },
+      "aircraftType": "NHY337",
+      "distance": 3586.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1321",
+      "flightId": "4bc8f73d-54e2-41bd-a656-6dbbb54aacb9",
+      "originAirport": "ZHVK",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 3,
+        "hour": 13
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 18
+      },
+      "passengers": {
+        "first": 0,
+        "business": 57,
+        "premiumEconomy": 9,
+        "economy": 64
+      },
+      "aircraftType": "WTA646",
+      "distance": 3512.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1323",
+      "flightId": "18f4f819-a032-4f8b-84d8-6de7b7c56ad2",
+      "originAirport": "WPUE",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 4,
+        "hour": 2
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 4
+      },
+      "passengers": {
+        "first": 4,
+        "business": 21,
+        "premiumEconomy": 20,
+        "economy": 26
+      },
+      "aircraftType": "UHB596",
+      "distance": 893.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1324",
+      "flightId": "9e156b94-5b48-41db-9af6-e927c1da013e",
+      "originAirport": "HUB1",
+      "destinationAirport": "UIVJ",
+      "departure": {
+        "day": 4,
+        "hour": 1
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 7
+      },
+      "passengers": {
+        "first": 5,
+        "business": 30,
+        "premiumEconomy": 27,
+        "economy": 129
+      },
+      "aircraftType": "UHB596",
+      "distance": 4738.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1325",
+      "flightId": "3b7fba76-4e07-4f63-9b4d-0e4daf5e8a9e",
+      "originAirport": "UIVJ",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 4,
+        "hour": 5
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 9
+      },
+      "passengers": {
+        "first": 7,
+        "business": 36,
+        "premiumEconomy": 1,
+        "economy": 125
+      },
+      "aircraftType": "UHB596",
+      "distance": 3134.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1326",
+      "flightId": "f7627428-e523-4048-a87b-67a234d2bca9",
+      "originAirport": "HUB1",
+      "destinationAirport": "EEUQ",
+      "departure": {
+        "day": 3,
+        "hour": 17
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 22
+      },
+      "passengers": {
+        "first": 15,
+        "business": 57,
+        "premiumEconomy": 11,
+        "economy": 90
+      },
+      "aircraftType": "WTA646",
+      "distance": 4247.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1327",
+      "flightId": "c83b8058-3393-42e9-9632-5065d2b5e0fd",
+      "originAirport": "EEUQ",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 3,
+        "hour": 22
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 1
+      },
+      "passengers": {
+        "first": 10,
+        "business": 32,
+        "premiumEconomy": 20,
+        "economy": 70
+      },
+      "aircraftType": "OJF294",
+      "distance": 2280.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1333",
+      "flightId": "9de8421f-d116-43b8-9162-74aec6a99749",
+      "originAirport": "INFQ",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 4,
+        "hour": 3
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 6
+      },
+      "passengers": {
+        "first": 13,
+        "business": 66,
+        "premiumEconomy": 21,
+        "economy": 107
+      },
+      "aircraftType": "OJF294",
+      "distance": 2471.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1336",
+      "flightId": "800ea0cf-b3aa-4fe7-8add-4530436c3216",
+      "originAirport": "HUB1",
+      "destinationAirport": "RRLB",
+      "departure": {
+        "day": 4,
+        "hour": 8
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 14
+      },
+      "passengers": {
+        "first": 6,
+        "business": 22,
+        "premiumEconomy": 1,
+        "economy": 177
+      },
+      "aircraftType": "UHB596",
+      "distance": 4362.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1337",
+      "flightId": "565a60fb-bfcb-4beb-a412-f41e7133024e",
+      "originAirport": "RRLB",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 3,
+        "hour": 13
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 17
+      },
+      "passengers": {
+        "first": 4,
+        "business": 11,
+        "premiumEconomy": 9,
+        "economy": 101
+      },
+      "aircraftType": "NHY337",
+      "distance": 2871.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1340",
+      "flightId": "f970a30b-711c-405f-a0a7-5745101e5b3b",
+      "originAirport": "HUB1",
+      "destinationAirport": "ADXK",
+      "departure": {
+        "day": 4,
+        "hour": 7
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 10
+      },
+      "passengers": {
+        "first": 0,
+        "business": 9,
+        "premiumEconomy": 13,
+        "economy": 135
+      },
+      "aircraftType": "NHY337",
+      "distance": 2387.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1342",
+      "flightId": "2d455e05-23d5-483f-9827-b367652653b1",
+      "originAirport": "HUB1",
+      "destinationAirport": "QQYX",
+      "departure": {
+        "day": 3,
+        "hour": 16
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 19
+      },
+      "passengers": {
+        "first": 6,
+        "business": 63,
+        "premiumEconomy": 6,
+        "economy": 290
+      },
+      "aircraftType": "OJF294",
+      "distance": 2444.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1343",
+      "flightId": "baa62df6-90c2-4eb7-8aa7-233f3396d7ea",
+      "originAirport": "QQYX",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 3,
+        "hour": 23
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 4
+      },
+      "passengers": {
+        "first": 4,
+        "business": 13,
+        "premiumEconomy": 4,
+        "economy": 129
+      },
+      "aircraftType": "NHY337",
+      "distance": 3486.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1344",
+      "flightId": "91f3d7f8-fc18-4ec3-a016-c1e5feb89ba5",
+      "originAirport": "HUB1",
+      "destinationAirport": "USEF",
+      "departure": {
+        "day": 3,
+        "hour": 18
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 0
+      },
+      "passengers": {
+        "first": 2,
+        "business": 61,
+        "premiumEconomy": 16,
+        "economy": 152
+      },
+      "aircraftType": "WTA646",
+      "distance": 4575.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1345",
+      "flightId": "dc70a18b-c556-422c-95c9-1bb89e5be935",
+      "originAirport": "USEF",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 4,
+        "hour": 3
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 4
+      },
+      "passengers": {
+        "first": 13,
+        "business": 52,
+        "premiumEconomy": 14,
+        "economy": 65
+      },
+      "aircraftType": "OJF294",
+      "distance": 808.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1346",
+      "flightId": "f620d80a-43c2-4447-abbc-b575568908f2",
+      "originAirport": "HUB1",
+      "destinationAirport": "OFRR",
+      "departure": {
+        "day": 4,
+        "hour": 7
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 13
+      },
+      "passengers": {
+        "first": 2,
+        "business": 0,
+        "premiumEconomy": 16,
+        "economy": 123
+      },
+      "aircraftType": "NHY337",
+      "distance": 4677.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1350",
+      "flightId": "9555e9d9-dbfc-4b93-902a-3441b140fe1a",
+      "originAirport": "HUB1",
+      "destinationAirport": "UTYD",
+      "departure": {
+        "day": 4,
+        "hour": 4
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 9
+      },
+      "passengers": {
+        "first": 2,
+        "business": 21,
+        "premiumEconomy": 25,
+        "economy": 43
+      },
+      "aircraftType": "UHB596",
+      "distance": 3993.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1351",
+      "flightId": "0b9515dc-3468-4990-b413-996cf0a71f19",
+      "originAirport": "UTYD",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 4,
+        "hour": 9
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 15
+      },
+      "passengers": {
+        "first": 3,
+        "business": 9,
+        "premiumEconomy": 11,
+        "economy": 50
+      },
+      "aircraftType": "UHB596",
+      "distance": 4392.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1353",
+      "flightId": "4fefeff2-d7e6-4911-83c8-553f926fa040",
+      "originAirport": "OGMA",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 3,
+        "hour": 17
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 21
+      },
+      "passengers": {
+        "first": 1,
+        "business": 10,
+        "premiumEconomy": 7,
+        "economy": 123
+      },
+      "aircraftType": "UHB596",
+      "distance": 2586.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1355",
+      "flightId": "1e9853b8-c948-41d7-a889-28fc96a9e5a4",
+      "originAirport": "ZGVH",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 4,
+        "hour": 1
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 4
+      },
+      "passengers": {
+        "first": 6,
+        "business": 66,
+        "premiumEconomy": 18,
+        "economy": 179
+      },
+      "aircraftType": "OJF294",
+      "distance": 1877.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1356",
+      "flightId": "35e34b5a-e549-4175-9da4-55deb73efe69",
+      "originAirport": "HUB1",
+      "destinationAirport": "LYDC",
+      "departure": {
+        "day": 3,
+        "hour": 20
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 1
+      },
+      "passengers": {
+        "first": 1,
+        "business": 29,
+        "premiumEconomy": 10,
+        "economy": 10
+      },
+      "aircraftType": "NHY337",
+      "distance": 3675.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1358",
+      "flightId": "b7b855fd-46d5-47f1-9bc2-8be4a7fbf674",
+      "originAirport": "HUB1",
+      "destinationAirport": "CJVM",
+      "departure": {
+        "day": 3,
+        "hour": 13
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 16
+      },
+      "passengers": {
+        "first": 3,
+        "business": 6,
+        "premiumEconomy": 11,
+        "economy": 113
+      },
+      "aircraftType": "NHY337",
+      "distance": 2187.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1359",
+      "flightId": "4aa9f262-25e7-4e6f-a530-438b003090be",
+      "originAirport": "CJVM",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 3,
+        "hour": 21
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 3
+      },
+      "passengers": {
+        "first": 5,
+        "business": 16,
+        "premiumEconomy": 25,
+        "economy": 167
+      },
+      "aircraftType": "WTA646",
+      "distance": 4481.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1367",
+      "flightId": "90da6cfc-0506-4dfa-9985-5b55e6eb50dc",
+      "originAirport": "KUNB",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 3,
+        "hour": 14
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 19
+      },
+      "passengers": {
+        "first": 1,
+        "business": 18,
+        "premiumEconomy": 9,
+        "economy": 186
+      },
+      "aircraftType": "UHB596",
+      "distance": 3872.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1368",
+      "flightId": "a4de21c0-b1b4-4aa2-af29-2bc411bdc54c",
+      "originAirport": "HUB1",
+      "destinationAirport": "VVEV",
+      "departure": {
+        "day": 3,
+        "hour": 21
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 0
+      },
+      "passengers": {
+        "first": 5,
+        "business": 17,
+        "premiumEconomy": 12,
+        "economy": 251
+      },
+      "aircraftType": "WTA646",
+      "distance": 1887.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1369",
+      "flightId": "0e91da6c-78bf-407c-9e24-990e0bf3ee2f",
+      "originAirport": "VVEV",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 4,
+        "hour": 6
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 8
+      },
+      "passengers": {
+        "first": 1,
+        "business": 10,
+        "premiumEconomy": 21,
+        "economy": 45
+      },
+      "aircraftType": "UHB596",
+      "distance": 1134.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1385",
+      "flightId": "3ab1aed8-5ec0-4905-a939-5395cc0e869a",
+      "originAirport": "DGMM",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 3,
+        "hour": 18
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 20
+      },
+      "passengers": {
+        "first": 4,
+        "business": 24,
+        "premiumEconomy": 7,
+        "economy": 116
+      },
+      "aircraftType": "UHB596",
+      "distance": 1013.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1386",
+      "flightId": "b8bdec1a-d1a2-4f7c-8703-ad740b2dc5f5",
+      "originAirport": "HUB1",
+      "destinationAirport": "AESE",
+      "departure": {
+        "day": 3,
+        "hour": 20
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 2
+      },
+      "passengers": {
+        "first": 2,
+        "business": 16,
+        "premiumEconomy": 8,
+        "economy": 87
+      },
+      "aircraftType": "NHY337",
+      "distance": 4741.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1390",
+      "flightId": "a7f3d467-aee7-4c43-a518-213969f98309",
+      "originAirport": "HUB1",
+      "destinationAirport": "TLQJ",
+      "departure": {
+        "day": 4,
+        "hour": 12
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 13
+      },
+      "passengers": {
+        "first": 0,
+        "business": 19,
+        "premiumEconomy": 0,
+        "economy": 20
+      },
+      "aircraftType": "NHY337",
+      "distance": 747.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1394",
+      "flightId": "497bfcbf-0445-4d2a-b2ab-b25abb0129d5",
+      "originAirport": "HUB1",
+      "destinationAirport": "TKQI",
+      "departure": {
+        "day": 4,
+        "hour": 10
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 11
+      },
+      "passengers": {
+        "first": 2,
+        "business": 26,
+        "premiumEconomy": 20,
+        "economy": 149
+      },
+      "aircraftType": "UHB596",
+      "distance": 589.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1395",
+      "flightId": "e7f2c426-7d01-4749-8508-dbe814af50ae",
+      "originAirport": "TKQI",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 3,
+        "hour": 20
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 0
+      },
+      "passengers": {
+        "first": 2,
+        "business": 5,
+        "premiumEconomy": 8,
+        "economy": 114
+      },
+      "aircraftType": "UHB596",
+      "distance": 2769.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1396",
+      "flightId": "6233450d-08f3-44e2-8d03-291d4e33f506",
+      "originAirport": "HUB1",
+      "destinationAirport": "AEAN",
+      "departure": {
+        "day": 4,
+        "hour": 4
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 5
+      },
+      "passengers": {
+        "first": 6,
+        "business": 18,
+        "premiumEconomy": 18,
+        "economy": 304
+      },
+      "aircraftType": "WTA646",
+      "distance": 555.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1397",
+      "flightId": "b4cddf75-1be5-4895-865e-42a551e9a75f",
+      "originAirport": "AEAN",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 4,
+        "hour": 7
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 8
+      },
+      "passengers": {
+        "first": 5,
+        "business": 27,
+        "premiumEconomy": 9,
+        "economy": 15
+      },
+      "aircraftType": "UHB596",
+      "distance": 688.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1398",
+      "flightId": "26f13475-64ec-4098-9964-59a8e564f5e5",
+      "originAirport": "HUB1",
+      "destinationAirport": "ZWXK",
+      "departure": {
+        "day": 4,
+        "hour": 7
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 10
+      },
+      "passengers": {
+        "first": 11,
+        "business": 29,
+        "premiumEconomy": 4,
+        "economy": 197
+      },
+      "aircraftType": "OJF294",
+      "distance": 1718.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1399",
+      "flightId": "10a00ce3-ac38-4b23-9c06-540a4b06299b",
+      "originAirport": "ZWXK",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 3,
+        "hour": 17
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 21
+      },
+      "passengers": {
+        "first": 2,
+        "business": 7,
+        "premiumEconomy": 1,
+        "economy": 32
+      },
+      "aircraftType": "NHY337",
+      "distance": 2742.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1402",
+      "flightId": "f0f0632e-9177-4827-ac14-ea3804d0571b",
+      "originAirport": "HUB1",
+      "destinationAirport": "MZDU",
+      "departure": {
+        "day": 3,
+        "hour": 14
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 17
+      },
+      "passengers": {
+        "first": 4,
+        "business": 33,
+        "premiumEconomy": 10,
+        "economy": 84
+      },
+      "aircraftType": "UHB596",
+      "distance": 2505.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1403",
+      "flightId": "d6a0ac51-1e6d-4b72-842f-68933606a383",
+      "originAirport": "MZDU",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 3,
+        "hour": 20
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 23
+      },
+      "passengers": {
+        "first": 0,
+        "business": 6,
+        "premiumEconomy": 15,
+        "economy": 76
+      },
+      "aircraftType": "NHY337",
+      "distance": 2269.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1409",
+      "flightId": "3f8d182c-1b0a-4fea-9c02-36f9e2b68a3a",
+      "originAirport": "VWLL",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 3,
+        "hour": 21
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 2
+      },
+      "passengers": {
+        "first": 5,
+        "business": 36,
+        "premiumEconomy": 17,
+        "economy": 129
+      },
+      "aircraftType": "UHB596",
+      "distance": 3829.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1413",
+      "flightId": "42ce010b-201a-4cda-a4d2-d8ba8efb1af0",
+      "originAirport": "QWNX",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 3,
+        "hour": 16
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 17
+      },
+      "passengers": {
+        "first": 11,
+        "business": 4,
+        "premiumEconomy": 10,
+        "economy": 99
+      },
+      "aircraftType": "WTA646",
+      "distance": 598.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1415",
+      "flightId": "5e1bba33-839f-4d36-970b-724c3e06fa2f",
+      "originAirport": "NSCL",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 4,
+        "hour": 5
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 7
+      },
+      "passengers": {
+        "first": 7,
+        "business": 33,
+        "premiumEconomy": 10,
+        "economy": 279
+      },
+      "aircraftType": "OJF294",
+      "distance": 1389.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1419",
+      "flightId": "212c4691-3706-4c1c-8513-4a37c072e3fe",
+      "originAirport": "SANT",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 4,
+        "hour": 8
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 9
+      },
+      "passengers": {
+        "first": 4,
+        "business": 18,
+        "premiumEconomy": 10,
+        "economy": 53
+      },
+      "aircraftType": "NHY337",
+      "distance": 420.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1424",
+      "flightId": "05d1cdf2-0876-43ce-9522-34cc2fb493b5",
+      "originAirport": "HUB1",
+      "destinationAirport": "LZLB",
+      "departure": {
+        "day": 4,
+        "hour": 6
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 10
+      },
+      "passengers": {
+        "first": 2,
+        "business": 5,
+        "premiumEconomy": 2,
+        "economy": 60
+      },
+      "aircraftType": "NHY337",
+      "distance": 3013.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1425",
+      "flightId": "a5db1a9c-78d5-4392-83d8-397470620de1",
+      "originAirport": "LZLB",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 4,
+        "hour": 10
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 16
+      },
+      "passengers": {
+        "first": 4,
+        "business": 2,
+        "premiumEconomy": 11,
+        "economy": 24
+      },
+      "aircraftType": "NHY337",
+      "distance": 4559.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1428",
+      "flightId": "fdf7c5f8-c544-4992-a7ee-0bd5b5ef35b1",
+      "originAirport": "HUB1",
+      "destinationAirport": "NGSN",
+      "departure": {
+        "day": 4,
+        "hour": 10
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 14
+      },
+      "passengers": {
+        "first": 2,
+        "business": 24,
+        "premiumEconomy": 16,
+        "economy": 10
+      },
+      "aircraftType": "UHB596",
+      "distance": 3285.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1432",
+      "flightId": "3ee36772-7c39-40a4-a5ec-a8d0067ebe9b",
+      "originAirport": "HUB1",
+      "destinationAirport": "MWVR",
+      "departure": {
+        "day": 3,
+        "hour": 17
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 22
+      },
+      "passengers": {
+        "first": 1,
+        "business": 23,
+        "premiumEconomy": 17,
+        "economy": 48
+      },
+      "aircraftType": "UHB596",
+      "distance": 4111.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1433",
+      "flightId": "b9efdea8-a6fe-404b-9e9a-adda9db449a1",
+      "originAirport": "MWVR",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 4,
+        "hour": 3
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 4
+      },
+      "passengers": {
+        "first": 0,
+        "business": 65,
+        "premiumEconomy": 24,
+        "economy": 64
+      },
+      "aircraftType": "OJF294",
+      "distance": 768.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1435",
+      "flightId": "0b74dfdb-bb99-44cb-b166-b49d4826ccf9",
+      "originAirport": "LZJN",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 3,
+        "hour": 20
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 2
+      },
+      "passengers": {
+        "first": 10,
+        "business": 55,
+        "premiumEconomy": 8,
+        "economy": 69
+      },
+      "aircraftType": "WTA646",
+      "distance": 4854.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1436",
+      "flightId": "a17942cd-1611-45b1-85cd-301a3c70c8fa",
+      "originAirport": "HUB1",
+      "destinationAirport": "FMNF",
+      "departure": {
+        "day": 3,
+        "hour": 21
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 0
+      },
+      "passengers": {
+        "first": 7,
+        "business": 36,
+        "premiumEconomy": 18,
+        "economy": 86
+      },
+      "aircraftType": "UHB596",
+      "distance": 2350.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1437",
+      "flightId": "5d256c28-5876-404b-9fa4-36c79d4b67b6",
+      "originAirport": "FMNF",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 4,
+        "hour": 5
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 6
+      },
+      "passengers": {
+        "first": 3,
+        "business": 2,
+        "premiumEconomy": 20,
+        "economy": 83
+      },
+      "aircraftType": "UHB596",
+      "distance": 626.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1438",
+      "flightId": "8a51815a-28ef-437d-859e-833b44549fa4",
+      "originAirport": "HUB1",
+      "destinationAirport": "BYDH",
+      "departure": {
+        "day": 3,
+        "hour": 20
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 1
+      },
+      "passengers": {
+        "first": 4,
+        "business": 14,
+        "premiumEconomy": 6,
+        "economy": 141
+      },
+      "aircraftType": "NHY337",
+      "distance": 3968.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1439",
+      "flightId": "894d7f11-ee93-4929-a9df-838194c8d795",
+      "originAirport": "BYDH",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 4,
+        "hour": 4
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 8
+      },
+      "passengers": {
+        "first": 1,
+        "business": 7,
+        "premiumEconomy": 14,
+        "economy": 109
+      },
+      "aircraftType": "NHY337",
+      "distance": 2816.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1443",
+      "flightId": "a18c2f7f-2edd-4aff-9c47-5172da999e3a",
+      "originAirport": "ZJDI",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 3,
+        "hour": 17
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 18
+      },
+      "passengers": {
+        "first": 7,
+        "business": 20,
+        "premiumEconomy": 13,
+        "economy": 213
+      },
+      "aircraftType": "WTA646",
+      "distance": 495.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1444",
+      "flightId": "8ffcd844-0a1c-4b5f-af9c-d322034af590",
+      "originAirport": "HUB1",
+      "destinationAirport": "XPOT",
+      "departure": {
+        "day": 3,
+        "hour": 14
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 16
+      },
+      "passengers": {
+        "first": 2,
+        "business": 26,
+        "premiumEconomy": 0,
+        "economy": 24
+      },
+      "aircraftType": "WTA646",
+      "distance": 1620.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1445",
+      "flightId": "5e878562-fc82-43ad-bdc6-c01a42a94ab8",
+      "originAirport": "XPOT",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 3,
+        "hour": 19
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 21
+      },
+      "passengers": {
+        "first": 15,
+        "business": 62,
+        "premiumEconomy": 11,
+        "economy": 231
+      },
+      "aircraftType": "WTA646",
+      "distance": 1312.0
+    },
+    {
+      "eventType": "SCHEDULED",
+      "flightNumber": "AB1446",
+      "flightId": "6953a871-3fe3-4999-a7d4-8a77c2aa23b7",
+      "originAirport": "HUB1",
+      "destinationAirport": "IVHE",
+      "departure": {
+        "day": 4,
+        "hour": 8
+      },
+      "arrival": {
+        "day": 4,
+        "hour": 10
+      },
+      "passengers": {
+        "first": 5,
+        "business": 49,
+        "premiumEconomy": 15,
+        "economy": 75
+      },
+      "aircraftType": "OJF294",
+      "distance": 965.0
+    },
+    {
+      "eventType": "CHECKED_IN",
+      "flightNumber": "AB1233",
+      "flightId": "765d1538-6669-400f-8c55-3ef0dba39e91",
+      "originAirport": "SCTT",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 3,
+        "hour": 12
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 17
+      },
+      "passengers": {
+        "first": 8,
+        "business": 23,
+        "premiumEconomy": 20,
+        "economy": 83
+      },
+      "aircraftType": "WTA646",
+      "distance": 4234.0
+    },
+    {
+      "eventType": "CHECKED_IN",
+      "flightNumber": "AB1291",
+      "flightId": "d6fc2c78-5c4c-460d-9eab-a5e549b43ef4",
+      "originAirport": "QPLO",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 3,
+        "hour": 12
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 13
+      },
+      "passengers": {
+        "first": 10,
+        "business": 24,
+        "premiumEconomy": 10,
+        "economy": 234
+      },
+      "aircraftType": "WTA646",
+      "distance": 425.0
+    },
+    {
+      "eventType": "CHECKED_IN",
+      "flightNumber": "AB1408",
+      "flightId": "985d6ed6-3d86-48e5-82fc-3336b86272e6",
+      "originAirport": "HUB1",
+      "destinationAirport": "VWLL",
+      "departure": {
+        "day": 3,
+        "hour": 12
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 16
+      },
+      "passengers": {
+        "first": 0,
+        "business": 33,
+        "premiumEconomy": 28,
+        "economy": 19
+      },
+      "aircraftType": "WTA646",
+      "distance": 2845.0
+    },
+    {
+      "eventType": "LANDED",
+      "flightNumber": "AB1039",
+      "flightId": "e1a72718-b9f9-4fda-94af-2c60a825e0db",
+      "originAirport": "CJVM",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 3,
+        "hour": 7
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 12
+      },
+      "passengers": {
+        "first": 0,
+        "business": 29,
+        "premiumEconomy": 14,
+        "economy": 65
+      },
+      "aircraftType": "NHY337",
+      "distance": 3516.0
+    },
+    {
+      "eventType": "LANDED",
+      "flightNumber": "AB1058",
+      "flightId": "bb064b78-bf29-4250-869e-36b7fd82b313",
+      "originAirport": "HUB1",
+      "destinationAirport": "OCQQ",
+      "departure": {
+        "day": 3,
+        "hour": 11
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 12
+      },
+      "passengers": {
+        "first": 7,
+        "business": 54,
+        "premiumEconomy": 0,
+        "economy": 265
+      },
+      "aircraftType": "WTA646",
+      "distance": 558.0
+    },
+    {
+      "eventType": "LANDED",
+      "flightNumber": "AB1100",
+      "flightId": "1dbe0f7f-4594-4ed1-9976-286cdf35959e",
+      "originAirport": "HUB1",
+      "destinationAirport": "EUEC",
+      "departure": {
+        "day": 3,
+        "hour": 7
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 12
+      },
+      "passengers": {
+        "first": 3,
+        "business": 11,
+        "premiumEconomy": 11,
+        "economy": 14
+      },
+      "aircraftType": "NHY337",
+      "distance": 2048.0
+    },
+    {
+      "eventType": "LANDED",
+      "flightNumber": "AB1190",
+      "flightId": "14dfce26-8aad-48c3-a99f-f78ec396c6c0",
+      "originAirport": "HUB1",
+      "destinationAirport": "MYTG",
+      "departure": {
+        "day": 3,
+        "hour": 7
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 12
+      },
+      "passengers": {
+        "first": 0,
+        "business": 16,
+        "premiumEconomy": 9,
+        "economy": 145
+      },
+      "aircraftType": "NHY337",
+      "distance": 4066.0
+    },
+    {
+      "eventType": "LANDED",
+      "flightNumber": "AB1223",
+      "flightId": "2d7bf9e5-a7fb-4d92-9f8e-b70849d9a0ad",
+      "originAirport": "PAJF",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 3,
+        "hour": 6
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 12
+      },
+      "passengers": {
+        "first": 2,
+        "business": 34,
+        "premiumEconomy": 15,
+        "economy": 13
+      },
+      "aircraftType": "UHB596",
+      "distance": 2565.0
+    },
+    {
+      "eventType": "LANDED",
+      "flightNumber": "AB1232",
+      "flightId": "6739e5ad-ece7-43fe-a585-e72542958218",
+      "originAirport": "HUB1",
+      "destinationAirport": "SCTT",
+      "departure": {
+        "day": 3,
+        "hour": 8
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 12
+      },
+      "passengers": {
+        "first": 12,
+        "business": 59,
+        "premiumEconomy": 5,
+        "economy": 61
+      },
+      "aircraftType": "OJF294",
+      "distance": 3374.0
+    },
+    {
+      "eventType": "LANDED",
+      "flightNumber": "AB1280",
+      "flightId": "7411e3dd-815e-4bdf-bbe5-763f4f458470",
+      "originAirport": "HUB1",
+      "destinationAirport": "FSWN",
+      "departure": {
+        "day": 3,
+        "hour": 4
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 12
+      },
+      "passengers": {
+        "first": 5,
+        "business": 39,
+        "premiumEconomy": 14,
+        "economy": 78
+      },
+      "aircraftType": "UHB596",
+      "distance": 3583.0
+    },
+    {
+      "eventType": "LANDED",
+      "flightNumber": "AB1331",
+      "flightId": "a538985d-2f9f-4a28-9982-558482f575b7",
+      "originAirport": "KLZQ",
+      "destinationAirport": "HUB1",
+      "departure": {
+        "day": 3,
+        "hour": 8
+      },
+      "arrival": {
+        "day": 3,
+        "hour": 12
+      },
+      "passengers": {
+        "first": 10,
+        "business": 0,
+        "premiumEconomy": 18,
+        "economy": 55
+      },
+      "aircraftType": "OJF294",
+      "distance": 2597.0
+    }
+  ],
+  "penalties": [
+    {
+      "code": "FLIGHT_UNFULFILLED_FIRST_CLASS",
+      "flightId": "ca3f223c-816e-49c0-a720-58cbbb6d0afb",
+      "flightNumber": "AB1022",
+      "issuedDay": 3,
+      "issuedHour": 11,
+      "penalty": 17556.0,
+      "reason": "Flight AB1022 has unfulfilled First Class passengers of 10 kits"
+    },
+    {
+      "code": "FLIGHT_UNFULFILLED_BUSINESS_CLASS",
+      "flightId": "ca3f223c-816e-49c0-a720-58cbbb6d0afb",
+      "flightNumber": "AB1022",
+      "issuedDay": 3,
+      "issuedHour": 11,
+      "penalty": 40817.700000000004,
+      "reason": "Flight AB1022 has unfulfilled Business Class passengers of 31 kits"
+    },
+    {
+      "code": "FLIGHT_UNFULFILLED_PREMIUM_ECONOMY_CLASS",
+      "flightId": "ca3f223c-816e-49c0-a720-58cbbb6d0afb",
+      "flightNumber": "AB1022",
+      "issuedDay": 3,
+      "issuedHour": 11,
+      "penalty": 5266.8,
+      "reason": "Flight AB1022 has unfulfilled Premium Economy Class passengers of 6 kits"
+    },
+    {
+      "code": "FLIGHT_UNFULFILLED_ECONOMY_CLASS",
+      "flightId": "ca3f223c-816e-49c0-a720-58cbbb6d0afb",
+      "flightNumber": "AB1022",
+      "issuedDay": 3,
+      "issuedHour": 11,
+      "penalty": 7900.2,
+      "reason": "Flight AB1022 has unfulfilled Economy Class passengers of 18 kits"
+    },
+    {
+      "code": "FLIGHT_UNFULFILLED_FIRST_CLASS",
+      "flightId": "f12057c7-df4e-4f66-8121-2eabbb2bbd60",
+      "flightNumber": "AB1049",
+      "issuedDay": 3,
+      "issuedHour": 11,
+      "penalty": 9846.0,
+      "reason": "Flight AB1049 has unfulfilled First Class passengers of 5 kits"
+    },
+    {
+      "code": "FLIGHT_UNFULFILLED_BUSINESS_CLASS",
+      "flightId": "f12057c7-df4e-4f66-8121-2eabbb2bbd60",
+      "flightNumber": "AB1049",
+      "issuedDay": 3,
+      "issuedHour": 11,
+      "penalty": 84183.3,
+      "reason": "Flight AB1049 has unfulfilled Business Class passengers of 57 kits"
+    },
+    {
+      "code": "FLIGHT_UNFULFILLED_PREMIUM_ECONOMY_CLASS",
+      "flightId": "f12057c7-df4e-4f66-8121-2eabbb2bbd60",
+      "flightNumber": "AB1049",
+      "issuedDay": 3,
+      "issuedHour": 11,
+      "penalty": 21661.2,
+      "reason": "Flight AB1049 has unfulfilled Premium Economy Class passengers of 22 kits"
+    },
+    {
+      "code": "FLIGHT_UNFULFILLED_ECONOMY_CLASS",
+      "flightId": "f12057c7-df4e-4f66-8121-2eabbb2bbd60",
+      "flightNumber": "AB1049",
+      "issuedDay": 3,
+      "issuedHour": 11,
+      "penalty": 80244.9,
+      "reason": "Flight AB1049 has unfulfilled Economy Class passengers of 163 kits"
+    },
+    {
+      "code": "FLIGHT_UNFULFILLED_FIRST_CLASS",
+      "flightId": "bb064b78-bf29-4250-869e-36b7fd82b313",
+      "flightNumber": "AB1058",
+      "issuedDay": 3,
+      "issuedHour": 11,
+      "penalty": 2343.6,
+      "reason": "Flight AB1058 has unfulfilled First Class passengers of 7 kits"
+    },
+    {
+      "code": "FLIGHT_UNFULFILLED_BUSINESS_CLASS",
+      "flightId": "bb064b78-bf29-4250-869e-36b7fd82b313",
+      "flightNumber": "AB1058",
+      "issuedDay": 3,
+      "issuedHour": 11,
+      "penalty": 13559.4,
+      "reason": "Flight AB1058 has unfulfilled Business Class passengers of 54 kits"
+    },
+    {
+      "code": "FLIGHT_UNFULFILLED_ECONOMY_CLASS",
+      "flightId": "bb064b78-bf29-4250-869e-36b7fd82b313",
+      "flightNumber": "AB1058",
+      "issuedDay": 3,
+      "issuedHour": 11,
+      "penalty": 22180.5,
+      "reason": "Flight AB1058 has unfulfilled Economy Class passengers of 265 kits"
+    },
+    {
+      "code": "FLIGHT_UNFULFILLED_FIRST_CLASS",
+      "flightId": "d637862d-9e35-41c8-9be7-0d9fbb7fdb1c",
+      "flightNumber": "AB1072",
+      "issuedDay": 3,
+      "issuedHour": 11,
+      "penalty": 5355.0,
+      "reason": "Flight AB1072 has unfulfilled First Class passengers of 3 kits"
+    },
+    {
+      "code": "FLIGHT_UNFULFILLED_BUSINESS_CLASS",
+      "flightId": "d637862d-9e35-41c8-9be7-0d9fbb7fdb1c",
+      "flightNumber": "AB1072",
+      "issuedDay": 3,
+      "issuedHour": 11,
+      "penalty": 45517.5,
+      "reason": "Flight AB1072 has unfulfilled Business Class passengers of 34 kits"
+    },
+    {
+      "code": "FLIGHT_UNFULFILLED_PREMIUM_ECONOMY_CLASS",
+      "flightId": "d637862d-9e35-41c8-9be7-0d9fbb7fdb1c",
+      "flightNumber": "AB1072",
+      "issuedDay": 3,
+      "issuedHour": 11,
+      "penalty": 11602.500000000002,
+      "reason": "Flight AB1072 has unfulfilled Premium Economy Class passengers of 13 kits"
+    },
+    {
+      "code": "FLIGHT_UNFULFILLED_ECONOMY_CLASS",
+      "flightId": "d637862d-9e35-41c8-9be7-0d9fbb7fdb1c",
+      "flightNumber": "AB1072",
+      "issuedDay": 3,
+      "issuedHour": 11,
+      "penalty": 135660.0,
+      "reason": "Flight AB1072 has unfulfilled Economy Class passengers of 304 kits"
+    },
+    {
+      "code": "FLIGHT_UNFULFILLED_FIRST_CLASS",
+      "flightId": "b45ea4cc-377e-449f-8cde-5ec137d59bcd",
+      "flightNumber": "AB1093",
+      "issuedDay": 3,
+      "issuedHour": 11,
+      "penalty": 19430.399999999998,
+      "reason": "Flight AB1093 has unfulfilled First Class passengers of 8 kits"
+    },
+    {
+      "code": "FLIGHT_UNFULFILLED_BUSINESS_CLASS",
+      "flightId": "b45ea4cc-377e-449f-8cde-5ec137d59bcd",
+      "flightNumber": "AB1093",
+      "issuedDay": 3,
+      "issuedHour": 11,
+      "penalty": 114760.8,
+      "reason": "Flight AB1093 has unfulfilled Business Class passengers of 63 kits"
+    },
+    {
+      "code": "FLIGHT_UNFULFILLED_PREMIUM_ECONOMY_CLASS",
+      "flightId": "b45ea4cc-377e-449f-8cde-5ec137d59bcd",
+      "flightNumber": "AB1093",
+      "issuedDay": 3,
+      "issuedHour": 11,
+      "penalty": 20644.800000000003,
+      "reason": "Flight AB1093 has unfulfilled Premium Economy Class passengers of 17 kits"
+    },
+    {
+      "code": "FLIGHT_UNFULFILLED_ECONOMY_CLASS",
+      "flightId": "b45ea4cc-377e-449f-8cde-5ec137d59bcd",
+      "flightNumber": "AB1093",
+      "issuedDay": 3,
+      "issuedHour": 11,
+      "penalty": 58291.2,
+      "reason": "Flight AB1093 has unfulfilled Economy Class passengers of 96 kits"
+    },
+    {
+      "code": "FLIGHT_UNFULFILLED_FIRST_CLASS",
+      "flightId": "3a11c040-4b84-4c95-b75b-e46bdbe54d8c",
+      "flightNumber": "AB1114",
+      "issuedDay": 3,
+      "issuedHour": 11,
+      "penalty": 1582.2,
+      "reason": "Flight AB1114 has unfulfilled First Class passengers of 1 kits"
+    },
+    {
+      "code": "FLIGHT_UNFULFILLED_BUSINESS_CLASS",
+      "flightId": "3a11c040-4b84-4c95-b75b-e46bdbe54d8c",
+      "flightNumber": "AB1114",
+      "issuedDay": 3,
+      "issuedHour": 11,
+      "penalty": 17799.75,
+      "reason": "Flight AB1114 has unfulfilled Business Class passengers of 15 kits"
+    },
+    {
+      "code": "FLIGHT_UNFULFILLED_PREMIUM_ECONOMY_CLASS",
+      "flightId": "3a11c040-4b84-4c95-b75b-e46bdbe54d8c",
+      "flightNumber": "AB1114",
+      "issuedDay": 3,
+      "issuedHour": 11,
+      "penalty": 13448.7,
+      "reason": "Flight AB1114 has unfulfilled Premium Economy Class passengers of 17 kits"
+    },
+    {
+      "code": "FLIGHT_UNFULFILLED_ECONOMY_CLASS",
+      "flightId": "3a11c040-4b84-4c95-b75b-e46bdbe54d8c",
+      "flightNumber": "AB1114",
+      "issuedDay": 3,
+      "issuedHour": 11,
+      "penalty": 55772.55,
+      "reason": "Flight AB1114 has unfulfilled Economy Class passengers of 141 kits"
+    },
+    {
+      "code": "FLIGHT_UNFULFILLED_BUSINESS_CLASS",
+      "flightId": "b4390e5f-a896-45dd-a99f-9df7fd91cbe0",
+      "flightNumber": "AB1131",
+      "issuedDay": 3,
+      "issuedHour": 11,
+      "penalty": 46203.3,
+      "reason": "Flight AB1131 has unfulfilled Business Class passengers of 22 kits"
+    },
+    {
+      "code": "FLIGHT_UNFULFILLED_PREMIUM_ECONOMY_CLASS",
+      "flightId": "b4390e5f-a896-45dd-a99f-9df7fd91cbe0",
+      "flightNumber": "AB1131",
+      "issuedDay": 3,
+      "issuedHour": 11,
+      "penalty": 8400.599999999999,
+      "reason": "Flight AB1131 has unfulfilled Premium Economy Class passengers of 6 kits"
+    },
+    {
+      "code": "FLIGHT_UNFULFILLED_ECONOMY_CLASS",
+      "flightId": "b4390e5f-a896-45dd-a99f-9df7fd91cbe0",
+      "flightNumber": "AB1131",
+      "issuedDay": 3,
+      "issuedHour": 11,
+      "penalty": 132309.44999999998,
+      "reason": "Flight AB1131 has unfulfilled Economy Class passengers of 189 kits"
+    },
+    {
+      "code": "FLIGHT_UNFULFILLED_FIRST_CLASS",
+      "flightId": "4be1a246-71a3-4c80-8bd1-9d1bb1c16eaa",
+      "flightNumber": "AB1152",
+      "issuedDay": 3,
+      "issuedHour": 11,
+      "penalty": 15859.199999999999,
+      "reason": "Flight AB1152 has unfulfilled First Class passengers of 14 kits"
+    },
+    {
+      "code": "FLIGHT_UNFULFILLED_BUSINESS_CLASS",
+      "flightId": "4be1a246-71a3-4c80-8bd1-9d1bb1c16eaa",
+      "flightNumber": "AB1152",
+      "issuedDay": 3,
+      "issuedHour": 11,
+      "penalty": 53524.8,
+      "reason": "Flight AB1152 has unfulfilled Business Class passengers of 63 kits"
+    },
+    {
+      "code": "FLIGHT_UNFULFILLED_PREMIUM_ECONOMY_CLASS",
+      "flightId": "4be1a246-71a3-4c80-8bd1-9d1bb1c16eaa",
+      "flightNumber": "AB1152",
+      "issuedDay": 3,
+      "issuedHour": 11,
+      "penalty": 15292.8,
+      "reason": "Flight AB1152 has unfulfilled Premium Economy Class passengers of 27 kits"
+    },
+    {
+      "code": "FLIGHT_UNFULFILLED_ECONOMY_CLASS",
+      "flightId": "4be1a246-71a3-4c80-8bd1-9d1bb1c16eaa",
+      "flightNumber": "AB1152",
+      "issuedDay": 3,
+      "issuedHour": 11,
+      "penalty": 88924.8,
+      "reason": "Flight AB1152 has unfulfilled Economy Class passengers of 314 kits"
+    },
+    {
+      "code": "FLIGHT_UNFULFILLED_FIRST_CLASS",
+      "flightId": "add3ac36-b9c4-470c-bb21-47cbe3f41375",
+      "flightNumber": "AB1308",
+      "issuedDay": 3,
+      "issuedHour": 11,
+      "penalty": 5878.8,
+      "reason": "Flight AB1308 has unfulfilled First Class passengers of 2 kits"
+    },
+    {
+      "code": "FLIGHT_UNFULFILLED_BUSINESS_CLASS",
+      "flightId": "add3ac36-b9c4-470c-bb21-47cbe3f41375",
+      "flightNumber": "AB1308",
+      "issuedDay": 3,
+      "issuedHour": 11,
+      "penalty": 2204.55,
+      "reason": "Flight AB1308 has unfulfilled Business Class passengers of 1 kits"
+    },
+    {
+      "code": "FLIGHT_UNFULFILLED_PREMIUM_ECONOMY_CLASS",
+      "flightId": "add3ac36-b9c4-470c-bb21-47cbe3f41375",
+      "flightNumber": "AB1308",
+      "issuedDay": 3,
+      "issuedHour": 11,
+      "penalty": 24984.9,
+      "reason": "Flight AB1308 has unfulfilled Premium Economy Class passengers of 17 kits"
+    },
+    {
+      "code": "FLIGHT_UNFULFILLED_ECONOMY_CLASS",
+      "flightId": "add3ac36-b9c4-470c-bb21-47cbe3f41375",
+      "flightNumber": "AB1308",
+      "issuedDay": 3,
+      "issuedHour": 11,
+      "penalty": 84507.75,
+      "reason": "Flight AB1308 has unfulfilled Economy Class passengers of 115 kits"
+    },
+    {
+      "code": "FLIGHT_UNFULFILLED_FIRST_CLASS",
+      "flightId": "da1a10ec-7795-425b-8ce7-032d4e450d78",
+      "flightNumber": "AB1412",
+      "issuedDay": 3,
+      "issuedHour": 11,
+      "penalty": 14473.8,
+      "reason": "Flight AB1412 has unfulfilled First Class passengers of 17 kits"
+    },
+    {
+      "code": "FLIGHT_UNFULFILLED_BUSINESS_CLASS",
+      "flightId": "da1a10ec-7795-425b-8ce7-032d4e450d78",
+      "flightNumber": "AB1412",
+      "issuedDay": 3,
+      "issuedHour": 11,
+      "penalty": 26180.550000000003,
+      "reason": "Flight AB1412 has unfulfilled Business Class passengers of 41 kits"
+    },
+    {
+      "code": "FLIGHT_UNFULFILLED_PREMIUM_ECONOMY_CLASS",
+      "flightId": "da1a10ec-7795-425b-8ce7-032d4e450d78",
+      "flightNumber": "AB1412",
+      "issuedDay": 3,
+      "issuedHour": 11,
+      "penalty": 5534.099999999999,
+      "reason": "Flight AB1412 has unfulfilled Premium Economy Class passengers of 13 kits"
+    },
+    {
+      "code": "FLIGHT_UNFULFILLED_ECONOMY_CLASS",
+      "flightId": "da1a10ec-7795-425b-8ce7-032d4e450d78",
+      "flightNumber": "AB1412",
+      "issuedDay": 3,
+      "issuedHour": 11,
+      "penalty": 57256.65,
+      "reason": "Flight AB1412 has unfulfilled Economy Class passengers of 269 kits"
+    },
+    {
+      "code": "FLIGHT_UNFULFILLED_FIRST_CLASS",
+      "flightId": "4ac2f280-be31-4c5f-869a-f95c927d431e",
+      "flightNumber": "AB1434",
+      "issuedDay": 3,
+      "issuedHour": 11,
+      "penalty": 1525.8,
+      "reason": "Flight AB1434 has unfulfilled First Class passengers of 1 kits"
+    },
+    {
+      "code": "FLIGHT_UNFULFILLED_BUSINESS_CLASS",
+      "flightId": "4ac2f280-be31-4c5f-869a-f95c927d431e",
+      "flightNumber": "AB1434",
+      "issuedDay": 3,
+      "issuedHour": 11,
+      "penalty": 43485.3,
+      "reason": "Flight AB1434 has unfulfilled Business Class passengers of 38 kits"
+    },
+    {
+      "code": "FLIGHT_UNFULFILLED_PREMIUM_ECONOMY_CLASS",
+      "flightId": "4ac2f280-be31-4c5f-869a-f95c927d431e",
+      "flightNumber": "AB1434",
+      "issuedDay": 3,
+      "issuedHour": 11,
+      "penalty": 9917.7,
+      "reason": "Flight AB1434 has unfulfilled Premium Economy Class passengers of 13 kits"
+    },
+    {
+      "code": "FLIGHT_UNFULFILLED_ECONOMY_CLASS",
+      "flightId": "4ac2f280-be31-4c5f-869a-f95c927d431e",
+      "flightNumber": "AB1434",
+      "issuedDay": 3,
+      "issuedHour": 11,
+      "penalty": 94599.59999999999,
+      "reason": "Flight AB1434 has unfulfilled Economy Class passengers of 248 kits"
+    }
+  ],
+  "totalCost": 93345143.57000001
+}
